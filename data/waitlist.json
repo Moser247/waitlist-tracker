@@ -1,0 +1,14 @@
+{
+  "last_updated": "2026-01-14T08:00:00",
+  "waitlists": {
+    "SAMPLE CLASS - TU 4:00pm": [
+      {"position": 1, "name": "Sample Child A"},
+      {"position": 2, "name": "Sample Child B"},
+      {"position": 3, "name": "Sample Child C"}
+    ],
+    "SAMPLE CLASS - TH 5:15pm": [
+      {"position": 1, "name": "Sample Child D"},
+      {"position": 2, "name": "Sample Child E"}
+    ]
+  }
+}

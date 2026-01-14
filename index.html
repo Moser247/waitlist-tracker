@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Shore Gymnastics - Waitlist Lookup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>North Shore Gymnastics</h1>
+            <h2>Waitlist Position Lookup</h2>
+        </header>
+
+        <main>
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Enter child's name..."
+                    autocomplete="off"
+                    autofocus
+                >
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <div id="results" class="results">
+                <!-- Results will appear here -->
+            </div>
+
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>No waitlist entries found for that name.</p>
+                <p class="hint">Try searching with just the first or last name.</p>
+            </div>
+
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Searching...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p class="last-updated">Data last updated: <span id="lastUpdated">Loading...</span></p>
+            <p class="note">Updates occur at 8:00 AM, 1:30 PM, and 6:00 PM daily</p>
+            <p class="contact">Questions? Call the front desk: (651) 653-1144</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
