@@ -3,30 +3,97 @@ const DATA_URL = 'https://raw.githubusercontent.com/Moser247/waitlist-tracker/ma
 
 let waitlistData = null;
 
+// Configuration
+const CONFIG = {
+    fetchTimeout: 10000,      // 10 second timeout
+    maxRetries: 3,            // Retry up to 3 times
+    debounceDelay: 300,       // 300ms debounce for search
+};
+
 // Load data on page load
 document.addEventListener('DOMContentLoaded', async () => {
     await loadData();
 
-    // Set up search
-    document.getElementById('searchBtn').addEventListener('click', search);
-    document.getElementById('searchInput').addEventListener('keypress', (e) => {
+    // Set up search with debounce
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+
+    searchBtn.addEventListener('click', search);
+    searchInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') search();
     });
 
-    // Also filter as user types
-    document.getElementById('searchInput').addEventListener('input', search);
+    // Debounced search on input
+    searchInput.addEventListener('input', debounce(search, CONFIG.debounceDelay));
 });
+
+/**
+ * Debounce function to limit how often a function is called
+ */
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+/**
+ * Fetch with timeout and retry logic
+ */
+async function fetchWithRetry(url, options = {}, retries = CONFIG.maxRetries) {
+    for (let attempt = 1; attempt <= retries; attempt++) {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), CONFIG.fetchTimeout);
+
+        try {
+            const response = await fetch(url, {
+                ...options,
+                signal: controller.signal
+            });
+            clearTimeout(timeoutId);
+
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            }
+            return response;
+
+        } catch (error) {
+            clearTimeout(timeoutId);
+
+            const isLastAttempt = attempt === retries;
+            const isAbortError = error.name === 'AbortError';
+
+            if (isLastAttempt) {
+                throw new Error(isAbortError ? 'Request timed out' : error.message);
+            }
+
+            // Exponential backoff: 1s, 2s, 4s
+            const delay = Math.pow(2, attempt - 1) * 1000;
+            console.log(`Attempt ${attempt} failed, retrying in ${delay}ms...`);
+            await new Promise(resolve => setTimeout(resolve, delay));
+        }
+    }
+}
 
 async function loadData() {
     const loadingDiv = document.getElementById('loading');
+    const summaryDiv = document.getElementById('summary');
     loadingDiv.style.display = 'block';
 
     try {
-        const response = await fetch(DATA_URL + '?t=' + Date.now()); // Cache bust
-        if (!response.ok) {
-            throw new Error('Data not available');
-        }
+        // Cache bust with timestamp
+        const response = await fetchWithRetry(DATA_URL + '?t=' + Date.now());
         waitlistData = await response.json();
+
+        // Validate data structure
+        if (!waitlistData || !waitlistData.waitlists) {
+            throw new Error('Invalid data format');
+        }
 
         // Update last updated time
         if (waitlistData.last_updated) {
@@ -38,12 +105,20 @@ async function loadData() {
         showSummary();
 
         // Show all classes initially
-        displayResults(Object.keys(waitlistData.waitlists || {}));
+        displayResults(Object.keys(waitlistData.waitlists));
 
     } catch (error) {
         console.error('Error loading data:', error);
-        document.getElementById('lastUpdated').textContent = 'Unable to load data';
-        document.getElementById('summary').innerHTML = '<p class="error">Unable to load waitlist data. Please refresh the page.</p>';
+        document.getElementById('lastUpdated').textContent = 'Unable to load';
+        summaryDiv.innerHTML = `
+            <div class="error">
+                <p><strong>Unable to load waitlist data</strong></p>
+                <p style="font-size: 0.9rem; margin-top: 8px;">
+                    ${escapeHtml(error.message)}.
+                    <a href="#" onclick="location.reload(); return false;">Try refreshing</a>
+                </p>
+            </div>
+        `;
     }
 
     loadingDiv.style.display = 'none';
@@ -80,7 +155,7 @@ function search() {
 
     if (query === '') {
         // Show all classes when search is empty
-        displayResults(Object.keys(waitlistData.waitlists), null);
+        displayResults(Object.keys(waitlistData.waitlists));
         return;
     }
 

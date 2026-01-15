@@ -3,51 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>North Shore Gymnastics - Waitlist Info</title>
+    <meta name="description" content="Check your waitlist position for North Shore Gymnastics classes. Search by student name to see your spot on any class waitlist.">
+    <meta name="theme-color" content="#667eea">
+    <title>North Shore Gymnastics - Waitlist Position Tracker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" role="main">
         <header>
             <h1>North Shore Gymnastics</h1>
-            <h2>Class Waitlist Information</h2>
+            <h2>Class Waitlist Tracker</h2>
         </header>
 
         <main>
-            <div class="search-box">
+            <form class="search-box" role="search" onsubmit="return false;">
+                <label for="searchInput" class="visually-hidden">Search by student name</label>
                 <input
-                    type="text"
+                    type="search"
                     id="searchInput"
-                    placeholder="Search by class name..."
+                    placeholder="Search by student name (e.g., Johnson)"
                     autocomplete="off"
                     autofocus
+                    aria-describedby="searchHint"
                 >
-                <button id="searchBtn">Search</button>
-            </div>
+                <button id="searchBtn" type="button" aria-label="Search">Search</button>
+            </form>
+            <p id="searchHint" class="visually-hidden">Enter a student's last or first name to find their waitlist position</p>
 
-            <div class="summary" id="summary">
+            <section class="summary" id="summary" aria-label="Waitlist summary">
                 <!-- Summary will appear here -->
-            </div>
+            </section>
 
-            <div id="results" class="results">
+            <section id="results" class="results" aria-label="Search results" aria-live="polite">
                 <!-- Results will appear here -->
+            </section>
+
+            <div id="noResults" class="no-results" style="display: none;" role="status">
+                <p>No students found matching that name.</p>
+                <p class="hint">Try searching by last name or first name.</p>
             </div>
 
-            <div id="noResults" class="no-results" style="display: none;">
-                <p>No classes found matching that search.</p>
-                <p class="hint">Try searching for: Beginner, Intermediate, Advanced, Ninja, etc.</p>
-            </div>
-
-            <div id="loading" class="loading" style="display: none;">
-                <div class="spinner"></div>
-                <p>Loading...</p>
+            <div id="loading" class="loading" style="display: none;" role="status" aria-live="polite">
+                <div class="spinner" aria-hidden="true"></div>
+                <p>Loading waitlist data...</p>
             </div>
         </main>
 
         <footer>
-            <p class="last-updated">Data last updated: <span id="lastUpdated">Loading...</span></p>
+            <p class="last-updated">Data last updated: <time id="lastUpdated">Loading...</time></p>
             <p class="note">Updates occur at 8:00 AM, 1:30 PM, and 6:00 PM daily</p>
-            <p class="contact">Questions? Call the front desk: (651) 653-1144</p>
+            <p class="contact">Questions? Call the front desk: <a href="tel:+16516531144">(651) 653-1144</a></p>
         </footer>
     </div>
 
