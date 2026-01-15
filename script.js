@@ -255,6 +255,28 @@ function showSummary() {
     `;
 }
 
+/**
+ * Check if a name matches the search query
+ * Handles "Last, First" format and searches for all words
+ */
+function nameMatchesQuery(name, query) {
+    const nameLower = name.toLowerCase();
+
+    // Split query into individual words
+    const queryWords = query.split(/\s+/).filter(word => word.length > 0);
+
+    if (queryWords.length === 0) return false;
+
+    // For single word queries, just check if the name contains it
+    if (queryWords.length === 1) {
+        return nameLower.includes(queryWords[0]);
+    }
+
+    // For multi-word queries, check if ALL words are found in the name
+    // This handles both "reagan johnson" and "johnson reagan" matching "Johnson, Reagan"
+    return queryWords.every(word => nameLower.includes(word));
+}
+
 function performSearch() {
     const query = document.getElementById('searchInput').value.trim().toLowerCase();
 
@@ -281,7 +303,7 @@ function performSearch() {
     for (const className of filteredClasses) {
         const entries = waitlistData.waitlists[className] || [];
         for (const entry of entries) {
-            if (entry.name && entry.name.toLowerCase().includes(query)) {
+            if (entry.name && nameMatchesQuery(entry.name, query)) {
                 matchingStudents.push({
                     className: className,
                     position: entry.position,
