@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     background: white;
     border-radius: 20px;
@@ -77,9 +77,38 @@ main {
     background: #5a6fd6;
 }
 
-.results {
+.summary {
+    margin-bottom: 25px;
+}
+
+.summary-box {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+}
+
+.summary-box .stat {
+    text-align: center;
+}
+
+.summary-box .number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #667eea;
+}
+
+.summary-box .label {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 15px;
 }
 
@@ -88,44 +117,53 @@ main {
     border-radius: 12px;
     padding: 20px;
     border-left: 5px solid #667eea;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.result-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.result-card.status-low {
+    border-left-color: #27ae60;
+}
+
+.result-card.status-medium {
+    border-left-color: #f39c12;
+}
+
+.result-card.status-high {
+    border-left-color: #e74c3c;
 }
 
 .result-card .class-name {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #2c3e50;
     margin-bottom: 10px;
+    line-height: 1.3;
 }
 
-.result-card .position {
+.result-card .waitlist-info {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    align-items: baseline;
+    gap: 8px;
 }
 
-.result-card .position-number {
-    background: #667eea;
-    color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
+.result-card .count {
+    font-size: 2rem;
     font-weight: bold;
+    color: #667eea;
 }
 
-.result-card .position-text {
+.result-card.status-low .count { color: #27ae60; }
+.result-card.status-medium .count { color: #f39c12; }
+.result-card.status-high .count { color: #e74c3c; }
+
+.result-card .label {
     color: #666;
-    font-size: 1rem;
-}
-
-.result-card .child-name {
-    color: #2c3e50;
-    font-weight: 500;
-    margin-top: 10px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
 
 .no-results {
@@ -157,6 +195,12 @@ main {
 
 @keyframes spin {
     to { transform: rotate(360deg); }
+}
+
+.error {
+    color: #e74c3c;
+    text-align: center;
+    padding: 20px;
 }
 
 footer {
@@ -205,5 +249,17 @@ footer .contact {
 
     .search-box button {
         width: 100%;
+    }
+
+    .summary-box {
+        gap: 20px;
+    }
+
+    .summary-box .number {
+        font-size: 2rem;
+    }
+
+    .results {
+        grid-template-columns: 1fr;
     }
 }

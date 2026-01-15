@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>North Shore Gymnastics - Waitlist Lookup</title>
+    <title>North Shore Gymnastics - Waitlist Info</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>North Shore Gymnastics</h1>
-            <h2>Waitlist Position Lookup</h2>
+            <h2>Class Waitlist Information</h2>
         </header>
 
         <main>
@@ -18,11 +18,15 @@
                 <input
                     type="text"
                     id="searchInput"
-                    placeholder="Enter child's name..."
+                    placeholder="Search by class name..."
                     autocomplete="off"
                     autofocus
                 >
                 <button id="searchBtn">Search</button>
+            </div>
+
+            <div class="summary" id="summary">
+                <!-- Summary will appear here -->
             </div>
 
             <div id="results" class="results">
@@ -30,13 +34,13 @@
             </div>
 
             <div id="noResults" class="no-results" style="display: none;">
-                <p>No waitlist entries found for that name.</p>
-                <p class="hint">Try searching with just the first or last name.</p>
+                <p>No classes found matching that search.</p>
+                <p class="hint">Try searching for: Beginner, Intermediate, Advanced, Ninja, etc.</p>
             </div>
 
             <div id="loading" class="loading" style="display: none;">
                 <div class="spinner"></div>
-                <p>Searching...</p>
+                <p>Loading...</p>
             </div>
         </main>
 
