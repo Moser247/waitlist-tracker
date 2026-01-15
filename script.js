@@ -78,12 +78,28 @@ function search() {
         return;
     }
 
-    // Filter class names that match the query
-    const matchingClasses = Object.keys(waitlistData.waitlists).filter(className =>
-        className.toLowerCase().includes(query)
-    );
+    if (query === '') {
+        // Show all classes when search is empty
+        displayResults(Object.keys(waitlistData.waitlists), null);
+        return;
+    }
 
-    displayResults(matchingClasses);
+    // Search for student names within waitlists
+    const matchingStudents = [];
+
+    for (const [className, entries] of Object.entries(waitlistData.waitlists)) {
+        for (const entry of entries) {
+            if (entry.name && entry.name.toLowerCase().includes(query)) {
+                matchingStudents.push({
+                    className: className,
+                    position: entry.position,
+                    name: entry.name
+                });
+            }
+        }
+    }
+
+    displayStudentResults(matchingStudents, query);
 }
 
 function displayResults(classNames) {
@@ -125,6 +141,46 @@ function displayResults(classNames) {
                     <span class="count">${waitingCount}</span>
                     <span class="label">people waiting</span>
                 </div>
+            </div>
+        `;
+    }
+
+    resultsDiv.innerHTML = html;
+}
+
+function displayStudentResults(students, query) {
+    const resultsDiv = document.getElementById('results');
+    const noResultsDiv = document.getElementById('noResults');
+
+    if (students.length === 0) {
+        resultsDiv.innerHTML = '';
+        noResultsDiv.style.display = 'block';
+        return;
+    }
+
+    noResultsDiv.style.display = 'none';
+
+    // Sort by position (lowest first)
+    students.sort((a, b) => a.position - b.position);
+
+    let html = '';
+    for (const student of students) {
+        // Color based on position
+        let statusClass = 'status-low';
+        if (student.position >= 10) {
+            statusClass = 'status-high';
+        } else if (student.position >= 5) {
+            statusClass = 'status-medium';
+        }
+
+        html += `
+            <div class="result-card ${statusClass}">
+                <div class="class-name">${escapeHtml(student.name)}</div>
+                <div class="waitlist-info">
+                    <span class="count">#${student.position}</span>
+                    <span class="label">on waitlist</span>
+                </div>
+                <div class="class-detail">${escapeHtml(student.className)}</div>
             </div>
         `;
     }
