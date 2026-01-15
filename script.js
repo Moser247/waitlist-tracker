@@ -11,21 +11,22 @@ const CONFIG = {
     debounceDelay: 300,       // 300ms debounce for search
 };
 
-// Class type mappings for better display names
-const CLASS_TYPE_ORDER = [
-    '2s',
-    '3/4s',
-    'BEGINNER',
-    'ADVANCED BEGINNER',
-    'INTERMEDIATE',
-    'ADVANCED',
-    'MASTER',
-    'BOYS BEGINNER',
-    'HOME SCHOOL',
-    'NINJA ZONE WHITE',
-    'NINJA ZONE YELLOW',
-    'NZ - LIL NINJA',
-    'REC TEAM'
+// Class type categories for grouping
+const CLASS_CATEGORIES = [
+    { key: '2s', match: /^2s\s*-/i, label: '2s (Talented 2s)' },
+    { key: '3/4s', match: /^3\/4s\s*-/i, label: '3/4s (Tremendous 3s/Fabulous 4s)' },
+    { key: 'BEGINNER', match: /^BEGINNER\s*\//i, label: 'Beginner' },
+    { key: 'ADVANCED BEGINNER', match: /^ADVANCED BEGINNER\s*\//i, label: 'Advanced Beginner' },
+    { key: 'INTERMEDIATE', match: /^INTERMEDIATE\s*\//i, label: 'Intermediate' },
+    { key: 'ADVANCED', match: /^ADVANCED\s*\//i, label: 'Advanced' },
+    { key: 'MASTER', match: /^MASTER\s*\//i, label: 'Master' },
+    { key: 'BOYS BEGINNER', match: /^BOYS BEGINNER\s*\//i, label: 'Boys Beginner' },
+    { key: 'HOME SCHOOL', match: /^HOME SCHOOL\s*\//i, label: 'Home School' },
+    { key: 'NINJA ZONE WHITE', match: /^NINJA ZONE WHITE\s*\//i, label: 'Ninja Zone White' },
+    { key: 'NINJA ZONE YELLOW', match: /^NINJA ZONE YELLOW/i, label: 'Ninja Zone Yellow/Green' },
+    { key: 'NZ - LIL NINJA', match: /^NZ\s*-\s*LIL NINJA/i, label: 'NZ - Lil Ninja' },
+    { key: 'REC TEAM', match: /^REC TEAM/i, label: 'Rec Team' },
+    { key: 'BEGINNER / ADVANCED BEGINNER', match: /^BEGINNER\s*\/\s*ADVANCED BEGINNER/i, label: 'Beginner/Adv Beginner Combo' },
 ];
 
 // Load data on page load
@@ -106,39 +107,37 @@ async function fetchWithRetry(url, options = {}, retries = CONFIG.maxRetries) {
 }
 
 /**
- * Extract class type from class name
+ * Get the category for a class name
  */
-function getClassType(className) {
-    // Extract the prefix before the first " / " which indicates day/time
-    const parts = className.split(' / ');
-    if (parts.length > 1) {
-        return parts[0].trim();
+function getClassCategory(className) {
+    // Check longer/more specific matches first (BEGINNER / ADVANCED BEGINNER before BEGINNER)
+    const sortedCategories = [...CLASS_CATEGORIES].sort((a, b) => b.key.length - a.key.length);
+
+    for (const category of sortedCategories) {
+        if (category.match.test(className)) {
+            return category;
+        }
     }
-    return className;
+    return null;
 }
 
 /**
- * Get unique class types from waitlist data
+ * Get unique class categories from waitlist data
  */
-function getUniqueClassTypes() {
+function getUniqueCategories() {
     if (!waitlistData || !waitlistData.waitlists) return [];
 
-    const types = new Set();
+    const foundCategories = new Set();
+
     for (const className of Object.keys(waitlistData.waitlists)) {
-        const type = getClassType(className);
-        types.add(type);
+        const category = getClassCategory(className);
+        if (category) {
+            foundCategories.add(category.key);
+        }
     }
 
-    // Sort by predefined order, then alphabetically for any not in the list
-    return Array.from(types).sort((a, b) => {
-        const aIndex = CLASS_TYPE_ORDER.findIndex(t => a.startsWith(t));
-        const bIndex = CLASS_TYPE_ORDER.findIndex(t => b.startsWith(t));
-
-        if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
-        if (aIndex !== -1) return -1;
-        if (bIndex !== -1) return 1;
-        return a.localeCompare(b);
-    });
+    // Return categories in the defined order, only those that exist in the data
+    return CLASS_CATEGORIES.filter(cat => foundCategories.has(cat.key));
 }
 
 /**
@@ -146,15 +145,15 @@ function getUniqueClassTypes() {
  */
 function populateClassFilter() {
     const classFilter = document.getElementById('classFilter');
-    const types = getUniqueClassTypes();
+    const categories = getUniqueCategories();
 
     // Clear existing options (except "All Classes")
     classFilter.innerHTML = '<option value="">All Classes</option>';
 
-    for (const type of types) {
+    for (const category of categories) {
         const option = document.createElement('option');
-        option.value = type;
-        option.textContent = type;
+        option.value = category.key;
+        option.textContent = category.label;
         classFilter.appendChild(option);
     }
 }
@@ -171,10 +170,13 @@ function getFilteredClasses() {
         return allClasses;
     }
 
-    return allClasses.filter(className => {
-        const type = getClassType(className);
-        return type === currentFilter;
-    });
+    // Find the category for the current filter
+    const filterCategory = CLASS_CATEGORIES.find(cat => cat.key === currentFilter);
+    if (!filterCategory) {
+        return allClasses;
+    }
+
+    return allClasses.filter(className => filterCategory.match.test(className));
 }
 
 async function loadData() {
@@ -232,7 +234,12 @@ function showSummary() {
     const totalWaiting = filteredClasses
         .reduce((sum, className) => sum + (waitlistData.waitlists[className]?.length || 0), 0);
 
-    const filterLabel = currentFilter ? ` (${currentFilter})` : '';
+    // Get the friendly label for the current filter
+    let filterLabel = '';
+    if (currentFilter) {
+        const category = CLASS_CATEGORIES.find(cat => cat.key === currentFilter);
+        filterLabel = category ? ` (${category.label})` : ` (${currentFilter})`;
+    }
 
     document.getElementById('summary').innerHTML = `
         <div class="summary-box">
