@@ -18,19 +18,29 @@
         </header>
 
         <main>
-            <form class="search-box" role="search" onsubmit="return false;">
-                <label for="searchInput" class="visually-hidden">Search by student name</label>
-                <input
-                    type="search"
-                    id="searchInput"
-                    placeholder="Search by student name (e.g., Johnson)"
-                    autocomplete="off"
-                    autofocus
-                    aria-describedby="searchHint"
-                >
-                <button id="searchBtn" type="button" aria-label="Search">Search</button>
-            </form>
-            <p id="searchHint" class="visually-hidden">Enter a student's last or first name to find their waitlist position</p>
+            <div class="filters-container">
+                <form class="search-box" role="search" onsubmit="return false;">
+                    <label for="searchInput" class="visually-hidden">Search by student name</label>
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="Search by student name (e.g., Johnson)"
+                        autocomplete="off"
+                        autofocus
+                        aria-describedby="searchHint"
+                    >
+                    <button id="searchBtn" type="button" aria-label="Search">Search</button>
+                </form>
+                <p id="searchHint" class="visually-hidden">Enter a student's last or first name to find their waitlist position</p>
+
+                <div class="class-filter">
+                    <label for="classFilter">Filter by Class Type:</label>
+                    <select id="classFilter" aria-label="Filter by class type">
+                        <option value="">All Classes</option>
+                        <!-- Options populated by JavaScript -->
+                    </select>
+                </div>
+            </div>
 
             <section class="summary" id="summary" aria-label="Waitlist summary">
                 <!-- Summary will appear here -->
