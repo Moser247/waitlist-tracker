@@ -121,6 +121,49 @@ main {
     animation: slideIn 0.5s ease-out 0.4s both;
 }
 
+.view-toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    animation: slideIn 0.5s ease-out 0.3s both;
+}
+
+.view-toggle-container label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ns-navy);
+    white-space: nowrap;
+}
+
+.view-toggle-container select {
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid var(--ns-teal);
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--ns-gray-light) 0%, white 100%);
+    color: var(--ns-navy);
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%231E8A9E' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    padding-right: 40px;
+}
+
+.view-toggle-container select:focus {
+    border-color: var(--ns-teal-dark);
+    box-shadow: 0 0 0 3px rgba(30, 138, 158, 0.3);
+}
+
+.view-toggle-container select:hover {
+    background: linear-gradient(135deg, white 0%, var(--ns-gray-light) 100%);
+}
+
 .class-filter {
     display: flex;
     align-items: center;
@@ -336,6 +379,35 @@ main {
 .result-card.status-medium .count { color: #f39c12; }
 .result-card.status-high .count { color: #e74c3c; }
 
+/* Available classes (green theme) */
+.result-card.status-available {
+    border-left-color: #27ae60;
+    background: linear-gradient(135deg, #f0fff4 0%, white 100%);
+}
+.result-card.status-available .count { color: #27ae60; }
+
+.result-card.status-available-medium {
+    border-left-color: #2ecc71;
+    background: linear-gradient(135deg, #e8f8e8 0%, white 100%);
+}
+.result-card.status-available-medium .count { color: #2ecc71; }
+
+.result-card.status-available-high {
+    border-left-color: #1abc9c;
+    background: linear-gradient(135deg, #e0f8f3 0%, white 100%);
+}
+.result-card.status-available-high .count { color: #1abc9c; }
+
+/* Available summary box */
+.summary-box.available-summary {
+    background: linear-gradient(135deg, #e8f8e8 0%, #d4f4d4 100%);
+    border: 1px solid #b8e6b8;
+}
+
+.summary-box.available-summary .number {
+    color: #27ae60;
+}
+
 .result-card .label {
     color: #666;
     font-size: 0.9rem;
@@ -458,6 +530,20 @@ footer .contact a:hover {
     }
 
     .search-box button {
+        width: 100%;
+    }
+
+    .view-toggle-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .view-toggle-container label {
+        font-size: 0.9rem;
+    }
+
+    .view-toggle-container select {
         width: 100%;
     }
 
