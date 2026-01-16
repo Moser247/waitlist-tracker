@@ -19,6 +19,14 @@
 
         <main>
             <div class="filters-container">
+                <div class="view-toggle-container">
+                    <label for="viewToggle">View:</label>
+                    <select id="viewToggle" aria-label="Switch between waitlist and available classes">
+                        <option value="waitlist">Classes with Waitlists</option>
+                        <option value="available">Classes with Openings</option>
+                    </select>
+                </div>
+
                 <form class="search-box" role="search" onsubmit="return false;">
                     <label for="searchInput" class="visually-hidden">Search by student name</label>
                     <input
