@@ -3,7 +3,6 @@ const DATA_URL = 'https://raw.githubusercontent.com/Moser247/waitlist-tracker/ma
 
 let waitlistData = null;
 let currentFilter = '';
-let currentView = 'waitlist'; // 'waitlist' or 'available'
 
 // Configuration
 const CONFIG = {
@@ -38,7 +37,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const searchInput = document.getElementById('searchInput');
     const searchBtn = document.getElementById('searchBtn');
     const classFilter = document.getElementById('classFilter');
-    const viewToggle = document.getElementById('viewToggle');
 
     searchBtn.addEventListener('click', performSearch);
     searchInput.addEventListener('keypress', (e) => {
@@ -53,15 +51,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         currentFilter = classFilter.value;
         performSearch();
     });
-
-    // View toggle (waitlist vs available)
-    if (viewToggle) {
-        viewToggle.addEventListener('change', () => {
-            currentView = viewToggle.value;
-            showSummary();
-            performSearch();
-        });
-    }
 });
 
 /**
@@ -133,30 +122,17 @@ function getClassCategory(className) {
 }
 
 /**
- * Get unique class categories from waitlist data (both waitlists and available)
+ * Get unique class categories from waitlist data
  */
 function getUniqueCategories() {
-    if (!waitlistData) return [];
+    if (!waitlistData || !waitlistData.waitlists) return [];
 
     const foundCategories = new Set();
 
-    // Check waitlist classes
-    if (waitlistData.waitlists) {
-        for (const className of Object.keys(waitlistData.waitlists)) {
-            const category = getClassCategory(className);
-            if (category) {
-                foundCategories.add(category.key);
-            }
-        }
-    }
-
-    // Check available classes
-    if (waitlistData.available) {
-        for (const cls of waitlistData.available) {
-            const category = getClassCategory(cls.name);
-            if (category) {
-                foundCategories.add(category.key);
-            }
+    for (const className of Object.keys(waitlistData.waitlists)) {
+        const category = getClassCategory(className);
+        if (category) {
+            foundCategories.add(category.key);
         }
     }
 
@@ -212,8 +188,8 @@ async function loadData() {
         const response = await fetchWithRetry(DATA_URL);
         waitlistData = await response.json();
 
-        // Validate data structure - need at least waitlists or available
-        if (!waitlistData || (!waitlistData.waitlists && !waitlistData.available)) {
+        // Validate data structure
+        if (!waitlistData || !waitlistData.waitlists) {
             throw new Error('Invalid data format');
         }
 
@@ -229,16 +205,8 @@ async function loadData() {
         // Show summary
         showSummary();
 
-        // Show all classes initially based on current view
-        if (waitlistData.waitlists && Object.keys(waitlistData.waitlists).length > 0) {
-            displayResults(Object.keys(waitlistData.waitlists));
-        } else if (waitlistData.available && waitlistData.available.length > 0) {
-            // If no waitlists, show available classes
-            currentView = 'available';
-            const viewToggle = document.getElementById('viewToggle');
-            if (viewToggle) viewToggle.value = 'available';
-            displayAvailableClasses(waitlistData.available);
-        }
+        // Show all classes initially
+        displayResults(Object.keys(waitlistData.waitlists));
 
     } catch (error) {
         console.error('Error loading data:', error);
@@ -258,7 +226,7 @@ async function loadData() {
 }
 
 function showSummary() {
-    if (!waitlistData) return;
+    if (!waitlistData || !waitlistData.waitlists) return;
 
     const summaryDiv = document.getElementById('summary');
 
@@ -269,67 +237,23 @@ function showSummary() {
         filterLabel = category ? ` (${category.label})` : ` (${currentFilter})`;
     }
 
-    if (currentView === 'available') {
-        // Show available classes summary
-        const available = waitlistData.available || [];
-        const filteredAvailable = getFilteredAvailableClasses();
-        const totalSpots = filteredAvailable.reduce((sum, cls) => sum + (cls.open_spots || 0), 0);
+    const filteredClasses = getFilteredClasses();
+    const totalClasses = filteredClasses.length;
+    const totalWaiting = filteredClasses
+        .reduce((sum, className) => sum + (waitlistData.waitlists[className]?.length || 0), 0);
 
-        summaryDiv.innerHTML = `
-            <div class="summary-box available-summary">
-                <div class="stat">
-                    <span class="number">${filteredAvailable.length}</span>
-                    <span class="label">Classes with openings${filterLabel}</span>
-                </div>
-                <div class="stat">
-                    <span class="number">${totalSpots}</span>
-                    <span class="label">Total spots available</span>
-                </div>
+    summaryDiv.innerHTML = `
+        <div class="summary-box">
+            <div class="stat">
+                <span class="number">${totalClasses}</span>
+                <span class="label">Classes with waitlists${filterLabel}</span>
             </div>
-        `;
-    } else {
-        // Show waitlist summary
-        if (!waitlistData.waitlists) return;
-
-        const filteredClasses = getFilteredClasses();
-        const totalClasses = filteredClasses.length;
-        const totalWaiting = filteredClasses
-            .reduce((sum, className) => sum + (waitlistData.waitlists[className]?.length || 0), 0);
-
-        summaryDiv.innerHTML = `
-            <div class="summary-box">
-                <div class="stat">
-                    <span class="number">${totalClasses}</span>
-                    <span class="label">Classes with waitlists${filterLabel}</span>
-                </div>
-                <div class="stat">
-                    <span class="number">${totalWaiting}</span>
-                    <span class="label">Total people waiting</span>
-                </div>
+            <div class="stat">
+                <span class="number">${totalWaiting}</span>
+                <span class="label">Total people waiting</span>
             </div>
-        `;
-    }
-}
-
-/**
- * Get available classes filtered by category
- */
-function getFilteredAvailableClasses() {
-    if (!waitlistData || !waitlistData.available) return [];
-
-    const available = waitlistData.available;
-
-    if (!currentFilter) {
-        return available;
-    }
-
-    // Find the category for the current filter
-    const filterCategory = CLASS_CATEGORIES.find(cat => cat.key === currentFilter);
-    if (!filterCategory) {
-        return available;
-    }
-
-    return available.filter(cls => filterCategory.match.test(cls.name));
+        </div>
+    `;
 }
 
 /**
@@ -357,35 +281,13 @@ function nameMatchesQuery(name, query) {
 function performSearch() {
     const query = document.getElementById('searchInput').value.trim().toLowerCase();
 
-    if (!waitlistData) {
+    if (!waitlistData || !waitlistData.waitlists) {
         document.getElementById('results').innerHTML = '<p class="error">Data not loaded. Please refresh the page.</p>';
         return;
     }
 
-    // Update summary based on filter and view
+    // Update summary based on filter
     showSummary();
-
-    if (currentView === 'available') {
-        // Show available classes (classes with openings, no waitlist)
-        const filteredAvailable = getFilteredAvailableClasses();
-
-        if (query === '') {
-            displayAvailableClasses(filteredAvailable);
-        } else {
-            // Filter by class name search
-            const matchingClasses = filteredAvailable.filter(cls =>
-                cls.name.toLowerCase().includes(query)
-            );
-            displayAvailableClasses(matchingClasses, query);
-        }
-        return;
-    }
-
-    // Waitlist view
-    if (!waitlistData.waitlists) {
-        document.getElementById('results').innerHTML = '<p class="error">Data not loaded. Please refresh the page.</p>';
-        return;
-    }
 
     // Get filtered classes
     const filteredClasses = getFilteredClasses();
@@ -511,54 +413,4 @@ function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
-}
-
-/**
- * Display available classes (openings with no waitlist)
- */
-function displayAvailableClasses(classes, query = '') {
-    const resultsDiv = document.getElementById('results');
-    const noResultsDiv = document.getElementById('noResults');
-
-    if (classes.length === 0) {
-        resultsDiv.innerHTML = '';
-        noResultsDiv.style.display = 'block';
-        noResultsDiv.querySelector('p').textContent = query
-            ? `No available classes found matching "${query}".`
-            : currentFilter
-                ? `No available classes found for "${currentFilter}".`
-                : 'No classes with openings found.';
-        return;
-    }
-
-    noResultsDiv.style.display = 'none';
-
-    // Sort by open spots (most first)
-    classes.sort((a, b) => (b.open_spots || 0) - (a.open_spots || 0));
-
-    let html = '';
-    for (const cls of classes) {
-        const openSpots = cls.open_spots || 0;
-
-        // Color based on spots available
-        let statusClass = 'status-available';
-        if (openSpots >= 5) {
-            statusClass = 'status-available-high';
-        } else if (openSpots >= 3) {
-            statusClass = 'status-available-medium';
-        }
-
-        html += `
-            <div class="result-card ${statusClass}">
-                <div class="class-name">${escapeHtml(cls.name)}</div>
-                <div class="waitlist-info">
-                    <span class="count">${openSpots}</span>
-                    <span class="label">spots open</span>
-                </div>
-                <div class="class-detail">No waitlist - enroll now!</div>
-            </div>
-        `;
-    }
-
-    resultsDiv.innerHTML = html;
 }
