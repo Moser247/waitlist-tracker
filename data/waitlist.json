@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-15T18:00:27.437253",
+  "last_updated": "2026-01-15T18:20:26.072363",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -2322,5 +2322,91 @@
       }
     ]
   },
-  "available": []
+  "available": [
+    {
+      "name": "2s - TALENTED 2s / F 5:15",
+      "classId": "3854",
+      "open_spots": 5
+    },
+    {
+      "name": "2s - TALENTED 2s / M 9:15",
+      "classId": "3850",
+      "open_spots": 3
+    },
+    {
+      "name": "2s - TALENTED 2s / T 11:15",
+      "classId": "3851",
+      "open_spots": 1
+    },
+    {
+      "name": "2s - TALENTED 2s / T 6:15",
+      "classId": "3852",
+      "open_spots": 1
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 1:00",
+      "classId": "3861",
+      "open_spots": 2
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 11:15",
+      "classId": "3867",
+      "open_spots": 2
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO)/ W 10:15",
+      "classId": "3924",
+      "open_spots": 1
+    },
+    {
+      "name": "ADVANCED / T 6:30",
+      "classId": "3912",
+      "open_spots": 1
+    },
+    {
+      "name": "BEGINNER / T 4:00",
+      "classId": "3881",
+      "open_spots": 3
+    },
+    {
+      "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
+      "classId": "3922",
+      "open_spots": 4
+    },
+    {
+      "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
+      "classId": "3921",
+      "open_spots": 1
+    },
+    {
+      "name": "BOYS BEGINNER / M 5:15",
+      "classId": "3918",
+      "open_spots": 1
+    },
+    {
+      "name": "BOYS BEGINNER / TH 6:30",
+      "classId": "3920",
+      "open_spots": 1
+    },
+    {
+      "name": "NINJA ZONE GREEN / TH 5:15",
+      "classId": "3936",
+      "open_spots": 3
+    },
+    {
+      "name": "NZ - LIL NINJA / F 10:15",
+      "classId": "3925",
+      "open_spots": 1
+    },
+    {
+      "name": "SCHOOL YEAR DROPPED BEFORE START",
+      "classId": "3940",
+      "open_spots": 200
+    },
+    {
+      "name": "Special Olympics / Saturday 12:30",
+      "classId": "3949",
+      "open_spots": 19
+    }
+  ]
 }
