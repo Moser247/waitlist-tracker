@@ -1,5 +1,5 @@
-// GitHub raw URL for waitlist data
-const DATA_URL = 'https://raw.githubusercontent.com/Moser247/waitlist-tracker/main/data/waitlist.json';
+// GitHub API URL for waitlist data (no CDN cache, always fresh)
+const DATA_URL = 'https://api.github.com/repos/Moser247/waitlist-tracker/contents/data/waitlist.json';
 
 let waitlistData = null;
 let currentFilter = '';
@@ -209,8 +209,12 @@ async function loadData() {
     loadingDiv.style.display = 'block';
 
     try {
-        // Cache bust with timestamp
-        const response = await fetchWithRetry(DATA_URL + '?t=' + Date.now());
+        // Fetch from GitHub API (no CDN cache)
+        const response = await fetchWithRetry(DATA_URL, {
+            headers: {
+                'Accept': 'application/vnd.github.raw'  // Get raw content directly
+            }
+        });
         waitlistData = await response.json();
 
         // Validate data structure - need at least waitlists or available
