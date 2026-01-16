@@ -1,2325 +1,2402 @@
 {
-  "last_updated": "2026-01-15T18:28:17.837925",
+  "last_updated": "2026-01-15T18:47:09.119072",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Hoelscher, Hannah"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Redmond, June"
       }
     ],
     "2s - TALENTED 2s / S 10:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Pollmann, Emma"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Redmond, June"
       }
     ],
     "2s - TALENTED 2s / S 9:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Zaragoza, Bennett"
       }
     ],
     "2s - TALENTED 2s / W 6:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Ruth, Madeleine"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Garvin, Luanna"
       }
     ],
     "2s - WONDERFUL WALKERS / TALENTED 2S (COMBO) / F 11:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Sigdahl, Greta"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Vortherms, Brooks"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Anderson, Aria"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Solberg, Birdie"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Minger, Toren"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Minger, Talvi"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Redmond, June"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 9:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Soldan, Samantha"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Michalski, Marlowe"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Hoelscher, Henley"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Williams, Isabella"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Stoneburner, Harrison"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Howells, Andi"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Redmond, Isla"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 10:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Stoneburner, Harrison"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Howells, Andi"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Hoffman, Sophie"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 11:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Soldan, Samantha"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Michalski, Marlowe"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Stoneburner, Harrison"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Hoffman, Sophie"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Howells, Andi"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Redmond, Isla"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 4:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Nesset, Hayden"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Rice, Alex"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Timcho, Kyle"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Kramin, Evelyn"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Doran, Brecken"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Olsem, Emmett"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Carlson, Wren"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Rice, Alex"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Harwood, Lucy"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Hoffman , Lyra"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Miller, Kennedy"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Anthony, Asher"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Riedel, Mia"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Hubler, Amelia"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Hewitt, India"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Ruehl, Callie"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Braun, Wren"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Walker, Penny"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Eddie, Dax"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Armbrust, Caroline"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Hegedus, Nora"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Assman, Lydia"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Dunlay, Ellie"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Amundson, Sunny"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Kaliszewski, Brynley"
       },
       {
         "position": 16,
-        "name": "Waiting #16"
+        "name": "Niederman, Lara"
       },
       {
         "position": 17,
-        "name": "Waiting #17"
+        "name": "Harwood, Lucy"
       },
       {
         "position": 18,
-        "name": "Waiting #18"
+        "name": "Schlesinger, Abigail"
       },
       {
         "position": 19,
-        "name": "Waiting #19"
+        "name": "Ackmann, Harrison"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 6:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Sufka, Nellie"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Hubler, Amelia"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Ruehl, Callie"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Peterson, Noa"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Hughes, Wesley"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Braun, Wren"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Walker, Penny"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Hewitt, India"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Burnham, Evelyn"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Assman, Lydia"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Kallas, Quinn"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Kaliszewski, Brynley"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Harwood, Lucy"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Holman, Eliana"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Schlesinger, Abigail"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 10:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Naughtin, Eve"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Walker, Penny"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Anderson, Margot"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Hegedus, Nora"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Simmons, Brynne"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Phillips, Elle"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Krause, Collins"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Rubi, Daisy"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Hewitt, Camilla"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Stickney, Ollie"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Phillips, Dane"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Hoffarber, Wren"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Kaliszewski, Brynley"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Anderson, Margaret"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Pederson, Jacob"
       },
       {
         "position": 16,
-        "name": "Waiting #16"
+        "name": "Skjonsby, Violet"
       },
       {
         "position": 17,
-        "name": "Waiting #17"
+        "name": "Timcho, Kyle"
       },
       {
         "position": 18,
-        "name": "Waiting #18"
+        "name": "Mifek, Eloise"
       },
       {
         "position": 19,
-        "name": "Waiting #19"
+        "name": "Mifek, Lillian"
       },
       {
         "position": 20,
-        "name": "Waiting #20"
+        "name": "Redmond, Isla"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Rothstein, Jorie"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 10:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Bichanich , Carter"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Kaliszewski, Brynley"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Thomas, Audrey"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Doran, Brecken"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Harwood, Lucy"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Ortlip, Callen"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Schlesinger, Abigail"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Ackmann, Harrison"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Bloomer, Mackenzie"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 6:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Carlson, Wren"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Kaliszewski, Brynley"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Amundson, Sunny"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Thompson, Lola"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Fastag, Liliana"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Doran, Brecken"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Harwood, Lucy"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "DeBoer, Theo"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 9:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Darley, Bayleigh"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Bichanich , Carter"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Schlesinger, Abigail"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Braun, Wren"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Walker, Penny"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Olson, Annika"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Assman, Lydia"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Runions, Keiva"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Thompson, Lola"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Fastag, Liliana"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Doran, Brecken"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Harwood, Lucy"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Bloomer, Mackenzie"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 4:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Huss, Audra"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Lund, Lennon"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Olson, Lyla"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Wickesberg, Harper"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Kaliszewski, Brynley"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Stencel, Camden"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Redmond, June"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Redmond, Isla"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Stencel, Josslyn"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Nolan, Benjamin"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "House, Scarlett"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Sallstrom, Hadley"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Hewitt, India"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Hubler, Amelia"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Braun, Wren"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Jensen, Nolan"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Armbrust, Caroline"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Stormoen , Charlotte"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Hegedus, Nora"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Olson, Annika"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Abbott, Lucia"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Assman, Lydia"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Erickson, Ardis"
       },
       {
         "position": 16,
-        "name": "Waiting #16"
+        "name": "Dunlay, Ellie"
       },
       {
         "position": 17,
-        "name": "Waiting #17"
+        "name": "Amundson, Sunny"
       },
       {
         "position": 18,
-        "name": "Waiting #18"
+        "name": "Stencel, Camden"
       }
     ],
     "ADVANCED / F 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Shah, Pari"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Burgan, Sailor"
       }
     ],
     "ADVANCED / M 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "DiPilato, Lola"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Hess , Charlee"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Schemelin, Annalee"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Schultz, Charlotte"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Strate, Bristol"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Smith, Emily"
       }
     ],
     "ADVANCED / M 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Shah, Pari"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Lahti, Zoe"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Smith, Emily"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Armenta, Olivia"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Jaster, Evelyn"
       }
     ],
     "ADVANCED / TH 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Solberg, Sage"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Schultz, Charlotte"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Finck, Aleila"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Smith, Emily"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Freedland, Samantha"
       }
     ],
     "ADVANCED / W 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Schultz, Charlotte"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Smith, Emily"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Callahan, Rowan"
       }
     ],
     "ADVANCED BEGINNER /F 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Friedenberg, Catherine"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Pinto, Spencer"
       }
     ],
     "ADVANCED BEGINNER /M 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Rhea, Lucille"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Sherer, Sophie"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "McCabe , Cassidy"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Athayde, Brynn"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Leigh, Sophia"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Allonby, Autumn"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Kiecker, Josie"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Christel , Eleanor"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Pinto, Spencer"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Olson , Emerson"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Wille , Lainey"
       }
     ],
     "ADVANCED BEGINNER /M 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Femling, Lennon"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Paustenbach, Zoey"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Olson, Kylie"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Pinto, Spencer"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Endres, Ivy"
       }
     ],
     "ADVANCED BEGINNER /T 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Anderson, Avery"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "McCabe , Cassidy"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Peterson, Freja"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Hudson, Georgiana"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Corcoran , Blake"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Athayde, Brynn"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Femling, Lennon"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Hubbard, Zoey"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Pribyl, Amaya"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Kinzie, Claire"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Leigh, Sophia"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Christel , Eleanor"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Kallas, Piper"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Bateman, Olivia"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Koenen, Courtney"
       },
       {
         "position": 16,
-        "name": "Waiting #16"
+        "name": "Olson , Emerson"
       }
     ],
     "ADVANCED BEGINNER /TH 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Leigh, Sophia"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Rife, Hailey"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Goodman, Ryla"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Friedenberg, Catherine"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Pinto, Spencer"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Wille , Lainey"
       }
     ],
     "ADVANCED BEGINNER /TH 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Krisik, Saylor"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Corcoran , Blake"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Hubbard, Zoey"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Pribyl, Amaya"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Leigh, Sophia"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Taffe, Emerson"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Kiecker, Josie"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Bateman, Olivia"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Friedenberg, Catherine"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Wille , Lainey"
       }
     ],
     "ADVANCED BEGINNER /TH 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Friedenberg, Catherine"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Endres, Ivy"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Wildenberg, Paige"
       }
     ],
     "ADVANCED BEGINNER /W 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Trudeau, Westlynn"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Scrabeck, Avery"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Leigh, Sophia"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Pinto, Spencer"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Olson , Emerson"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Wille , Lainey"
       }
     ],
     "ADVANCED BEGINNER /W 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Lillehaug, Claire"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Anderson, Hadley"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Taffe, Emerson"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "McNamee Stewart, Everett"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Endres, Ivy"
       }
     ],
     "BEGINNER / ADVANCED BEGINNER (COMBO) / S 9:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Bucka, Lylith"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Snell, Nina"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Molnar, Emma"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Anderson, Addison"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Timcho, Marnie"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Pinto, Spencer"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Parra, Blake"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Thornburg , Holly"
       }
     ],
     "BEGINNER / F 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Timcho, Marnie"
       }
     ],
     "BEGINNER / M 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Sidle, Callie"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Kretzmann, Brynlee"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Berg, Georgie"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Olsem, Brooke"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Thayer, Ava"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Thayer, Evelyn"
       }
     ],
     "BEGINNER / S 11:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Anderson, Addison"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Snell, Nina"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Molnar, Emma"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Sanchez , Annalie"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Thornburg , Holly"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Simson, Everly"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Fleming, Davie"
       }
     ],
     "BEGINNER / TH 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Walker, Tenley"
       }
     ],
     "BEGINNER / TH 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Thayer, Evelyn"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Thayer, Ava"
       }
     ],
     "BEGINNER / W 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "aaser, safiyya"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Dunlay, Blake"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Kreatz, Hazel"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Elenkiwich, Matilda"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Harker, Annelise"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Ferezy, Louise"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Jepson, Cora"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Berding, Monroe"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Snell, Nina"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Fredriksson, Grace"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Spalding , Lilliana"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Spalding , Scarlett"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Napravnik, Ava"
       }
     ],
     "BEGINNER / W 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Thayer, Ava"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Thayer, Evelyn"
       }
     ],
     "BOYS BEGINNER / T 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Thomas, Theodore"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Sturm, Magnus"
       }
     ],
     "HOME SCHOOL / T 12:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Hohertz, Blakely"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Wolfe , Davis"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Toews, Isabelle"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Sherman, Ava"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Sherman, Max"
       }
     ],
     "HOME SCHOOL / TH 12:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Festler, Savannah"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Martin, Elowen"
       }
     ],
     "INTERMEDIATE / F 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Holland, Isla"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Burgan, Aspen"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Krisik, Suri"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Hiatt, Rosalie"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Stickney, Ellie"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Rondoni, Elise"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Toews, Isabelle"
       }
     ],
     "INTERMEDIATE / F 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Newman, Valentina"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Burgan, Aspen"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Rub, Eleanor"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Vitense, Erin"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Munsell, Lilly"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Bach, Sophia"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Lillehaug, Reese"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Santi, Mila"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Toews, Isabelle"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Brinda, Olivia"
       }
     ],
     "INTERMEDIATE / F 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Toews, Isabelle"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "McKindles, Cecelia"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Brinda, Olivia"
       }
     ],
     "INTERMEDIATE / M 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Maciej, Evelyn"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Joshi, Mihira"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Wacker, Catriona"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Amundson, Raelyn"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Peschman , Mackenzie"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Ungerman, Ellen"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Krisik, Suri"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Hoehne, Alexandra"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Stickney, Ellie"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Curb, Addison"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Toews, Isabelle"
       }
     ],
     "INTERMEDIATE / M 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Meierbachtol , Charlotte"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Broz, Olivia"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Christensen , Noelle"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Joshi, Mihira"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Knight, Bayla"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Kurth, Sophia"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "McShane, Taylor"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Schill, Nora"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Knight, Willa"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Maciej, Evelyn"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Amundson, Raelyn"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Newman, Valentina"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Munsell, Lilly"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Schultz, Nora"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Santi, Mila"
       },
       {
         "position": 16,
-        "name": "Waiting #16"
+        "name": "Toews, Isabelle"
       },
       {
         "position": 17,
-        "name": "Waiting #17"
+        "name": "Knutson, Olivia"
       }
     ],
     "INTERMEDIATE / S 9:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Thomas, Eleanor"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "DeVries, Reagan"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Lillehaug, Reese"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Paustenbach, Zoey"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Toews, Isabelle"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "McKindles, Cecelia"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Hoehne, Alexandra"
       }
     ],
     "INTERMEDIATE / T 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Brennan, Lily"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Maciej, Evelyn"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Amundson, Raelyn"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Peschman , Mackenzie"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Ungerman, Ellen"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Schultz, Nora"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Haglund, Clover"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Bach, Sophia"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Nolan, Zoey"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Welu, Nora"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Meehan, Simone"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Quinn, Zoey"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Curb, Addison"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Toews, Isabelle"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Haglund, Hazel"
       }
     ],
     "INTERMEDIATE / T 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Johnson, Reagan"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Meehan, Simone"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Quinn, Zoey"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Untiedt, Tessa"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Jarvis, Marin"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Paszkiewicz, Devin"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Toews, Isabelle"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Fitzpatrick, Nina"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Cannizzaro, Madeline"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Munsell, Lilly"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Brinda, Olivia"
       }
     ],
     "INTERMEDIATE / TH 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Cadwallader , Delta"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Wacker, Catriona"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Christner, Mackenzie"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Dukerschein, Aleah"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "DeVries, Reagan"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Ungerman, Ellen"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Krisik, Suri"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Schultz, Nora"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Bach, Sophia"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Nolan, Zoey"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Stickney, Ellie"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Morris, Ada"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Magnuson, Sophie"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Benson, Ryliee"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Rife, Isabelle"
       },
       {
         "position": 16,
-        "name": "Waiting #16"
+        "name": "Meehan, Simone"
       },
       {
         "position": 17,
-        "name": "Waiting #17"
+        "name": "Curb, Addison"
       },
       {
         "position": 18,
-        "name": "Waiting #18"
+        "name": "Hoehne, Alexandra"
       },
       {
         "position": 19,
-        "name": "Waiting #19"
+        "name": "Welu, Nora"
       },
       {
         "position": 20,
-        "name": "Waiting #20"
+        "name": "Toews, Isabelle"
       }
     ],
     "INTERMEDIATE / TH 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Kurth, Sophia"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Tessier , Violet"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Holman, Fiona"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Christner, Mackenzie"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Newman, Valentina"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Holland, Isla"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Krisik, Suri"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Paustenbach, Zoey"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Schultz, Nora"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Nolan, Zoey"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Johnson, Reagan"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Hanson, Ada"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Meehan, Simone"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Santi, Mila"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Seremet, Sadie"
       },
       {
         "position": 16,
-        "name": "Waiting #16"
+        "name": "Parker, Laila"
       },
       {
         "position": 17,
-        "name": "Waiting #17"
+        "name": "Bateman, Annabelle"
       },
       {
         "position": 18,
-        "name": "Waiting #18"
+        "name": "Toews, Isabelle"
       }
     ],
     "INTERMEDIATE / TH 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Knight, Bayla"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Sexe, Addison"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Kurth, Sophia"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Danielson, Ella"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Danielson, Emmy"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Knight, Willa"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Hamilton, Sophia"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Newman, Valentina"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Baez, Avery"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Nolan, Zoey"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Johnson, Reagan"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Bucki, Aurora"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Lillehaug, Reese"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Untiedt, Tessa"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Jarvis, Marin"
       },
       {
         "position": 16,
-        "name": "Waiting #16"
+        "name": "Paszkiewicz, Devin"
       },
       {
         "position": 17,
-        "name": "Waiting #17"
+        "name": "Toews, Isabelle"
       },
       {
         "position": 18,
-        "name": "Waiting #18"
+        "name": "Munsell, Lilly"
       },
       {
         "position": 19,
-        "name": "Waiting #19"
+        "name": "Brinda, Olivia"
       }
     ],
     "INTERMEDIATE / W 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Amundson, Raelyn"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Wyatt, Camille"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "DeVries, Reagan"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Danielson, Emmy"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Danielson, Ella"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Buckland, Mila"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Hanson, Ada"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Lillehaug, Reese"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Bast, Ellie"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Meehan, Simone"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Quinn, Zoey"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Santi, Mila"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Paszkiewicz, Devin"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Toews, Isabelle"
       }
     ],
     "INTERMEDIATE / W 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Lau , Addison"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "AASER, HAANIYA"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Danielson, Ella"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Danielson, Emmy"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Tessier , Violet"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Hamilton, Sophia"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Amundson, Raelyn"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Newman, Valentina"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Trible, Laila"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Savat, Clara"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Nolan, Zoey"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Johnson, Reagan"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Bucki, Aurora"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Quinn, Zoey"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Toews, Isabelle"
       }
     ],
     "MASTER / M 5:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Hanson, Alice"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Kamalapuram , Manvitha"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Ditch, Sophie"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "McShane, Valerie"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Becker, Evelyn"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Totoritis-Searl, Tilly"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Savage, Reagan"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Grabek, Nora"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Festler, Savannah"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Sturos , Aven"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Hennessy, Riley"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Sherman, Ava"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Thompson, Annabel"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Schroeder , Jessica"
       }
     ],
     "MASTER / W 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Festler, Savannah"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Champion, Emory"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Hennessy, Riley"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Ebert, Zoey"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Sherman, Ava"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Schroeder , Jessica"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Callahan, Reese"
       }
     ],
     "NINJA ZONE WHITE / F 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Cabalka, Finn"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Olson, Michael"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Olson, Ashton"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Janzen, Micah"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "King, Teddy"
       }
     ],
     "NINJA ZONE WHITE / M 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Wacker, Beckett"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Biagini, Vincent"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Pfeffer, Eliab"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Pfeffer, Enoch"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Hawkinson, Leo"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Grady, Brodyn"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Eidum, Easton"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Cabalka, Finn"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Wood, Walter"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Wood, Lewis"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Faltesek, Alice"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Walsh, Kieran"
       }
     ],
     "NINJA ZONE WHITE / M 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Eidum, Easton"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Bradley , Maxwell"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Kelm, Jacob"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Burnham, Harrison"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Janzen, Micah"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Olsem, Emmett"
       }
     ],
     "NINJA ZONE WHITE / S 10:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Stickney, Graham"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Hewitt, Jamier"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Cabalka, Finn"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Simmons, Aidan"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Rothstein , Garon"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Naughtin, Samuel"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Eidum, Easton"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Bradley , Maxwell"
       }
     ],
     "NINJA ZONE WHITE / T 6:30": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Hawkinson, Leo"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Eidum, Easton"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Olson, Ashton"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Kelm, Jacob"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Elliott, Brayden"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Hughes, Ethan"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Kellogg, Iliana"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Janzen, Micah"
       }
     ],
     "NINJA ZONE WHITE / TH 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Kellogg, Iliana"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Minger, Sebastian"
       }
     ],
     "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Danelius, Garrett"
       }
     ],
     "NZ - LIL NINJA / F 6:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Ezuck, Lowyn"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Rub, Ethan"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "King, Bobby"
       }
     ],
     "NZ - LIL NINJA / M 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Smith, Otto"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Westling, Charles"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Ezuck, Lowyn"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Gilbertson, Jacob"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Jensen, Nolan"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Margarit, Austin"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Knutson, Axel"
       }
     ],
     "NZ - LIL NINJA / TH 5:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Ormberg, Brecken"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Lillehaug, Graham"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Abernathey, Dexter"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Jochims, Bruce"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "King, Bobby"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Ezuck, Lowyn"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Madgett, Wells"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Westling, Charles"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Uchtman, Cooper"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Jensen, Nolan"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Margarit, Austin"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Saffrin, Marcus"
       },
       {
         "position": 13,
-        "name": "Waiting #13"
+        "name": "Strey-Millstone, Finley"
       },
       {
         "position": 14,
-        "name": "Waiting #14"
+        "name": "Grein, Jemuel"
       },
       {
         "position": 15,
-        "name": "Waiting #15"
+        "name": "Smith, Otto"
       }
     ],
     "REC TEAM PRACTICE/ S 12:30pm": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Shah, Pari"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Schroeder , Jessica"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Spronk, Vivian"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "McShane, Valerie"
       }
     ]
-  }
+  },
+  "available": [
+    {
+      "name": "2s - TALENTED 2s / F 5:15",
+      "classId": "3854",
+      "open_spots": 5
+    },
+    {
+      "name": "2s - TALENTED 2s / M 9:15",
+      "classId": "3850",
+      "open_spots": 3
+    },
+    {
+      "name": "2s - TALENTED 2s / T 11:15",
+      "classId": "3851",
+      "open_spots": 1
+    },
+    {
+      "name": "2s - TALENTED 2s / T 6:15",
+      "classId": "3852",
+      "open_spots": 1
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 1:00",
+      "classId": "3861",
+      "open_spots": 2
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 11:15",
+      "classId": "3867",
+      "open_spots": 2
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO)/ W 10:15",
+      "classId": "3924",
+      "open_spots": 1
+    },
+    {
+      "name": "ADVANCED / T 6:30",
+      "classId": "3912",
+      "open_spots": 1
+    },
+    {
+      "name": "BEGINNER / T 4:00",
+      "classId": "3881",
+      "open_spots": 3
+    },
+    {
+      "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
+      "classId": "3922",
+      "open_spots": 4
+    },
+    {
+      "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
+      "classId": "3921",
+      "open_spots": 1
+    },
+    {
+      "name": "BOYS BEGINNER / M 5:15",
+      "classId": "3918",
+      "open_spots": 1
+    },
+    {
+      "name": "BOYS BEGINNER / TH 6:30",
+      "classId": "3920",
+      "open_spots": 1
+    },
+    {
+      "name": "NINJA ZONE GREEN / TH 5:15",
+      "classId": "3936",
+      "open_spots": 3
+    },
+    {
+      "name": "NZ - LIL NINJA / F 10:15",
+      "classId": "3925",
+      "open_spots": 1
+    }
+  ]
 }
