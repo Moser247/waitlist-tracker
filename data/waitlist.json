@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-17T10:57:12.323939",
+  "last_updated": "2026-01-17T11:25:37.730444",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -144,19 +144,19 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 4:15": [
       {
         "position": 1,
-        "name": "Nesset, Hayden"
+        "name": "Waiting #1"
       },
       {
         "position": 2,
-        "name": "Rice, Alex"
+        "name": "Waiting #2"
       },
       {
         "position": 3,
-        "name": "Timcho, Kyle"
+        "name": "Waiting #3"
       },
       {
         "position": 4,
-        "name": "Kramin, Evelyn"
+        "name": "Waiting #4"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15": [
@@ -2322,6 +2322,122 @@
       "name": "NZ - LIL NINJA / F 10:15",
       "classId": "3925",
       "open_spots": 1
+    }
+  ],
+  "action_needed": [
+    {
+      "name": "INTERMEDIATE / F 4:00",
+      "classId": "3907",
+      "open_spots": 3,
+      "waiting": 3,
+      "enrolled": 8
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 4:15",
+      "classId": "3868",
+      "open_spots": 1,
+      "waiting": 6,
+      "enrolled": 11
+    },
+    {
+      "name": "INTERMEDIATE / T 4:00",
+      "classId": "3901",
+      "open_spots": 1,
+      "waiting": 15,
+      "enrolled": 6
+    }
+  ],
+  "camps_with_openings": [
+    {
+      "name": "Delano Dive Camp - Multiple Days",
+      "open_spots": 11,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Preschool Open Gym - 1/19",
+      "open_spots": 6,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Preschool Open Gym - 1/22",
+      "open_spots": 15,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Friday Night Open Gym - 1/23",
+      "open_spots": 27,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "1/26 Rainbow Gymnastics Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 1,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "1/26 Rainbow Gymnastics Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 2,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Preschool Open Gym - 1/26",
+      "open_spots": 14,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Preschool Open Gym - 1/29",
+      "open_spots": 15,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Friday Night Open Gym - 1/30",
+      "open_spots": 28,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Preschool Open Gym - 2/2",
+      "open_spots": 14,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Preschool Open Gym - 2/5",
+      "open_spots": 15,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Preschool Open Gym - 2/9",
+      "open_spots": 14,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Preschool Open Gym - 2/12",
+      "open_spots": 15,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Friday Night Open Gym - 2/13",
+      "open_spots": 30,
+      "waitlist": 0,
+      "priority": false
+    }
+  ],
+  "camps_with_waitlist": [
+    {
+      "name": "2/16 Under the Sea Camp FULL DAY 8:30am - 4:00pm",
+      "waitlist": 2,
+      "enrolled": 12
     }
   ]
 }
