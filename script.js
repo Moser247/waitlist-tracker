@@ -320,10 +320,12 @@ function performSearch() {
 function displayResults(classNames) {
     const resultsDiv = document.getElementById('results');
     const noResultsDiv = document.getElementById('noResults');
+    const expandHint = document.getElementById('expandHint');
 
     if (classNames.length === 0) {
         resultsDiv.innerHTML = '';
         noResultsDiv.style.display = 'block';
+        if (expandHint) expandHint.style.display = 'none';
         noResultsDiv.querySelector('p').textContent = currentFilter
             ? `No classes found for "${currentFilter}".`
             : 'No classes found.';
@@ -331,6 +333,7 @@ function displayResults(classNames) {
     }
 
     noResultsDiv.style.display = 'none';
+    if (expandHint) expandHint.style.display = 'block';
 
     // Sort by waitlist size (largest first)
     classNames.sort((a, b) => {
@@ -352,23 +355,49 @@ function displayResults(classNames) {
             statusClass = 'status-medium';
         }
 
+        // Build the waitlist details HTML
+        let detailsHtml = '<ul>';
+        for (const entry of entries) {
+            detailsHtml += `
+                <li>
+                    <span class="position">${entry.position}</span>
+                    <span class="student-name">${escapeHtml(entry.name)}</span>
+                </li>
+            `;
+        }
+        detailsHtml += '</ul>';
+
         html += `
-            <div class="result-card ${statusClass}">
+            <div class="result-card expandable ${statusClass}" data-class="${escapeHtml(className)}">
                 <div class="class-name">${escapeHtml(className)}</div>
                 <div class="waitlist-info">
                     <span class="count">${waitingCount}</span>
                     <span class="label">people waiting</span>
+                </div>
+                <div class="waitlist-details">
+                    ${detailsHtml}
                 </div>
             </div>
         `;
     }
 
     resultsDiv.innerHTML = html;
+
+    // Add click handlers for expandable cards
+    document.querySelectorAll('.result-card.expandable').forEach(card => {
+        card.addEventListener('click', () => {
+            card.classList.toggle('expanded');
+        });
+    });
 }
 
 function displayStudentResults(students, query) {
     const resultsDiv = document.getElementById('results');
     const noResultsDiv = document.getElementById('noResults');
+    const expandHint = document.getElementById('expandHint');
+
+    // Hide expand hint when showing student results
+    if (expandHint) expandHint.style.display = 'none';
 
     if (students.length === 0) {
         resultsDiv.innerHTML = '';
