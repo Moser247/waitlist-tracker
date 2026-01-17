@@ -295,6 +295,40 @@ main {
     font-size: 0.9rem;
 }
 
+/* Tab navigation */
+.tab-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background: var(--ns-gray-light);
+    border-radius: 12px;
+    animation: fadeIn 0.5s ease-out 0.5s both;
+}
+
+.tab {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--ns-navy);
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    background: rgba(30, 138, 158, 0.1);
+}
+
+.tab.active {
+    background: linear-gradient(135deg, var(--ns-teal) 0%, var(--ns-blue) 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(30, 138, 158, 0.3);
+}
+
 .results {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -682,6 +716,16 @@ footer .contact a:hover {
 
     .results {
         grid-template-columns: 1fr;
+    }
+
+    .tab-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .tab {
+        padding: 10px 15px;
+        font-size: 0.95rem;
     }
 }
 
