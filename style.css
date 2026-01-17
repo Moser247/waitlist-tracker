@@ -461,10 +461,30 @@ main {
 }
 
 .result-card.expanded .waitlist-details {
-    max-height: 500px;
+    max-height: 400px;
+    overflow-y: auto;
     padding-top: 15px;
     margin-top: 15px;
     border-top: 1px solid var(--ns-gray);
+}
+
+/* Custom scrollbar for waitlist details */
+.waitlist-details::-webkit-scrollbar {
+    width: 8px;
+}
+
+.waitlist-details::-webkit-scrollbar-track {
+    background: var(--ns-gray-light);
+    border-radius: 4px;
+}
+
+.waitlist-details::-webkit-scrollbar-thumb {
+    background: var(--ns-teal-light);
+    border-radius: 4px;
+}
+
+.waitlist-details::-webkit-scrollbar-thumb:hover {
+    background: var(--ns-teal);
 }
 
 .waitlist-details ul {
