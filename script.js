@@ -237,6 +237,9 @@ async function loadData() {
         // Populate class filter dropdown
         populateClassFilter();
 
+        // Show action needed section first (if any)
+        displayActionNeeded();
+
         // Show summary
         showSummary();
 
@@ -581,8 +584,13 @@ function displayCamps() {
     if (expandHint) expandHint.style.display = 'none';
 
     const camps = waitlistData?.camps_with_openings || [];
+    const campsWithWaitlist = waitlistData?.camps_with_waitlist || [];
 
-    if (camps.length === 0) {
+    // Separate priority camps (openings + waitlist)
+    const priorityCamps = camps.filter(c => c.priority === true || c.waitlist > 0);
+    const regularCamps = camps.filter(c => !c.priority && (!c.waitlist || c.waitlist === 0));
+
+    if (camps.length === 0 && campsWithWaitlist.length === 0) {
         resultsDiv.innerHTML = '';
         noResultsDiv.style.display = 'block';
         noResultsDiv.querySelector('p').textContent = 'No camps with openings found.';
@@ -591,30 +599,137 @@ function displayCamps() {
 
     noResultsDiv.style.display = 'none';
 
-    // Sort by number of openings (most first)
-    const sortedCamps = [...camps].sort((a, b) => b.open_spots - a.open_spots);
-
     let html = '';
-    for (const camp of sortedCamps) {
-        // Color based on number of openings
-        let statusClass = 'status-available';
-        if (camp.open_spots >= 5) {
-            statusClass = 'status-available-high';
-        } else if (camp.open_spots >= 3) {
-            statusClass = 'status-available-medium';
+
+    // PRIORITY SECTION: Camps with openings + waitlist
+    if (priorityCamps.length > 0) {
+        html += `
+            <div class="action-needed-section">
+                <div class="action-needed-header">
+                    <span class="action-icon">⚡</span>
+                    PRIORITY: Openings + People Waiting!
+                </div>
+                <div class="action-needed-count">${priorityCamps.length} camp${priorityCamps.length > 1 ? 's' : ''} need action</div>
+        `;
+
+        for (const camp of priorityCamps) {
+            html += `
+                <div class="result-card action-needed-card">
+                    <div class="class-name">${escapeHtml(camp.name)}</div>
+                    <div class="action-stats">
+                        <span class="openings">${camp.open_spots} opening${camp.open_spots > 1 ? 's' : ''}</span>
+                        <span class="separator">|</span>
+                        <span class="waiting">${camp.waitlist} waiting</span>
+                    </div>
+                </div>
+            `;
+        }
+        html += '</div>';
+    }
+
+    // CAMPS WITH WAITLIST (FULL)
+    if (campsWithWaitlist.length > 0) {
+        html += `
+            <div class="camps-waitlist-section">
+                <div class="section-header">Camps with Waitlist (Full)</div>
+        `;
+
+        for (const camp of campsWithWaitlist) {
+            html += `
+                <div class="result-card status-waitlist">
+                    <div class="class-name">${escapeHtml(camp.name)}</div>
+                    <div class="waitlist-info">
+                        <span class="count">${camp.waitlist}</span>
+                        <span class="label">waiting</span>
+                    </div>
+                </div>
+            `;
+        }
+        html += '</div>';
+    }
+
+    // REGULAR CAMPS WITH OPENINGS (no waitlist)
+    if (regularCamps.length > 0) {
+        if (priorityCamps.length > 0 || campsWithWaitlist.length > 0) {
+            html += `<div class="section-header" style="margin-top: 20px;">Camps with Openings</div>`;
         }
 
-        html += `
-            <div class="result-card ${statusClass}">
-                <div class="class-name">${escapeHtml(camp.name)}</div>
-                <div class="waitlist-info">
-                    <span class="count">${camp.open_spots}</span>
-                    <span class="label">spots open</span>
+        // Sort by number of openings (most first)
+        const sortedCamps = [...regularCamps].sort((a, b) => b.open_spots - a.open_spots);
+
+        for (const camp of sortedCamps) {
+            // Color based on number of openings
+            let statusClass = 'status-available';
+            if (camp.open_spots >= 5) {
+                statusClass = 'status-available-high';
+            } else if (camp.open_spots >= 3) {
+                statusClass = 'status-available-medium';
+            }
+
+            html += `
+                <div class="result-card ${statusClass}">
+                    <div class="class-name">${escapeHtml(camp.name)}</div>
+                    <div class="waitlist-info">
+                        <span class="count">${camp.open_spots}</span>
+                        <span class="label">spots open</span>
+                    </div>
                 </div>
-                ${camp.waitlist > 0 ? `<div class="class-detail">${camp.waitlist} on waitlist</div>` : ''}
+            `;
+        }
+    }
+
+    resultsDiv.innerHTML = html;
+}
+
+/**
+ * Display Action Needed section at top of page (classes with openings + waitlist)
+ */
+function displayActionNeeded() {
+    const actionNeeded = waitlistData?.action_needed || [];
+
+    // Get or create the action needed container
+    let actionContainer = document.getElementById('actionNeeded');
+    if (!actionContainer) {
+        // Create it if it doesn't exist
+        actionContainer = document.createElement('section');
+        actionContainer.id = 'actionNeeded';
+        actionContainer.className = 'action-needed-container';
+        // Insert before the summary section
+        const summaryDiv = document.getElementById('summary');
+        summaryDiv.parentNode.insertBefore(actionContainer, summaryDiv);
+    }
+
+    if (actionNeeded.length === 0) {
+        actionContainer.style.display = 'none';
+        return;
+    }
+
+    actionContainer.style.display = 'block';
+
+    let html = `
+        <div class="action-needed-section">
+            <div class="action-needed-header">
+                <span class="action-icon">🚨</span>
+                CLASSES NEED ACTION
+            </div>
+            <div class="action-needed-count">${actionNeeded.length} class${actionNeeded.length > 1 ? 'es have' : ' has'} openings + people waiting</div>
+    `;
+
+    for (const cls of actionNeeded) {
+        html += `
+            <div class="result-card action-needed-card">
+                <div class="class-name">${escapeHtml(cls.name)}</div>
+                <div class="action-stats">
+                    <span class="openings">${cls.open_spots} opening${cls.open_spots > 1 ? 's' : ''}</span>
+                    <span class="separator">|</span>
+                    <span class="waiting">${cls.waiting} waiting</span>
+                    <span class="separator">|</span>
+                    <span class="enrolled">${cls.enrolled} enrolled</span>
+                </div>
             </div>
         `;
     }
 
-    resultsDiv.innerHTML = html;
+    html += '</div>';
+    actionContainer.innerHTML = html;
 }
