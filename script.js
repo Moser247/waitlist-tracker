@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Show/hide search and filter based on tab
             const filtersContainer = document.querySelector('.filters-container');
-            if (currentTab === 'openings') {
+            if (currentTab === 'openings' || currentTab === 'camps') {
                 filtersContainer.style.display = 'none';
             } else {
                 filtersContainer.style.display = 'block';
@@ -79,8 +79,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             showSummary();
             if (currentTab === 'waitlists') {
                 performSearch();
-            } else {
+            } else if (currentTab === 'openings') {
                 displayOpenings();
+            } else if (currentTab === 'camps') {
+                displayCamps();
             }
         });
     });
@@ -263,7 +265,25 @@ function showSummary() {
 
     const summaryDiv = document.getElementById('summary');
 
-    if (currentTab === 'openings') {
+    if (currentTab === 'camps') {
+        // Show summary for camps with openings
+        const camps = waitlistData.camps_with_openings || [];
+        const totalCamps = camps.length;
+        const totalSpots = camps.reduce((sum, camp) => sum + (camp.open_spots || 0), 0);
+
+        summaryDiv.innerHTML = `
+            <div class="summary-box available-summary">
+                <div class="stat">
+                    <span class="number">${totalCamps}</span>
+                    <span class="label">Camps with openings</span>
+                </div>
+                <div class="stat">
+                    <span class="number">${totalSpots}</span>
+                    <span class="label">Total spots available</span>
+                </div>
+            </div>
+        `;
+    } else if (currentTab === 'openings') {
         // Show summary for classes with openings
         const openings = waitlistData.classes_with_openings || [];
         const totalClasses = openings.length;
@@ -542,6 +562,56 @@ function displayOpenings() {
                     <span class="count">${cls.open_spots}</span>
                     <span class="label">spots open</span>
                 </div>
+            </div>
+        `;
+    }
+
+    resultsDiv.innerHTML = html;
+}
+
+/**
+ * Display camps with openings
+ */
+function displayCamps() {
+    const resultsDiv = document.getElementById('results');
+    const noResultsDiv = document.getElementById('noResults');
+    const expandHint = document.getElementById('expandHint');
+
+    // Hide expand hint for camps view
+    if (expandHint) expandHint.style.display = 'none';
+
+    const camps = waitlistData?.camps_with_openings || [];
+
+    if (camps.length === 0) {
+        resultsDiv.innerHTML = '';
+        noResultsDiv.style.display = 'block';
+        noResultsDiv.querySelector('p').textContent = 'No camps with openings found.';
+        return;
+    }
+
+    noResultsDiv.style.display = 'none';
+
+    // Sort by number of openings (most first)
+    const sortedCamps = [...camps].sort((a, b) => b.open_spots - a.open_spots);
+
+    let html = '';
+    for (const camp of sortedCamps) {
+        // Color based on number of openings
+        let statusClass = 'status-available';
+        if (camp.open_spots >= 5) {
+            statusClass = 'status-available-high';
+        } else if (camp.open_spots >= 3) {
+            statusClass = 'status-available-medium';
+        }
+
+        html += `
+            <div class="result-card ${statusClass}">
+                <div class="class-name">${escapeHtml(camp.name)}</div>
+                <div class="waitlist-info">
+                    <span class="count">${camp.open_spots}</span>
+                    <span class="label">spots open</span>
+                </div>
+                ${camp.waitlist > 0 ? `<div class="class-detail">${camp.waitlist} on waitlist</div>` : ''}
             </div>
         `;
     }
