@@ -422,6 +422,97 @@ main {
     line-height: 1.3;
 }
 
+/* Expandable waitlist cards */
+.result-card.expandable {
+    cursor: pointer;
+    position: relative;
+}
+
+.result-card.expandable::after {
+    content: '▼';
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    font-size: 0.8rem;
+    color: var(--ns-teal);
+    transition: transform 0.3s ease;
+}
+
+.result-card.expandable.expanded::after {
+    transform: rotate(180deg);
+}
+
+.result-card .expand-icon {
+    font-size: 0.8rem;
+    color: var(--ns-teal);
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.result-card.expanded .expand-icon {
+    transform: rotate(180deg);
+}
+
+.waitlist-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    margin-top: 0;
+}
+
+.result-card.expanded .waitlist-details {
+    max-height: 500px;
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid var(--ns-gray);
+}
+
+.waitlist-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.waitlist-details li {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 0.9rem;
+    color: var(--ns-navy);
+    border-bottom: 1px solid rgba(30, 138, 158, 0.1);
+}
+
+.waitlist-details li:last-child {
+    border-bottom: none;
+}
+
+.waitlist-details .position {
+    min-width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--ns-teal) 0%, var(--ns-blue) 100%);
+    color: white;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.waitlist-details .student-name {
+    flex: 1;
+}
+
+.expand-hint {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 10px;
+    font-style: italic;
+}
+
 .no-results {
     text-align: center;
     padding: 30px;
