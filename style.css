@@ -739,3 +739,120 @@ footer .contact a:hover {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* Action Needed / Priority Section Styles */
+.action-needed-container {
+    margin-bottom: 20px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.action-needed-section {
+    background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%);
+    border: 2px solid #f5c6c6;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.action-needed-header {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #c0392b;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.action-icon {
+    font-size: 1.3rem;
+}
+
+.action-needed-count {
+    font-size: 0.95rem;
+    color: #e74c3c;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.action-needed-card {
+    background: white !important;
+    border-left-color: #e74c3c !important;
+    margin-bottom: 10px;
+}
+
+.action-needed-card:last-child {
+    margin-bottom: 0;
+}
+
+.action-needed-card .class-name {
+    color: #c0392b;
+}
+
+.action-stats {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.action-stats .openings {
+    color: #27ae60;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.action-stats .waiting {
+    color: #e74c3c;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.action-stats .enrolled {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.action-stats .separator {
+    color: #ccc;
+}
+
+/* Camps with Waitlist (Full) Section */
+.camps-waitlist-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--ns-navy);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--ns-gray);
+}
+
+.result-card.status-waitlist {
+    border-left-color: #9b59b6;
+    background: linear-gradient(135deg, #faf5ff 0%, white 100%);
+}
+
+.result-card.status-waitlist .count {
+    color: #9b59b6;
+}
+
+/* Mobile responsive for action sections */
+@media (max-width: 480px) {
+    .action-needed-section {
+        padding: 15px;
+    }
+
+    .action-needed-header {
+        font-size: 1rem;
+    }
+
+    .action-stats {
+        font-size: 0.85rem;
+    }
+}
