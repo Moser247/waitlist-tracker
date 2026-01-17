@@ -3,6 +3,7 @@ const DATA_URL = 'https://raw.githubusercontent.com/Moser247/waitlist-tracker/ma
 
 let waitlistData = null;
 let currentFilter = '';
+let currentTab = 'waitlists'; // 'waitlists' or 'openings'
 
 // Configuration
 const CONFIG = {
@@ -50,6 +51,38 @@ document.addEventListener('DOMContentLoaded', async () => {
     classFilter.addEventListener('change', () => {
         currentFilter = classFilter.value;
         performSearch();
+    });
+
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            // Update active tab
+            document.querySelectorAll('.tab').forEach(t => {
+                t.classList.remove('active');
+                t.setAttribute('aria-selected', 'false');
+            });
+            tab.classList.add('active');
+            tab.setAttribute('aria-selected', 'true');
+
+            // Switch content
+            currentTab = tab.dataset.tab;
+
+            // Show/hide search and filter based on tab
+            const filtersContainer = document.querySelector('.filters-container');
+            if (currentTab === 'openings') {
+                filtersContainer.style.display = 'none';
+            } else {
+                filtersContainer.style.display = 'block';
+            }
+
+            // Refresh display
+            showSummary();
+            if (currentTab === 'waitlists') {
+                performSearch();
+            } else {
+                displayOpenings();
+            }
+        });
     });
 });
 
@@ -226,34 +259,57 @@ async function loadData() {
 }
 
 function showSummary() {
-    if (!waitlistData || !waitlistData.waitlists) return;
+    if (!waitlistData) return;
 
     const summaryDiv = document.getElementById('summary');
 
-    // Get the friendly label for the current filter
-    let filterLabel = '';
-    if (currentFilter) {
-        const category = CLASS_CATEGORIES.find(cat => cat.key === currentFilter);
-        filterLabel = category ? ` (${category.label})` : ` (${currentFilter})`;
+    if (currentTab === 'openings') {
+        // Show summary for classes with openings
+        const openings = waitlistData.classes_with_openings || [];
+        const totalClasses = openings.length;
+        const totalSpots = openings.reduce((sum, cls) => sum + (cls.open_spots || 0), 0);
+
+        summaryDiv.innerHTML = `
+            <div class="summary-box available-summary">
+                <div class="stat">
+                    <span class="number">${totalClasses}</span>
+                    <span class="label">Classes with openings</span>
+                </div>
+                <div class="stat">
+                    <span class="number">${totalSpots}</span>
+                    <span class="label">Total spots available</span>
+                </div>
+            </div>
+        `;
+    } else {
+        // Show summary for waitlists
+        if (!waitlistData.waitlists) return;
+
+        // Get the friendly label for the current filter
+        let filterLabel = '';
+        if (currentFilter) {
+            const category = CLASS_CATEGORIES.find(cat => cat.key === currentFilter);
+            filterLabel = category ? ` (${category.label})` : ` (${currentFilter})`;
+        }
+
+        const filteredClasses = getFilteredClasses();
+        const totalClasses = filteredClasses.length;
+        const totalWaiting = filteredClasses
+            .reduce((sum, className) => sum + (waitlistData.waitlists[className]?.length || 0), 0);
+
+        summaryDiv.innerHTML = `
+            <div class="summary-box">
+                <div class="stat">
+                    <span class="number">${totalClasses}</span>
+                    <span class="label">Classes with waitlists${filterLabel}</span>
+                </div>
+                <div class="stat">
+                    <span class="number">${totalWaiting}</span>
+                    <span class="label">Total people waiting</span>
+                </div>
+            </div>
+        `;
     }
-
-    const filteredClasses = getFilteredClasses();
-    const totalClasses = filteredClasses.length;
-    const totalWaiting = filteredClasses
-        .reduce((sum, className) => sum + (waitlistData.waitlists[className]?.length || 0), 0);
-
-    summaryDiv.innerHTML = `
-        <div class="summary-box">
-            <div class="stat">
-                <span class="number">${totalClasses}</span>
-                <span class="label">Classes with waitlists${filterLabel}</span>
-            </div>
-            <div class="stat">
-                <span class="number">${totalWaiting}</span>
-                <span class="label">Total people waiting</span>
-            </div>
-        </div>
-    `;
 }
 
 /**
@@ -442,4 +498,53 @@ function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+}
+
+/**
+ * Display classes with openings (no waitlist)
+ */
+function displayOpenings() {
+    const resultsDiv = document.getElementById('results');
+    const noResultsDiv = document.getElementById('noResults');
+    const expandHint = document.getElementById('expandHint');
+
+    // Hide expand hint for openings view
+    if (expandHint) expandHint.style.display = 'none';
+
+    const openings = waitlistData?.classes_with_openings || [];
+
+    if (openings.length === 0) {
+        resultsDiv.innerHTML = '';
+        noResultsDiv.style.display = 'block';
+        noResultsDiv.querySelector('p').textContent = 'No classes with openings found.';
+        return;
+    }
+
+    noResultsDiv.style.display = 'none';
+
+    // Sort by number of openings (most first)
+    const sortedOpenings = [...openings].sort((a, b) => b.open_spots - a.open_spots);
+
+    let html = '';
+    for (const cls of sortedOpenings) {
+        // Color based on number of openings
+        let statusClass = 'status-available';
+        if (cls.open_spots >= 5) {
+            statusClass = 'status-available-high';
+        } else if (cls.open_spots >= 3) {
+            statusClass = 'status-available-medium';
+        }
+
+        html += `
+            <div class="result-card ${statusClass}">
+                <div class="class-name">${escapeHtml(cls.name)}</div>
+                <div class="waitlist-info">
+                    <span class="count">${cls.open_spots}</span>
+                    <span class="label">spots open</span>
+                </div>
+            </div>
+        `;
+    }
+
+    resultsDiv.innerHTML = html;
 }
