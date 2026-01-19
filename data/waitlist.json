@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-19T08:27:52.031162",
+  "last_updated": "2026-01-19T13:47:05.750560",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -19,6 +19,10 @@
       {
         "position": 2,
         "name": "Waiting #2"
+      },
+      {
+        "position": 3,
+        "name": "Waiting #3"
       }
     ],
     "2s - TALENTED 2s / S 9:15": [
@@ -323,6 +327,10 @@
       {
         "position": 15,
         "name": "Waiting #15"
+      },
+      {
+        "position": 16,
+        "name": "Waiting #16"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 10:15": [
@@ -405,12 +413,10 @@
       {
         "position": 20,
         "name": "Waiting #20"
-      }
-    ],
-    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15": [
+      },
       {
-        "position": 1,
-        "name": "Waiting #1"
+        "position": 21,
+        "name": "Waiting #21"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 10:15": [
@@ -451,6 +457,10 @@
       {
         "position": 8,
         "name": "Waiting #8"
+      },
+      {
+        "position": 9,
+        "name": "Waiting #9"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 6:15": [
@@ -485,6 +495,14 @@
       {
         "position": 8,
         "name": "Waiting #8"
+      },
+      {
+        "position": 9,
+        "name": "Waiting #9"
+      },
+      {
+        "position": 10,
+        "name": "Waiting #10"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 9:15": [
@@ -865,10 +883,6 @@
       {
         "position": 15,
         "name": "Waiting #15"
-      },
-      {
-        "position": 16,
-        "name": "Waiting #16"
       }
     ],
     "ADVANCED BEGINNER /TH 4:00": [
@@ -891,10 +905,6 @@
       {
         "position": 5,
         "name": "Waiting #5"
-      },
-      {
-        "position": 6,
-        "name": "Waiting #6"
       }
     ],
     "ADVANCED BEGINNER /TH 5:15": [
@@ -929,10 +939,6 @@
       {
         "position": 8,
         "name": "Waiting #8"
-      },
-      {
-        "position": 9,
-        "name": "Waiting #9"
       }
     ],
     "ADVANCED BEGINNER /TH 6:30": [
@@ -965,10 +971,6 @@
       {
         "position": 4,
         "name": "Waiting #4"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "ADVANCED BEGINNER /W 6:30": [
@@ -1025,6 +1027,10 @@
       {
         "position": 8,
         "name": "Waiting #8"
+      },
+      {
+        "position": 9,
+        "name": "Waiting #9"
       }
     ],
     "BEGINNER / M 6:30": [
@@ -1051,6 +1057,10 @@
       {
         "position": 6,
         "name": "Waiting #6"
+      },
+      {
+        "position": 7,
+        "name": "Waiting #7"
       }
     ],
     "BEGINNER / S 11:30": [
@@ -1151,6 +1161,10 @@
       {
         "position": 13,
         "name": "Waiting #13"
+      },
+      {
+        "position": 14,
+        "name": "Waiting #14"
       }
     ],
     "BEGINNER / W 6:30": [
@@ -1193,12 +1207,6 @@
       {
         "position": 5,
         "name": "Waiting #5"
-      }
-    ],
-    "HOME SCHOOL / TH 12:30": [
-      {
-        "position": 1,
-        "name": "Waiting #1"
       }
     ],
     "INTERMEDIATE / F 4:00": [
@@ -1461,10 +1469,6 @@
       {
         "position": 14,
         "name": "Waiting #14"
-      },
-      {
-        "position": 15,
-        "name": "Waiting #15"
       }
     ],
     "INTERMEDIATE / T 6:30": [
@@ -1787,6 +1791,10 @@
       {
         "position": 14,
         "name": "Waiting #14"
+      },
+      {
+        "position": 15,
+        "name": "Waiting #15"
       }
     ],
     "INTERMEDIATE / W 6:30": [
@@ -1849,6 +1857,10 @@
       {
         "position": 15,
         "name": "Waiting #15"
+      },
+      {
+        "position": 16,
+        "name": "Waiting #16"
       }
     ],
     "MASTER / M 5:30": [
@@ -1993,6 +2005,10 @@
       {
         "position": 11,
         "name": "Waiting #11"
+      },
+      {
+        "position": 12,
+        "name": "Waiting #12"
       }
     ],
     "NINJA ZONE WHITE / M 6:30": [
@@ -2011,10 +2027,6 @@
       {
         "position": 4,
         "name": "Waiting #4"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "NINJA ZONE WHITE / S 10:15": [
@@ -2063,10 +2075,6 @@
       {
         "position": 4,
         "name": "Waiting #4"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "NINJA ZONE WHITE / TH 4:00": [
