@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-19T13:47:05.750560",
+  "last_updated": "2026-01-19T18:26:05.839565",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -161,6 +161,10 @@
       {
         "position": 4,
         "name": "Waiting #4"
+      },
+      {
+        "position": 5,
+        "name": "Waiting #5"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15": [
@@ -187,6 +191,10 @@
       {
         "position": 6,
         "name": "Waiting #6"
+      },
+      {
+        "position": 7,
+        "name": "Waiting #7"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 5:15": [
@@ -503,6 +511,10 @@
       {
         "position": 10,
         "name": "Waiting #10"
+      },
+      {
+        "position": 11,
+        "name": "Waiting #11"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 9:15": [
@@ -581,10 +593,6 @@
       {
         "position": 5,
         "name": "Waiting #5"
-      },
-      {
-        "position": 6,
-        "name": "Waiting #6"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 5:15": [
@@ -795,10 +803,6 @@
       {
         "position": 9,
         "name": "Waiting #9"
-      },
-      {
-        "position": 10,
-        "name": "Waiting #10"
       }
     ],
     "ADVANCED BEGINNER /M 6:30": [
@@ -953,6 +957,10 @@
       {
         "position": 3,
         "name": "Waiting #3"
+      },
+      {
+        "position": 4,
+        "name": "Waiting #4"
       }
     ],
     "ADVANCED BEGINNER /W 4:00": [
@@ -967,10 +975,6 @@
       {
         "position": 3,
         "name": "Waiting #3"
-      },
-      {
-        "position": 4,
-        "name": "Waiting #4"
       }
     ],
     "ADVANCED BEGINNER /W 6:30": [
@@ -1207,20 +1211,6 @@
       {
         "position": 5,
         "name": "Waiting #5"
-      }
-    ],
-    "INTERMEDIATE / F 4:00": [
-      {
-        "position": 1,
-        "name": "Waiting #1"
-      },
-      {
-        "position": 2,
-        "name": "Waiting #2"
-      },
-      {
-        "position": 3,
-        "name": "Waiting #3"
       }
     ],
     "INTERMEDIATE / F 5:15": [
@@ -1465,10 +1455,6 @@
       {
         "position": 13,
         "name": "Waiting #13"
-      },
-      {
-        "position": 14,
-        "name": "Waiting #14"
       }
     ],
     "INTERMEDIATE / T 6:30": [
@@ -2085,9 +2071,19 @@
       {
         "position": 2,
         "name": "Waiting #2"
+      },
+      {
+        "position": 3,
+        "name": "Waiting #3"
       }
     ],
     "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00": [
+      {
+        "position": 1,
+        "name": "Waiting #1"
+      }
+    ],
+    "NINJA ZONE YELLOW / W 6:30": [
       {
         "position": 1,
         "name": "Waiting #1"
