@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-19T18:26:05.839565",
+  "last_updated": "2026-01-20T08:25:02.899873",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -19,10 +19,6 @@
       {
         "position": 2,
         "name": "Waiting #2"
-      },
-      {
-        "position": 3,
-        "name": "Waiting #3"
       }
     ],
     "2s - TALENTED 2s / S 9:15": [
@@ -799,10 +795,6 @@
       {
         "position": 8,
         "name": "Waiting #8"
-      },
-      {
-        "position": 9,
-        "name": "Waiting #9"
       }
     ],
     "ADVANCED BEGINNER /M 6:30": [
@@ -821,10 +813,6 @@
       {
         "position": 4,
         "name": "Waiting #4"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "ADVANCED BEGINNER /T 5:15": [
@@ -905,10 +893,6 @@
       {
         "position": 4,
         "name": "Waiting #4"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "ADVANCED BEGINNER /TH 5:15": [
@@ -971,10 +955,6 @@
       {
         "position": 2,
         "name": "Waiting #2"
-      },
-      {
-        "position": 3,
-        "name": "Waiting #3"
       }
     ],
     "ADVANCED BEGINNER /W 6:30": [
@@ -1031,10 +1011,6 @@
       {
         "position": 8,
         "name": "Waiting #8"
-      },
-      {
-        "position": 9,
-        "name": "Waiting #9"
       }
     ],
     "BEGINNER / M 6:30": [
