@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-21T08:25:19.668897",
+  "last_updated": "2026-01-21T13:54:31.668265",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -585,10 +585,6 @@
       {
         "position": 4,
         "name": "Waiting #4"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 5:15": [
@@ -791,14 +787,6 @@
       {
         "position": 7,
         "name": "Waiting #7"
-      },
-      {
-        "position": 8,
-        "name": "Waiting #8"
-      },
-      {
-        "position": 9,
-        "name": "Waiting #9"
       }
     ],
     "ADVANCED BEGINNER /M 6:30": [
@@ -943,10 +931,6 @@
       {
         "position": 1,
         "name": "Waiting #1"
-      },
-      {
-        "position": 2,
-        "name": "Waiting #2"
       }
     ],
     "ADVANCED BEGINNER /W 6:30": [
@@ -1171,10 +1155,6 @@
       {
         "position": 4,
         "name": "Waiting #4"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "INTERMEDIATE / F 5:15": [
@@ -1407,10 +1387,6 @@
       {
         "position": 11,
         "name": "Waiting #11"
-      },
-      {
-        "position": 12,
-        "name": "Waiting #12"
       }
     ],
     "INTERMEDIATE / T 6:30": [
@@ -1863,14 +1839,6 @@
       {
         "position": 3,
         "name": "Waiting #3"
-      },
-      {
-        "position": 4,
-        "name": "Waiting #4"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "NINJA ZONE WHITE / F 6:30": [
@@ -2047,6 +2015,10 @@
       {
         "position": 1,
         "name": "Waiting #1"
+      },
+      {
+        "position": 2,
+        "name": "Waiting #2"
       }
     ],
     "NZ - LIL NINJA / F 6:15": [
