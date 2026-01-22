@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-22T08:25:32.522523",
+  "last_updated": "2026-01-22T13:55:25.525651",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -15,10 +15,6 @@
       {
         "position": 1,
         "name": "Waiting #1"
-      },
-      {
-        "position": 2,
-        "name": "Waiting #2"
       }
     ],
     "2s - TALENTED 2s / S 9:15": [
@@ -31,10 +27,6 @@
       {
         "position": 1,
         "name": "Waiting #1"
-      },
-      {
-        "position": 2,
-        "name": "Waiting #2"
       }
     ],
     "2s - WONDERFUL WALKERS / TALENTED 2S (COMBO) / F 11:15": [
@@ -679,16 +671,6 @@
         "name": "Waiting #18"
       }
     ],
-    "ADVANCED / F 6:30": [
-      {
-        "position": 1,
-        "name": "Waiting #1"
-      },
-      {
-        "position": 2,
-        "name": "Waiting #2"
-      }
-    ],
     "ADVANCED / M 4:00": [
       {
         "position": 1,
@@ -811,10 +793,6 @@
       {
         "position": 2,
         "name": "Waiting #2"
-      },
-      {
-        "position": 3,
-        "name": "Waiting #3"
       }
     ],
     "ADVANCED BEGINNER /T 5:15": [
@@ -971,10 +949,6 @@
       {
         "position": 4,
         "name": "Waiting #4"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "BEGINNER / ADVANCED BEGINNER (COMBO) / S 9:00": [
@@ -1525,6 +1499,10 @@
       {
         "position": 17,
         "name": "Waiting #17"
+      },
+      {
+        "position": 18,
+        "name": "Waiting #18"
       }
     ],
     "INTERMEDIATE / TH 5:15": [
@@ -1797,6 +1775,10 @@
       {
         "position": 16,
         "name": "Waiting #16"
+      },
+      {
+        "position": 17,
+        "name": "Waiting #17"
       }
     ],
     "MASTER / M 5:30": [
@@ -1955,6 +1937,14 @@
       {
         "position": 5,
         "name": "Waiting #5"
+      },
+      {
+        "position": 6,
+        "name": "Waiting #6"
+      },
+      {
+        "position": 7,
+        "name": "Waiting #7"
       }
     ],
     "NINJA ZONE WHITE / S 10:15": [
