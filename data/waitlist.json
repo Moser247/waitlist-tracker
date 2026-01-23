@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-23T08:25:30.961821",
+  "last_updated": "2026-01-23T13:55:58.564472",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -18,12 +18,6 @@
       }
     ],
     "2s - TALENTED 2s / S 9:15": [
-      {
-        "position": 1,
-        "name": "Waiting #1"
-      }
-    ],
-    "2s - TALENTED 2s / W 6:15": [
       {
         "position": 1,
         "name": "Waiting #1"
@@ -183,6 +177,10 @@
       {
         "position": 7,
         "name": "Waiting #7"
+      },
+      {
+        "position": 8,
+        "name": "Waiting #8"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 5:15": [
@@ -261,6 +259,10 @@
       {
         "position": 19,
         "name": "Waiting #19"
+      },
+      {
+        "position": 20,
+        "name": "Waiting #20"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 6:15": [
@@ -327,6 +329,10 @@
       {
         "position": 16,
         "name": "Waiting #16"
+      },
+      {
+        "position": 17,
+        "name": "Waiting #17"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 10:15": [
@@ -417,12 +423,20 @@
       {
         "position": 22,
         "name": "Waiting #22"
+      },
+      {
+        "position": 23,
+        "name": "Waiting #23"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 9:15": [
       {
         "position": 1,
         "name": "Waiting #1"
+      },
+      {
+        "position": 2,
+        "name": "Waiting #2"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 10:15": [
@@ -513,6 +527,10 @@
       {
         "position": 11,
         "name": "Waiting #11"
+      },
+      {
+        "position": 12,
+        "name": "Waiting #12"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 9:15": [
@@ -583,10 +601,6 @@
       {
         "position": 2,
         "name": "Waiting #2"
-      },
-      {
-        "position": 3,
-        "name": "Waiting #3"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 5:15": [
@@ -687,10 +701,6 @@
       {
         "position": 6,
         "name": "Waiting #6"
-      },
-      {
-        "position": 7,
-        "name": "Waiting #7"
       }
     ],
     "ADVANCED / M 6:30": [
@@ -1331,10 +1341,6 @@
       {
         "position": 8,
         "name": "Waiting #8"
-      },
-      {
-        "position": 9,
-        "name": "Waiting #9"
       }
     ],
     "INTERMEDIATE / T 6:30": [
@@ -1779,10 +1785,6 @@
       {
         "position": 2,
         "name": "Waiting #2"
-      },
-      {
-        "position": 3,
-        "name": "Waiting #3"
       }
     ],
     "NINJA ZONE WHITE / F 6:30": [
@@ -1801,6 +1803,10 @@
       {
         "position": 4,
         "name": "Waiting #4"
+      },
+      {
+        "position": 5,
+        "name": "Waiting #5"
       }
     ],
     "NINJA ZONE WHITE / M 4:00": [
@@ -1885,6 +1891,10 @@
       {
         "position": 7,
         "name": "Waiting #7"
+      },
+      {
+        "position": 8,
+        "name": "Waiting #8"
       }
     ],
     "NINJA ZONE WHITE / S 10:15": [
@@ -1915,6 +1925,10 @@
       {
         "position": 7,
         "name": "Waiting #7"
+      },
+      {
+        "position": 8,
+        "name": "Waiting #8"
       }
     ],
     "NINJA ZONE WHITE / T 6:30": [
@@ -1989,6 +2003,10 @@
       {
         "position": 4,
         "name": "Waiting #4"
+      },
+      {
+        "position": 5,
+        "name": "Waiting #5"
       }
     ],
     "NZ - LIL NINJA / M 5:15": [
@@ -2081,6 +2099,10 @@
       {
         "position": 15,
         "name": "Waiting #15"
+      },
+      {
+        "position": 16,
+        "name": "Waiting #16"
       }
     ],
     "REC TEAM PRACTICE/ S 12:30pm": [
