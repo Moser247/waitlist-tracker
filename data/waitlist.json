@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-24T08:33:13.620703",
+  "last_updated": "2026-01-24T14:02:10.963752",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -181,6 +181,10 @@
       {
         "position": 8,
         "name": "Mahrer, Lincoln"
+      },
+      {
+        "position": 9,
+        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 5:15": [
@@ -795,6 +799,10 @@
       {
         "position": 1,
         "name": "Gregg, Maren"
+      },
+      {
+        "position": 2,
+        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /T 5:15": [
@@ -875,6 +883,10 @@
       {
         "position": 5,
         "name": "Beimers, Charlotte"
+      },
+      {
+        "position": 6,
+        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /TH 5:15": [
@@ -909,6 +921,10 @@
       {
         "position": 8,
         "name": "Wille , Lainey"
+      },
+      {
+        "position": 9,
+        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /TH 6:30": [
@@ -923,12 +939,20 @@
       {
         "position": 3,
         "name": "Wille , Lainey"
+      },
+      {
+        "position": 4,
+        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /W 4:00": [
       {
         "position": 1,
         "name": "Beimers, Charlotte"
+      },
+      {
+        "position": 2,
+        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /W 6:30": [
@@ -939,6 +963,10 @@
       {
         "position": 2,
         "name": "Gregg, Maren"
+      },
+      {
+        "position": 3,
+        "name": "Fredriksson, Grace"
       }
     ],
     "BEGINNER / ADVANCED BEGINNER (COMBO) / S 9:00": [
@@ -1086,22 +1114,18 @@
       },
       {
         "position": 10,
-        "name": "Fredriksson, Grace"
-      },
-      {
-        "position": 11,
         "name": "Spalding , Lilliana"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Spalding , Scarlett"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Napravnik, Ava"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Olson, Lyla"
       }
     ],
@@ -2038,67 +2062,67 @@
     "NZ - LIL NINJA / TH 5:15": [
       {
         "position": 1,
-        "name": "Ormberg, Brecken"
+        "name": "Waiting #1"
       },
       {
         "position": 2,
-        "name": "Lillehaug, Graham"
+        "name": "Waiting #2"
       },
       {
         "position": 3,
-        "name": "Abernathey, Dexter"
+        "name": "Waiting #3"
       },
       {
         "position": 4,
-        "name": "Jochims, Bruce"
+        "name": "Waiting #4"
       },
       {
         "position": 5,
-        "name": "King, Bobby"
+        "name": "Waiting #5"
       },
       {
         "position": 6,
-        "name": "Ezuck, Lowyn"
+        "name": "Waiting #6"
       },
       {
         "position": 7,
-        "name": "Madgett, Wells"
+        "name": "Waiting #7"
       },
       {
         "position": 8,
-        "name": "Westling, Charles"
+        "name": "Waiting #8"
       },
       {
         "position": 9,
-        "name": "Uchtman, Cooper"
+        "name": "Waiting #9"
       },
       {
         "position": 10,
-        "name": "Jensen, Nolan"
+        "name": "Waiting #10"
       },
       {
         "position": 11,
-        "name": "Margarit, Austin"
+        "name": "Waiting #11"
       },
       {
         "position": 12,
-        "name": "Saffrin, Marcus"
+        "name": "Waiting #12"
       },
       {
         "position": 13,
-        "name": "Strey-Millstone, Finley"
+        "name": "Waiting #13"
       },
       {
         "position": 14,
-        "name": "Grein, Jemuel"
+        "name": "Waiting #14"
       },
       {
         "position": 15,
-        "name": "Smith, Otto"
+        "name": "Waiting #15"
       },
       {
         "position": 16,
-        "name": "Mahrer, Lincoln"
+        "name": "Waiting #16"
       }
     ],
     "REC TEAM PRACTICE/ S 12:30pm": [
@@ -2147,11 +2171,6 @@
       "open_spots": 2
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO)/ W 10:15",
-      "classId": "3924",
-      "open_spots": 1
-    },
-    {
       "name": "ADVANCED / W 5:15",
       "classId": "3913",
       "open_spots": 1
@@ -2159,7 +2178,7 @@
     {
       "name": "ADVANCED BEGINNER / S 11:30",
       "classId": "3955",
-      "open_spots": 7
+      "open_spots": 5
     },
     {
       "name": "BEGINNER / T 4:00",
