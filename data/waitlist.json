@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-26T08:32:36.015329",
+  "last_updated": "2026-01-26T14:01:38.768292",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -9,12 +9,6 @@
       {
         "position": 2,
         "name": "Redmond, June"
-      }
-    ],
-    "2s - TALENTED 2s / S 10:15": [
-      {
-        "position": 1,
-        "name": "Cadwallader , Lola"
       }
     ],
     "2s - TALENTED 2s / S 9:15": [
@@ -130,23 +124,23 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 4:15": [
       {
         "position": 1,
-        "name": "Nesset, Hayden"
-      },
-      {
-        "position": 2,
         "name": "Rice, Alex"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Timcho, Kyle"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Kramin, Evelyn"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Vitense , Abigail"
+      },
+      {
+        "position": 5,
+        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15": [
@@ -267,6 +261,10 @@
       {
         "position": 20,
         "name": "leanger, Summer jo"
+      },
+      {
+        "position": 21,
+        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 6:15": [
@@ -337,6 +335,10 @@
       {
         "position": 17,
         "name": "Kenady, Liliana"
+      },
+      {
+        "position": 18,
+        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 10:15": [
@@ -485,6 +487,10 @@
       {
         "position": 9,
         "name": "Christel , Oliver"
+      },
+      {
+        "position": 10,
+        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 6:15": [
@@ -535,6 +541,10 @@
       {
         "position": 12,
         "name": "Kenady, Liliana"
+      },
+      {
+        "position": 13,
+        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 9:15": [
@@ -595,19 +605,19 @@
       {
         "position": 11,
         "name": "Halloran, Lillian"
+      },
+      {
+        "position": 12,
+        "name": "Fraser, Quinnlyn"
+      },
+      {
+        "position": 13,
+        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 4:15": [
       {
         "position": 1,
-        "name": "Redmond, Isla"
-      },
-      {
-        "position": 2,
-        "name": "Thunberg, Walker"
-      },
-      {
-        "position": 3,
         "name": "Pitts, Penelope"
       }
     ],
@@ -684,26 +694,22 @@
     "ADVANCED / M 4:00": [
       {
         "position": 1,
-        "name": "Hess , Charlee"
-      },
-      {
-        "position": 2,
         "name": "Schemelin, Annalee"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Schultz, Charlotte"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Strate, Bristol"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Smith, Emily"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Sherman, Ava"
       }
     ],
@@ -804,58 +810,54 @@
     "ADVANCED BEGINNER /T 5:15": [
       {
         "position": 1,
-        "name": "Anderson, Avery"
-      },
-      {
-        "position": 2,
         "name": "McCabe , Cassidy"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Peterson, Freja"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Hudson, Georgiana"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Corcoran , Blake"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Athayde, Brynn"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Hubbard, Zoey"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Pribyl, Amaya"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Kinzie, Claire"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Christel , Eleanor"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Kallas, Piper"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Bateman, Olivia"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Koenen, Courtney"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Olson , Emerson"
       }
     ],
@@ -1032,27 +1034,27 @@
       },
       {
         "position": 2,
-        "name": "Snell, Nina"
-      },
-      {
-        "position": 3,
         "name": "Molnar, Emma"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Sanchez , Annalie"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Thornburg , Holly"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Simson, Everly"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Fleming, Davie"
+      },
+      {
+        "position": 7,
+        "name": "Snell, Nina"
       }
     ],
     "BEGINNER / TH 5:15": [
@@ -1125,16 +1127,6 @@
         "name": "Olson, Lyla"
       }
     ],
-    "BEGINNER / W 6:30": [
-      {
-        "position": 1,
-        "name": "Thayer, Ava"
-      },
-      {
-        "position": 2,
-        "name": "Thayer, Evelyn"
-      }
-    ],
     "BOYS BEGINNER / T 5:15": [
       {
         "position": 1,
@@ -1178,22 +1170,18 @@
       },
       {
         "position": 6,
-        "name": "Lillehaug, Reese"
-      },
-      {
-        "position": 7,
         "name": "Santi, Mila"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Brinda, Olivia"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "McKindles, Cecelia"
       }
     ],
@@ -1318,18 +1306,14 @@
     "INTERMEDIATE / S 9:00": [
       {
         "position": 1,
-        "name": "Lillehaug, Reese"
-      },
-      {
-        "position": 2,
         "name": "Paustenbach, Zoey"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Hoehne, Alexandra"
       }
     ],
@@ -1614,62 +1598,58 @@
     "INTERMEDIATE / W 5:15": [
       {
         "position": 1,
-        "name": "Amundson, Raelyn"
-      },
-      {
-        "position": 2,
         "name": "Wyatt, Camille"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "DeVries, Reagan"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Danielson, Emmy"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Danielson, Ella"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Buckland, Mila"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Hanson, Ada"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Bast, Ellie"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Meehan, Simone"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Quinn, Zoey"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Santi, Mila"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Champion, Zoe"
       }
     ],
@@ -1787,12 +1767,6 @@
       {
         "position": 11,
         "name": "Thompson, Annabel"
-      }
-    ],
-    "MASTER / W 4:00": [
-      {
-        "position": 1,
-        "name": "Callahan, Reese"
       }
     ],
     "NINJA ZONE WHITE / F 6:30": [
@@ -2156,7 +2130,7 @@
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 11:15",
       "classId": "3867",
-      "open_spots": 2
+      "open_spots": 1
     },
     {
       "name": "ADVANCED / W 5:15",
@@ -2219,30 +2193,11 @@
       "name": "INTERMEDIATE / W 5:15",
       "classId": "3942",
       "open_spots": 1,
-      "waiting": 15,
+      "waiting": 14,
       "enrolled": 15
     }
   ],
-  "camps_with_openings": [
-    {
-      "name": "2/17 Harry Potter Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 10,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "2/17 Harry Potter Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "2/17 Harry Potter Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    }
-  ],
+  "camps_with_openings": [],
   "camps_with_waitlist": [
     {
       "name": "2/16 Under the Sea Camp FULL DAY 8:30am - 4:00pm",
