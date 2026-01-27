@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-26T14:01:38.768292",
+  "last_updated": "2026-01-26T18:31:46.538045",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -124,22 +124,18 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 4:15": [
       {
         "position": 1,
-        "name": "Rice, Alex"
-      },
-      {
-        "position": 2,
         "name": "Timcho, Kyle"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Kramin, Evelyn"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Vitense , Abigail"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Loge, Ingrid"
       }
     ],
@@ -158,26 +154,22 @@
       },
       {
         "position": 4,
-        "name": "Rice, Alex"
-      },
-      {
-        "position": 5,
         "name": "Harwood, Lucy"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Hoffman , Lyra"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Redmond, Isla"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Mahrer, Lincoln"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Loge, Ingrid"
       }
     ],
@@ -1034,26 +1026,22 @@
       },
       {
         "position": 2,
-        "name": "Molnar, Emma"
-      },
-      {
-        "position": 3,
         "name": "Sanchez , Annalie"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Thornburg , Holly"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Simson, Everly"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Fleming, Davie"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Snell, Nina"
       }
     ],
@@ -2165,7 +2153,7 @@
     {
       "name": "INTERMEDIATE / F 4:00",
       "classId": "3907",
-      "open_spots": 4
+      "open_spots": 3
     },
     {
       "name": "INTERMEDIATE / S 10:15",
@@ -2188,15 +2176,7 @@
       "open_spots": 1
     }
   ],
-  "action_needed": [
-    {
-      "name": "INTERMEDIATE / W 5:15",
-      "classId": "3942",
-      "open_spots": 1,
-      "waiting": 14,
-      "enrolled": 15
-    }
-  ],
+  "action_needed": [],
   "camps_with_openings": [],
   "camps_with_waitlist": [
     {
