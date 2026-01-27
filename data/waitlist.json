@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-27T08:31:20.220117",
+  "last_updated": "2026-01-27T13:53:38.892043",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1766,10 +1766,6 @@
       },
       {
         "position": 4,
-        "name": "King, Teddy"
-      },
-      {
-        "position": 5,
         "name": "Mahrer, Remy"
       }
     ],
@@ -1933,6 +1929,10 @@
       {
         "position": 4,
         "name": "Hawkinson, Leo"
+      },
+      {
+        "position": 5,
+        "name": "King, Teddy"
       }
     ],
     "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00": [
@@ -1962,14 +1962,10 @@
       },
       {
         "position": 3,
-        "name": "King, Bobby"
-      },
-      {
-        "position": 4,
         "name": "Parsons, Leonard"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Mahrer, Lincoln"
       }
     ],
@@ -2137,7 +2133,7 @@
     {
       "name": "BOYS BEGINNER / M 5:15",
       "classId": "3918",
-      "open_spots": 2
+      "open_spots": 1
     },
     {
       "name": "INTERMEDIATE / F 4:00",
@@ -2147,7 +2143,7 @@
     {
       "name": "INTERMEDIATE / S 10:15",
       "classId": "3956",
-      "open_spots": 3
+      "open_spots": 2
     },
     {
       "name": "NINJA ZONE GREEN / TH 5:15",
