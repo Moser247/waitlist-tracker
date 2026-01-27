@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-26T18:31:46.538045",
+  "last_updated": "2026-01-27T08:31:20.220117",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -11,10 +11,20 @@
         "name": "Redmond, June"
       }
     ],
+    "2s - TALENTED 2s / S 10:15": [
+      {
+        "position": 1,
+        "name": "Loken, Lucy"
+      }
+    ],
     "2s - TALENTED 2s / S 9:15": [
       {
         "position": 1,
         "name": "Zaragoza, Bennett"
+      },
+      {
+        "position": 2,
+        "name": "Loken, Lucy"
       }
     ],
     "2s - WONDERFUL WALKERS / TALENTED 2S (COMBO) / F 11:15": [
@@ -686,22 +696,18 @@
     "ADVANCED / M 4:00": [
       {
         "position": 1,
-        "name": "Schemelin, Annalee"
-      },
-      {
-        "position": 2,
         "name": "Schultz, Charlotte"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Strate, Bristol"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Smith, Emily"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Sherman, Ava"
       }
     ],
@@ -1142,34 +1148,30 @@
       },
       {
         "position": 2,
-        "name": "Burgan, Aspen"
-      },
-      {
-        "position": 3,
         "name": "Rub, Eleanor"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Vitense, Erin"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Santi, Mila"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Brinda, Olivia"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "McKindles, Cecelia"
       }
     ],
@@ -1177,10 +1179,6 @@
       {
         "position": 1,
         "name": "Brinda, Olivia"
-      },
-      {
-        "position": 2,
-        "name": "Burgan, Aspen"
       }
     ],
     "INTERMEDIATE / M 4:00": [
@@ -1332,7 +1330,7 @@
       },
       {
         "position": 7,
-        "name": "Haagenson, Grace"
+        "name": "AASER, HAANIYA"
       }
     ],
     "INTERMEDIATE / T 6:30": [
@@ -1412,34 +1410,30 @@
       },
       {
         "position": 8,
-        "name": "Benson, Ryliee"
-      },
-      {
-        "position": 9,
         "name": "Rife, Isabelle"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Meehan, Simone"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Curb, Addison"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Hoehne, Alexandra"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Welu, Nora"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Lieser, Lila"
       }
     ],
@@ -2111,11 +2105,6 @@
       "open_spots": 1
     },
     {
-      "name": "2s - TALENTED 2s / T 6:15",
-      "classId": "3852",
-      "open_spots": 1
-    },
-    {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 11:15",
       "classId": "3867",
       "open_spots": 1
@@ -2153,17 +2142,12 @@
     {
       "name": "INTERMEDIATE / F 4:00",
       "classId": "3907",
-      "open_spots": 3
+      "open_spots": 2
     },
     {
       "name": "INTERMEDIATE / S 10:15",
       "classId": "3956",
       "open_spots": 3
-    },
-    {
-      "name": "MASTER / F 5:30",
-      "classId": "3952",
-      "open_spots": 1
     },
     {
       "name": "NINJA ZONE GREEN / TH 5:15",
