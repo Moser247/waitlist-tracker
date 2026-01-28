@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-28T08:32:01.784618",
+  "last_updated": "2026-01-28T14:01:02.368156",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -694,18 +694,14 @@
     "ADVANCED / M 4:00": [
       {
         "position": 1,
-        "name": "Schultz, Charlotte"
-      },
-      {
-        "position": 2,
         "name": "Strate, Bristol"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Smith, Emily"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Sherman, Ava"
       }
     ],
@@ -1564,58 +1560,54 @@
     "INTERMEDIATE / W 5:15": [
       {
         "position": 1,
-        "name": "Wyatt, Camille"
-      },
-      {
-        "position": 2,
         "name": "DeVries, Reagan"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Danielson, Emmy"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Danielson, Ella"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Buckland, Mila"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Hanson, Ada"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Bast, Ellie"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Meehan, Simone"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Quinn, Zoey"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Santi, Mila"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Champion, Zoe"
       }
     ],
