@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-28T14:01:02.368156",
+  "last_updated": "2026-01-28T18:31:25.046160",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -58,30 +58,26 @@
       },
       {
         "position": 2,
-        "name": "Michalski, Marlowe"
-      },
-      {
-        "position": 3,
         "name": "Hoelscher, Henley"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Williams, Isabella"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Stoneburner, Harrison"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Howells, Andi"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Redmond, Isla"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Gruenhagen , Georgie"
       }
     ],
@@ -102,26 +98,18 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 11:15": [
       {
         "position": 1,
-        "name": "Soldan, Samantha"
-      },
-      {
-        "position": 2,
-        "name": "Michalski, Marlowe"
-      },
-      {
-        "position": 3,
         "name": "Stoneburner, Harrison"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Hoffman, Sophie"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "Howells, Andi"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Redmond, Isla"
       }
     ],
@@ -802,50 +790,46 @@
     "ADVANCED BEGINNER /T 5:15": [
       {
         "position": 1,
-        "name": "Peterson, Freja"
-      },
-      {
-        "position": 2,
         "name": "Hudson, Georgiana"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Corcoran , Blake"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Athayde, Brynn"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Hubbard, Zoey"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Pribyl, Amaya"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Kinzie, Claire"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Christel , Eleanor"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Kallas, Piper"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Bateman, Olivia"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Koenen, Courtney"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Olson , Emerson"
       }
     ],
@@ -2098,7 +2082,7 @@
     {
       "name": "BEGINNER / T 4:00",
       "classId": "3881",
-      "open_spots": 3
+      "open_spots": 2
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
