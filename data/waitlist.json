@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-29T14:01:02.399586",
+  "last_updated": "2026-01-29T14:43:32.753116",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1102,14 +1102,10 @@
     "HOME SCHOOL / T 12:30": [
       {
         "position": 1,
-        "name": "Toews, Isabelle"
-      },
-      {
-        "position": 2,
         "name": "Sherman, Ava"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Sherman, Max (Maxwell)"
       }
     ],
@@ -1257,16 +1253,6 @@
       {
         "position": 17,
         "name": "Knutson, Olivia"
-      }
-    ],
-    "INTERMEDIATE / S 9:00": [
-      {
-        "position": 1,
-        "name": "Toews, Isabelle"
-      },
-      {
-        "position": 2,
-        "name": "Hoehne, Alexandra"
       }
     ],
     "INTERMEDIATE / T 4:00": [
@@ -1590,10 +1576,6 @@
       },
       {
         "position": 12,
-        "name": "Toews, Isabelle"
-      },
-      {
-        "position": 13,
         "name": "Champion, Zoe"
       }
     ],
@@ -1656,14 +1638,10 @@
       },
       {
         "position": 15,
-        "name": "Toews, Isabelle"
-      },
-      {
-        "position": 16,
         "name": "Champion, Zoe"
       },
       {
-        "position": 17,
+        "position": 16,
         "name": "Lieser, Lila"
       }
     ],
@@ -2050,7 +2028,7 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 4
+      "open_spots": 2
     },
     {
       "name": "2s - TALENTED 2s / M 9:15",
@@ -2105,7 +2083,7 @@
     {
       "name": "INTERMEDIATE / S 10:15",
       "classId": "3956",
-      "open_spots": 2
+      "open_spots": 3
     },
     {
       "name": "NINJA ZONE GREEN / TH 5:15",
