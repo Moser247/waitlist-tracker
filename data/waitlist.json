@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-29T08:31:36.166548",
+  "last_updated": "2026-01-29T14:01:02.399586",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -607,6 +607,10 @@
       {
         "position": 1,
         "name": "Pitts, Penelope"
+      },
+      {
+        "position": 2,
+        "name": "leanger, Summer jo"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 5:15": [
@@ -746,14 +750,10 @@
     "ADVANCED / W 4:00": [
       {
         "position": 1,
-        "name": "Schultz, Charlotte"
-      },
-      {
-        "position": 2,
         "name": "Smith, Emily"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Callahan, Rowan"
       }
     ],
@@ -868,38 +868,34 @@
     "ADVANCED BEGINNER /TH 5:15": [
       {
         "position": 1,
-        "name": "Corcoran , Blake"
-      },
-      {
-        "position": 2,
         "name": "Hubbard, Zoey"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Pribyl, Amaya"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Taffe, Emerson"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Kiecker, Josie"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Bateman, Olivia"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Friedenberg, Catherine (Kate)"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Wille , Lainey"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Fredriksson, Grace"
       }
     ],
@@ -924,10 +920,6 @@
     "ADVANCED BEGINNER /W 4:00": [
       {
         "position": 1,
-        "name": "Beimers, Charlotte"
-      },
-      {
-        "position": 2,
         "name": "Fredriksson, Grace"
       }
     ],
@@ -1191,6 +1183,10 @@
       {
         "position": 9,
         "name": "Toews, Isabelle"
+      },
+      {
+        "position": 10,
+        "name": "Coey, Evelyn"
       }
     ],
     "INTERMEDIATE / M 5:15": [
@@ -1914,10 +1910,6 @@
     "NINJA ZONE YELLOW / W 6:30": [
       {
         "position": 1,
-        "name": "Dumont , John"
-      },
-      {
-        "position": 2,
         "name": "Wells, Roman"
       }
     ],
