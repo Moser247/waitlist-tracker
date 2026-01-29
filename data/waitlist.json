@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-28T18:31:25.046160",
+  "last_updated": "2026-01-29T08:31:36.166548",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -677,6 +677,12 @@
       {
         "position": 17,
         "name": "Stencel, Camden"
+      }
+    ],
+    "ADVANCED / F 6:30": [
+      {
+        "position": 1,
+        "name": "Armenta, Olivia"
       }
     ],
     "ADVANCED / M 4:00": [
@@ -2067,12 +2073,12 @@
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 11:15",
       "classId": "3867",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "ADVANCED / W 5:15",
       "classId": "3913",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "ADVANCED BEGINNER / S 11:30",
@@ -2087,7 +2093,7 @@
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
       "classId": "3922",
-      "open_spots": 4
+      "open_spots": 3
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
