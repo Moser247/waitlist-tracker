@@ -50,7 +50,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Class filter change
     classFilter.addEventListener('change', () => {
         currentFilter = classFilter.value;
-        performSearch();
+        showSummary();
+        if (currentTab === 'waitlists') {
+            performSearch();
+        } else if (currentTab === 'openings') {
+            displayOpenings();
+        }
     });
 
     // Tab switching
@@ -69,10 +74,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Show/hide search and filter based on tab
             const filtersContainer = document.querySelector('.filters-container');
-            if (currentTab === 'openings' || currentTab === 'camps') {
+            const searchBox = document.querySelector('.search-box');
+            if (currentTab === 'openings') {
+                // Show filter but hide search for openings
+                filtersContainer.style.display = 'block';
+                searchBox.style.display = 'none';
+            } else if (currentTab === 'camps') {
                 filtersContainer.style.display = 'none';
             } else {
+                // Waitlists tab - show both search and filter
                 filtersContainer.style.display = 'block';
+                searchBox.style.display = 'flex';
             }
 
             // Refresh display
@@ -237,9 +249,6 @@ async function loadData() {
         // Populate class filter dropdown
         populateClassFilter();
 
-        // Show action needed section first (if any)
-        displayActionNeeded();
-
         // Show summary
         showSummary();
 
@@ -287,16 +296,23 @@ function showSummary() {
             </div>
         `;
     } else if (currentTab === 'openings') {
-        // Show summary for classes with openings
-        const openings = waitlistData.classes_with_openings || [];
+        // Show summary for classes with openings (filtered)
+        const openings = getFilteredOpenings();
         const totalClasses = openings.length;
         const totalSpots = openings.reduce((sum, cls) => sum + (cls.open_spots || 0), 0);
+
+        // Get friendly label for the current filter
+        let filterLabel = '';
+        if (currentFilter) {
+            const category = CLASS_CATEGORIES.find(cat => cat.key === currentFilter);
+            filterLabel = category ? ` (${category.label})` : ` (${currentFilter})`;
+        }
 
         summaryDiv.innerHTML = `
             <div class="summary-box available-summary">
                 <div class="stat">
                     <span class="number">${totalClasses}</span>
-                    <span class="label">Classes with openings</span>
+                    <span class="label">Classes with openings${filterLabel}</span>
                 </div>
                 <div class="stat">
                     <span class="number">${totalSpots}</span>
@@ -524,6 +540,25 @@ function escapeHtml(text) {
 }
 
 /**
+ * Get filtered openings based on current class filter
+ */
+function getFilteredOpenings() {
+    const openings = waitlistData?.classes_with_openings || [];
+
+    if (!currentFilter) {
+        return openings;
+    }
+
+    // Find the category for the current filter
+    const filterCategory = CLASS_CATEGORIES.find(cat => cat.key === currentFilter);
+    if (!filterCategory) {
+        return openings;
+    }
+
+    return openings.filter(cls => filterCategory.match.test(cls.name));
+}
+
+/**
  * Display classes with openings (no waitlist)
  */
 function displayOpenings() {
@@ -534,12 +569,21 @@ function displayOpenings() {
     // Hide expand hint for openings view
     if (expandHint) expandHint.style.display = 'none';
 
-    const openings = waitlistData?.classes_with_openings || [];
+    const openings = getFilteredOpenings();
+
+    // Get friendly label for no results message
+    let filterLabel = '';
+    if (currentFilter) {
+        const category = CLASS_CATEGORIES.find(cat => cat.key === currentFilter);
+        filterLabel = category ? category.label : currentFilter;
+    }
 
     if (openings.length === 0) {
         resultsDiv.innerHTML = '';
         noResultsDiv.style.display = 'block';
-        noResultsDiv.querySelector('p').textContent = 'No classes with openings found.';
+        noResultsDiv.querySelector('p').textContent = currentFilter
+            ? `No ${filterLabel} classes with openings found.`
+            : 'No classes with openings found.';
         return;
     }
 
