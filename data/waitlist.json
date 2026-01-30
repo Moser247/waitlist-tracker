@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-30T08:31:42.616456",
+  "last_updated": "2026-01-30T14:00:57.923395",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -98,18 +98,14 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 11:15": [
       {
         "position": 1,
-        "name": "Stoneburner, Harrison"
-      },
-      {
-        "position": 2,
         "name": "Hoffman, Sophie"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Howells, Andi"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Redmond, Isla"
       }
     ],
@@ -138,30 +134,26 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15": [
       {
         "position": 1,
-        "name": "Olsem, Emmett"
-      },
-      {
-        "position": 2,
         "name": "Carlson, Wren"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Harwood, Lucy"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Hoffman , Lyra"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Redmond, Isla"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Mahrer, Lincoln"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Loge, Ingrid"
       }
     ],
@@ -546,51 +538,51 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Braun, Wren"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Walker, Penny"
       },
       {
         "position": 3,
-        "name": "Waiting #3"
+        "name": "Olson, Annika"
       },
       {
         "position": 4,
-        "name": "Waiting #4"
+        "name": "Assman, Lydia"
       },
       {
         "position": 5,
-        "name": "Waiting #5"
+        "name": "Runions, Keiva"
       },
       {
         "position": 6,
-        "name": "Waiting #6"
+        "name": "Thompson, Lola"
       },
       {
         "position": 7,
-        "name": "Waiting #7"
+        "name": "Fastag, Liliana"
       },
       {
         "position": 8,
-        "name": "Waiting #8"
+        "name": "Harwood, Lucy"
       },
       {
         "position": 9,
-        "name": "Waiting #9"
+        "name": "Bloomer, Mackenzie"
       },
       {
         "position": 10,
-        "name": "Waiting #10"
+        "name": "Halloran, Lillian"
       },
       {
         "position": 11,
-        "name": "Waiting #11"
+        "name": "Fraser, Quinnlyn"
       },
       {
         "position": 12,
-        "name": "Waiting #12"
+        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 4:15": [
@@ -682,14 +674,6 @@
     "ADVANCED / M 4:00": [
       {
         "position": 1,
-        "name": "Strate, Bristol"
-      },
-      {
-        "position": 2,
-        "name": "Smith, Emily"
-      },
-      {
-        "position": 3,
         "name": "Sherman, Ava"
       }
     ],
@@ -730,10 +714,6 @@
       },
       {
         "position": 4,
-        "name": "Smith, Emily"
-      },
-      {
-        "position": 5,
         "name": "Freedland, Samantha"
       }
     ],
@@ -990,23 +970,23 @@
     "BEGINNER / S 11:30": [
       {
         "position": 1,
-        "name": "Sanchez , Annalie"
-      },
-      {
-        "position": 2,
         "name": "Thornburg , Holly"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Simson, Everly"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Fleming, Davie"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Snell, Nina"
+      },
+      {
+        "position": 5,
+        "name": "Waiting #5"
       }
     ],
     "BEGINNER / TH 5:15": [
@@ -2105,7 +2085,22 @@
       "open_spots": 1
     }
   ],
-  "action_needed": [],
+  "action_needed": [
+    {
+      "name": "NINJA ZONE WHITE / S 10:15",
+      "classId": "3933",
+      "open_spots": 1,
+      "waiting": 8,
+      "enrolled": 6
+    },
+    {
+      "name": "NZ - LIL NINJA / F 6:15",
+      "classId": "3927",
+      "open_spots": 1,
+      "waiting": 4,
+      "enrolled": 5
+    }
+  ],
   "camps_with_openings": [],
   "camps_with_waitlist": [
     {
