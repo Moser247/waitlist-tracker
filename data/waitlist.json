@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-30T14:00:57.923395",
+  "last_updated": "2026-01-30T18:31:23.476390",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -747,6 +747,10 @@
       {
         "position": 6,
         "name": "Femling, Lennon"
+      },
+      {
+        "position": 7,
+        "name": "Lideen, Mae"
       }
     ],
     "ADVANCED BEGINNER /M 6:30": [
@@ -983,10 +987,6 @@
       {
         "position": 4,
         "name": "Snell, Nina"
-      },
-      {
-        "position": 5,
-        "name": "Waiting #5"
       }
     ],
     "BEGINNER / TH 5:15": [
@@ -1888,18 +1888,14 @@
     "NZ - LIL NINJA / F 6:15": [
       {
         "position": 1,
-        "name": "Ezuck, Lowyn"
-      },
-      {
-        "position": 2,
         "name": "Rub, Ethan"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Parsons, Leonard"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Mahrer, Lincoln"
       }
     ],
@@ -2092,13 +2088,6 @@
       "open_spots": 1,
       "waiting": 8,
       "enrolled": 6
-    },
-    {
-      "name": "NZ - LIL NINJA / F 6:15",
-      "classId": "3927",
-      "open_spots": 1,
-      "waiting": 4,
-      "enrolled": 5
     }
   ],
   "camps_with_openings": [],
