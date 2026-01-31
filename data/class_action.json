@@ -1,5 +1,69 @@
 {
-  "last_updated": "2026-01-30T16:25:00",
-  "immediate_action": [],
-  "total_action_needed": 0
+  "last_updated": "2026-01-30T18:59:52.802916",
+  "immediate_action": [
+    {
+      "name": "INTERMEDIATE / W 5:15",
+      "class_id": "3942",
+      "open_spots": 1,
+      "waiting": 12,
+      "active": 14,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "NINJA ZONE WHITE / M 6:30",
+      "class_id": "3929",
+      "open_spots": 1,
+      "waiting": 8,
+      "active": 6,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "NINJA ZONE WHITE / S 10:15",
+      "class_id": "3933",
+      "open_spots": 1,
+      "waiting": 8,
+      "active": 6,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 11:15",
+      "class_id": "3875",
+      "open_spots": 1,
+      "waiting": 3,
+      "active": 5,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "BEGINNER / TH 5:15",
+      "class_id": "3884",
+      "open_spots": 1,
+      "waiting": 2,
+      "active": 7,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 10:15",
+      "class_id": "3871",
+      "open_spots": 1,
+      "waiting": 1,
+      "active": 5,
+      "max_students": 6,
+      "has_hidden_opening": true
+    },
+    {
+      "name": "ADVANCED / W 4:00",
+      "class_id": "3943",
+      "open_spots": 1,
+      "waiting": 1,
+      "active": 7,
+      "max_students": 0,
+      "has_hidden_opening": false
+    }
+  ],
+  "total_action_needed": 7
 }
