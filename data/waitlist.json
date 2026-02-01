@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-01T08:30:36.250528",
+  "last_updated": "2026-02-01T14:01:12.108850",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -2083,7 +2083,7 @@
     {
       "name": "BEGINNER / T 5:15",
       "classId": "3882",
-      "open_spots": 2
+      "open_spots": 1
     },
     {
       "name": "BEGINNER / W 6:30",
@@ -2139,6 +2139,11 @@
       "name": "NINJA ZONE GREEN / TH 5:15",
       "classId": "3936",
       "open_spots": 4
+    },
+    {
+      "name": "NZ - LIL NINJA / F 10:15",
+      "classId": "3925",
+      "open_spots": 1
     }
   ],
   "action_needed": [
