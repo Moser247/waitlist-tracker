@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-31T18:31:02.962157",
+  "last_updated": "2026-02-01T08:30:36.250528",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -2018,7 +2018,7 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 2
+      "open_spots": 4
     },
     {
       "name": "2s - TALENTED 2s / M 9:15",
@@ -2026,24 +2026,69 @@
       "open_spots": 2
     },
     {
+      "name": "2s - TALENTED 2s / S 10:15",
+      "classId": "3857",
+      "open_spots": 1
+    },
+    {
       "name": "2s - TALENTED 2s / T 11:15",
       "classId": "3851",
       "open_spots": 1
     },
     {
+      "name": "2s - TALENTED 2s / W 6:15",
+      "classId": "3853",
+      "open_spots": 2
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15",
+      "classId": "3879",
+      "open_spots": 1
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 9:15",
+      "classId": "3870",
+      "open_spots": 1
+    },
+    {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 11:15",
       "classId": "3867",
-      "open_spots": 2
+      "open_spots": 3
+    },
+    {
+      "name": "ADVANCED / T 6:30",
+      "classId": "3912",
+      "open_spots": 1
     },
     {
       "name": "ADVANCED / W 5:15",
       "classId": "3913",
-      "open_spots": 2
+      "open_spots": 3
     },
     {
       "name": "ADVANCED BEGINNER / S 11:30",
       "classId": "3955",
       "open_spots": 4
+    },
+    {
+      "name": "ADVANCED BEGINNER /F 6:30",
+      "classId": "3898",
+      "open_spots": 1
+    },
+    {
+      "name": "BEGINNER / F 5:15",
+      "classId": "3886",
+      "open_spots": 1
+    },
+    {
+      "name": "BEGINNER / T 5:15",
+      "classId": "3882",
+      "open_spots": 2
+    },
+    {
+      "name": "BEGINNER / W 6:30",
+      "classId": "3941",
+      "open_spots": 1
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
@@ -2053,7 +2098,7 @@
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
       "classId": "3921",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "BOYS BEGINNER / M 5:15",
@@ -2061,8 +2106,23 @@
       "open_spots": 1
     },
     {
+      "name": "HOME SCHOOL / TH 12:30",
+      "classId": "3939",
+      "open_spots": 1
+    },
+    {
+      "name": "HOME SCHOOL / W 12:30",
+      "classId": "3938",
+      "open_spots": 2
+    },
+    {
       "name": "INTERMEDIATE / F 4:00",
       "classId": "3907",
+      "open_spots": 1
+    },
+    {
+      "name": "INTERMEDIATE / F 6:30",
+      "classId": "3945",
       "open_spots": 1
     },
     {
@@ -2071,17 +2131,45 @@
       "open_spots": 3
     },
     {
-      "name": "NINJA ZONE GREEN / TH 5:15",
-      "classId": "3936",
-      "open_spots": 3
+      "name": "MASTER / W 4:00",
+      "classId": "3917",
+      "open_spots": 1
     },
     {
-      "name": "NZ - LIL NINJA / F 10:15",
-      "classId": "3925",
-      "open_spots": 1
+      "name": "NINJA ZONE GREEN / TH 5:15",
+      "classId": "3936",
+      "open_spots": 4
     }
   ],
   "action_needed": [
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 11:15",
+      "classId": "3875",
+      "open_spots": 1,
+      "waiting": 3,
+      "enrolled": 5
+    },
+    {
+      "name": "ADVANCED / W 4:00",
+      "classId": "3943",
+      "open_spots": 1,
+      "waiting": 1,
+      "enrolled": 7
+    },
+    {
+      "name": "BEGINNER / TH 5:15",
+      "classId": "3884",
+      "open_spots": 1,
+      "waiting": 2,
+      "enrolled": 7
+    },
+    {
+      "name": "INTERMEDIATE / W 5:15",
+      "classId": "3942",
+      "open_spots": 1,
+      "waiting": 12,
+      "enrolled": 14
+    },
     {
       "name": "NINJA ZONE WHITE / S 10:15",
       "classId": "3933",
