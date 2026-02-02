@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-02T08:30:55.755819",
+  "last_updated": "2026-02-02T14:00:13.883880",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -89,23 +89,15 @@
       {
         "position": 2,
         "name": "Howells, Andi"
-      },
-      {
-        "position": 3,
-        "name": "Hoffman, Sophie"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 11:15": [
       {
         "position": 1,
-        "name": "Hoffman, Sophie"
-      },
-      {
-        "position": 2,
         "name": "Howells, Andi"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Redmond, Isla"
       }
     ],
@@ -184,62 +176,54 @@
       },
       {
         "position": 7,
-        "name": "Braun, Wren"
-      },
-      {
-        "position": 8,
         "name": "Walker, Penny"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Eddie, Dax"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Armbrust, Caroline"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Hegedus, Nora"
       },
       {
-        "position": 12,
-        "name": "Assman, Lydia"
-      },
-      {
-        "position": 13,
+        "position": 11,
         "name": "Dunlay, Ellie"
       },
       {
-        "position": 14,
+        "position": 12,
         "name": "Amundson, Sunny"
       },
       {
-        "position": 15,
+        "position": 13,
         "name": "Kaliszewski, Brynley"
       },
       {
-        "position": 16,
+        "position": 14,
         "name": "Niederman, Lara"
       },
       {
-        "position": 17,
+        "position": 15,
         "name": "Harwood, Lucy"
       },
       {
-        "position": 18,
+        "position": 16,
         "name": "Schlesinger, Abigail"
       },
       {
-        "position": 19,
+        "position": 17,
         "name": "Ackmann, Harrison"
       },
       {
-        "position": 20,
+        "position": 18,
         "name": "leanger, Summer jo"
       },
       {
-        "position": 21,
+        "position": 19,
         "name": "Loge, Ingrid"
       }
     ],
@@ -266,54 +250,46 @@
       },
       {
         "position": 6,
-        "name": "Braun, Wren"
-      },
-      {
-        "position": 7,
         "name": "Walker, Penny"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Hewitt, India"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Burnham, Evelyn"
       },
       {
-        "position": 10,
-        "name": "Assman, Lydia"
-      },
-      {
-        "position": 11,
+        "position": 9,
         "name": "Kallas, Quinn"
       },
       {
-        "position": 12,
+        "position": 10,
         "name": "Kaliszewski, Brynley"
       },
       {
-        "position": 13,
+        "position": 11,
         "name": "Harwood, Lucy"
       },
       {
-        "position": 14,
+        "position": 12,
         "name": "Holman, Eliana"
       },
       {
-        "position": 15,
+        "position": 13,
         "name": "Schlesinger, Abigail"
       },
       {
-        "position": 16,
+        "position": 14,
         "name": "O'Loughlin, Raya"
       },
       {
-        "position": 17,
+        "position": 15,
         "name": "Kenady, Liliana"
       },
       {
-        "position": 18,
+        "position": 16,
         "name": "Loge, Ingrid"
       }
     ],
@@ -529,59 +505,45 @@
         "name": "Schlesinger, Abigail"
       }
     ],
-    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 10:15": [
-      {
-        "position": 1,
-        "name": "Amundson, Sunny"
-      }
-    ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15": [
       {
         "position": 1,
-        "name": "Braun, Wren"
-      },
-      {
-        "position": 2,
         "name": "Walker, Penny"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Olson, Annika"
       },
       {
-        "position": 4,
-        "name": "Assman, Lydia"
-      },
-      {
-        "position": 5,
+        "position": 3,
         "name": "Runions, Keiva"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Thompson, Lola"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Fastag, Liliana"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Harwood, Lucy"
       },
       {
-        "position": 9,
+        "position": 7,
         "name": "Bloomer, Mackenzie"
       },
       {
-        "position": 10,
+        "position": 8,
         "name": "Halloran, Lillian"
       },
       {
-        "position": 11,
+        "position": 9,
         "name": "Fraser, Quinnlyn"
       },
       {
-        "position": 12,
+        "position": 10,
         "name": "Loge, Ingrid"
       }
     ],
@@ -593,6 +555,10 @@
       {
         "position": 2,
         "name": "leanger, Summer jo"
+      },
+      {
+        "position": 3,
+        "name": "Prudden, Poppy"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 5:15": [
@@ -618,50 +584,42 @@
       },
       {
         "position": 6,
-        "name": "Braun, Wren"
-      },
-      {
-        "position": 7,
         "name": "Jensen, Nolan"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Armbrust, Caroline"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Stormoen , Charlotte"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Hegedus, Nora"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Olson, Annika"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Abbott, Lucia"
       },
       {
-        "position": 13,
-        "name": "Assman, Lydia"
-      },
-      {
-        "position": 14,
+        "position": 12,
         "name": "Erickson, Ardis"
       },
       {
-        "position": 15,
+        "position": 13,
         "name": "Dunlay, Ellie"
       },
       {
-        "position": 16,
+        "position": 14,
         "name": "Amundson, Sunny"
       },
       {
-        "position": 17,
+        "position": 15,
         "name": "Stencel, Camden"
       }
     ],
@@ -715,12 +673,6 @@
       {
         "position": 4,
         "name": "Freedland, Samantha"
-      }
-    ],
-    "ADVANCED / W 4:00": [
-      {
-        "position": 1,
-        "name": "Callahan, Rowan"
       }
     ],
     "ADVANCED BEGINNER /M 5:15": [
@@ -989,16 +941,6 @@
         "name": "Snell, Nina"
       }
     ],
-    "BEGINNER / TH 5:15": [
-      {
-        "position": 1,
-        "name": "Walker, Tenley"
-      },
-      {
-        "position": 2,
-        "name": "Weld, Sunday"
-      }
-    ],
     "BEGINNER / TH 6:30": [
       {
         "position": 1,
@@ -1065,6 +1007,10 @@
       {
         "position": 13,
         "name": "Olson, Lyla"
+      },
+      {
+        "position": 14,
+        "name": "Buckland, Bella"
       }
     ],
     "BOYS BEGINNER / T 5:15": [
@@ -1534,42 +1480,38 @@
       },
       {
         "position": 3,
-        "name": "Buckland, Mila"
-      },
-      {
-        "position": 4,
         "name": "Hanson, Ada"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Bast, Ellie"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Meehan, Simone"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Quinn, Zoey"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Santi, Mila"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Champion, Zoe"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Amundson, Raelyn"
       }
     ],
@@ -1798,34 +1740,26 @@
     "NINJA ZONE WHITE / S 10:15": [
       {
         "position": 1,
-        "name": "Stickney, Graham"
-      },
-      {
-        "position": 2,
-        "name": "Hewitt, Jamier"
-      },
-      {
-        "position": 3,
         "name": "Cabalka, Finn"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Simmons, Aidan"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "Rothstein , Garon"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Naughtin, Samuel"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Bradley , Maxwell"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Mahrer, Remy"
       }
     ],
@@ -2038,11 +1972,16 @@
     {
       "name": "2s - TALENTED 2s / W 6:15",
       "classId": "3853",
-      "open_spots": 2
+      "open_spots": 1
     },
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15",
       "classId": "3879",
+      "open_spots": 1
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 10:15",
+      "classId": "3871",
       "open_spots": 1
     },
     {
@@ -2061,6 +2000,11 @@
       "open_spots": 1
     },
     {
+      "name": "ADVANCED / W 4:00",
+      "classId": "3943",
+      "open_spots": 1
+    },
+    {
       "name": "ADVANCED / W 5:15",
       "classId": "3913",
       "open_spots": 3
@@ -2076,19 +2020,19 @@
       "open_spots": 1
     },
     {
+      "name": "BEGINNER / F 4:00",
+      "classId": "3885",
+      "open_spots": 1
+    },
+    {
       "name": "BEGINNER / F 5:15",
       "classId": "3886",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "BEGINNER / T 5:15",
       "classId": "3882",
-      "open_spots": 1
-    },
-    {
-      "name": "BEGINNER / W 6:30",
-      "classId": "3941",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
@@ -2098,11 +2042,16 @@
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
       "classId": "3921",
-      "open_spots": 2
+      "open_spots": 1
     },
     {
       "name": "BOYS BEGINNER / M 5:15",
       "classId": "3918",
+      "open_spots": 1
+    },
+    {
+      "name": "BOYS BEGINNER / TH 6:30",
+      "classId": "3920",
       "open_spots": 1
     },
     {
@@ -2133,7 +2082,7 @@
     {
       "name": "MASTER / W 4:00",
       "classId": "3917",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "NINJA ZONE GREEN / TH 5:15",
@@ -2148,47 +2097,34 @@
   ],
   "action_needed": [
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 11:15",
-      "classId": "3875",
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 9:15",
+      "classId": "3873",
       "open_spots": 1,
-      "waiting": 3,
+      "waiting": 7,
       "enrolled": 5
     },
     {
-      "name": "ADVANCED / W 4:00",
-      "classId": "3943",
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 10:15",
+      "classId": "3865",
       "open_spots": 1,
       "waiting": 1,
-      "enrolled": 7
+      "enrolled": 5
     },
     {
-      "name": "BEGINNER / TH 5:15",
-      "classId": "3884",
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
+      "classId": "3866",
       "open_spots": 1,
-      "waiting": 2,
-      "enrolled": 7
-    },
-    {
-      "name": "INTERMEDIATE / W 5:15",
-      "classId": "3942",
-      "open_spots": 1,
-      "waiting": 12,
-      "enrolled": 14
-    },
-    {
-      "name": "NINJA ZONE WHITE / S 10:15",
-      "classId": "3933",
-      "open_spots": 1,
-      "waiting": 8,
-      "enrolled": 6
+      "waiting": 9,
+      "enrolled": 11
     }
   ],
-  "camps_with_openings": [],
-  "camps_with_waitlist": [
+  "camps_with_openings": [
     {
       "name": "2/16 Under the Sea Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 1,
       "waitlist": 3,
-      "enrolled": 12
+      "priority": true
     }
-  ]
+  ],
+  "camps_with_waitlist": []
 }
