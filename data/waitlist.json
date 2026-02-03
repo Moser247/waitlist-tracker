@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-02T14:00:13.883880",
+  "last_updated": "2026-02-02T18:29:57.467038",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -395,12 +395,6 @@
       {
         "position": 2,
         "name": "Alm, Nora"
-      }
-    ],
-    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 10:15": [
-      {
-        "position": 1,
-        "name": "Bichanich , Carter"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
@@ -962,54 +956,50 @@
       },
       {
         "position": 2,
-        "name": "Dunlay, Blake"
-      },
-      {
-        "position": 3,
         "name": "Kreatz, Hazel"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Elenkiwich, Matilda"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Harker, Annelise"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Ferezy, Louise"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Jepson, Cora"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Berding, Monroe"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Snell, Nina"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Spalding , Lilliana"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Spalding , Scarlett"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Napravnik, Ava"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Olson, Lyla"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Buckland, Bella"
       }
     ],
@@ -1970,11 +1960,6 @@
       "open_spots": 1
     },
     {
-      "name": "2s - TALENTED 2s / W 6:15",
-      "classId": "3853",
-      "open_spots": 1
-    },
-    {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15",
       "classId": "3879",
       "open_spots": 1
@@ -2101,13 +2086,6 @@
       "classId": "3873",
       "open_spots": 1,
       "waiting": 7,
-      "enrolled": 5
-    },
-    {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 10:15",
-      "classId": "3865",
-      "open_spots": 1,
-      "waiting": 1,
       "enrolled": 5
     },
     {
