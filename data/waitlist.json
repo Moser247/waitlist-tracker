@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-02T18:29:57.467038",
+  "last_updated": "2026-02-03T08:30:15.677268",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -702,10 +702,6 @@
     "ADVANCED BEGINNER /M 6:30": [
       {
         "position": 1,
-        "name": "Gregg, Maren"
-      },
-      {
-        "position": 2,
         "name": "Fredriksson, Grace"
       }
     ],
@@ -775,10 +771,6 @@
       {
         "position": 5,
         "name": "Beimers, Charlotte"
-      },
-      {
-        "position": 6,
-        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /TH 5:15": [
@@ -833,12 +825,6 @@
         "name": "Fredriksson, Grace"
       }
     ],
-    "ADVANCED BEGINNER /W 4:00": [
-      {
-        "position": 1,
-        "name": "Fredriksson, Grace"
-      }
-    ],
     "ADVANCED BEGINNER /W 6:30": [
       {
         "position": 1,
@@ -886,34 +872,30 @@
     "BEGINNER / M 6:30": [
       {
         "position": 1,
-        "name": "Sidle, Callie"
-      },
-      {
-        "position": 2,
         "name": "Kretzmann, Brynlee"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Berg, Georgie"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Olsem, Brooke"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Thayer, Ava"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Thayer, Evelyn"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "O'Loughlin, Ella"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "White, Emilia"
       }
     ],
@@ -2017,7 +1999,7 @@
     {
       "name": "BEGINNER / T 5:15",
       "classId": "3882",
-      "open_spots": 2
+      "open_spots": 1
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
@@ -2089,11 +2071,11 @@
       "enrolled": 5
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
-      "classId": "3866",
+      "name": "NINJA ZONE WHITE / M 6:30",
+      "classId": "3929",
       "open_spots": 1,
-      "waiting": 9,
-      "enrolled": 11
+      "waiting": 8,
+      "enrolled": 6
     }
   ],
   "camps_with_openings": [
@@ -2104,5 +2086,11 @@
       "priority": true
     }
   ],
-  "camps_with_waitlist": []
+  "camps_with_waitlist": [
+    {
+      "name": "3/6 Dream Job Gymnastics Camp FULL DAY 8:30am - 4:00pm",
+      "waitlist": 1,
+      "enrolled": 13
+    }
+  ]
 }
