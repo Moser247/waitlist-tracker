@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-03T08:30:15.677268",
+  "last_updated": "2026-02-03T13:51:46.378778",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -400,38 +400,34 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
-        "name": "Kaliszewski, Brynley"
-      },
-      {
-        "position": 2,
         "name": "Harwood, Lucy"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Ortlip, Callen"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Schlesinger, Abigail"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Ackmann, Harrison"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Bloomer, Mackenzie"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Wickesberg, Harper"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Christel , Oliver"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Loge, Ingrid"
       }
     ],
@@ -1452,38 +1448,34 @@
       },
       {
         "position": 3,
-        "name": "Hanson, Ada"
-      },
-      {
-        "position": 4,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Bast, Ellie"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Meehan, Simone"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Quinn, Zoey"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Santi, Mila"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Champion, Zoe"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Amundson, Raelyn"
       }
     ],
@@ -1947,11 +1939,6 @@
       "open_spots": 1
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 10:15",
-      "classId": "3871",
-      "open_spots": 1
-    },
-    {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 9:15",
       "classId": "3870",
       "open_spots": 1
@@ -1995,11 +1982,6 @@
       "name": "BEGINNER / F 5:15",
       "classId": "3886",
       "open_spots": 2
-    },
-    {
-      "name": "BEGINNER / T 5:15",
-      "classId": "3882",
-      "open_spots": 1
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
@@ -2049,7 +2031,7 @@
     {
       "name": "MASTER / W 4:00",
       "classId": "3917",
-      "open_spots": 2
+      "open_spots": 1
     },
     {
       "name": "NINJA ZONE GREEN / TH 5:15",
