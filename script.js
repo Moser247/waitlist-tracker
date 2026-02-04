@@ -251,6 +251,9 @@ async function loadData() {
         // Populate class filter dropdown
         populateClassFilter();
 
+        // Load and display action data (classes needing attention)
+        await loadActionData();
+
         // Show summary
         showSummary();
 
