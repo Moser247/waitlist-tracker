@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-03T13:51:46.378778",
+  "last_updated": "2026-02-03T18:19:06.758952",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -429,6 +429,10 @@
       {
         "position": 8,
         "name": "Loge, Ingrid"
+      },
+      {
+        "position": 9,
+        "name": "Keegan, Mavis"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 6:15": [
@@ -720,30 +724,26 @@
       },
       {
         "position": 5,
-        "name": "Pribyl, Amaya"
-      },
-      {
-        "position": 6,
         "name": "Kinzie, Claire"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Christel , Eleanor"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Kallas, Piper"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Bateman, Olivia"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Koenen, Courtney"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Olson , Emerson"
       }
     ],
@@ -772,34 +772,22 @@
     "ADVANCED BEGINNER /TH 5:15": [
       {
         "position": 1,
-        "name": "Hubbard, Zoey"
-      },
-      {
-        "position": 2,
-        "name": "Pribyl, Amaya"
-      },
-      {
-        "position": 3,
-        "name": "Kiecker, Josie"
-      },
-      {
-        "position": 4,
         "name": "Bateman, Olivia"
       },
       {
-        "position": 5,
+        "position": 2,
         "name": "Friedenberg, Catherine (Kate)"
       },
       {
-        "position": 6,
+        "position": 3,
         "name": "Wille , Lainey"
       },
       {
-        "position": 7,
+        "position": 4,
         "name": "Fredriksson, Grace"
       },
       {
-        "position": 8,
+        "position": 5,
         "name": "Rock, Sienna"
       }
     ],
@@ -979,12 +967,10 @@
       {
         "position": 13,
         "name": "Buckland, Bella"
-      }
-    ],
-    "BOYS BEGINNER / T 5:15": [
+      },
       {
-        "position": 1,
-        "name": "Sturm, Magnus"
+        "position": 14,
+        "name": "White, Emilia"
       }
     ],
     "HOME SCHOOL / T 12:30": [
@@ -1170,18 +1156,14 @@
       },
       {
         "position": 6,
-        "name": "Haglund, Hazel"
-      },
-      {
-        "position": 7,
         "name": "AASER, HAANIYA"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Beauchamp, Maya"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Taffe, Emerson"
       }
     ],
@@ -2029,11 +2011,6 @@
       "open_spots": 3
     },
     {
-      "name": "MASTER / W 4:00",
-      "classId": "3917",
-      "open_spots": 1
-    },
-    {
       "name": "NINJA ZONE GREEN / TH 5:15",
       "classId": "3936",
       "open_spots": 4
@@ -2051,6 +2028,13 @@
       "open_spots": 1,
       "waiting": 7,
       "enrolled": 5
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
+      "classId": "3866",
+      "open_spots": 1,
+      "waiting": 9,
+      "enrolled": 11
     },
     {
       "name": "NINJA ZONE WHITE / M 6:30",
