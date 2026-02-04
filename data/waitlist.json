@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-04T08:28:28.668463",
+  "last_updated": "2026-02-04T13:58:59.784870",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -708,38 +708,34 @@
     "ADVANCED BEGINNER /T 5:15": [
       {
         "position": 1,
-        "name": "Hudson, Georgiana"
-      },
-      {
-        "position": 2,
         "name": "Corcoran , Blake"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Athayde, Brynn"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Kinzie, Claire"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Christel , Eleanor"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Kallas, Piper"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Bateman, Olivia"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Koenen, Courtney"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Olson , Emerson"
       }
     ],
@@ -1870,11 +1866,11 @@
     "REC TEAM PRACTICE/ S 12:30pm": [
       {
         "position": 1,
-        "name": "Shah, Pari"
+        "name": "Schroeder , Jessica"
       },
       {
         "position": 2,
-        "name": "Schroeder , Jessica"
+        "name": "Shah, Pari"
       },
       {
         "position": 3,
@@ -1925,7 +1921,7 @@
     {
       "name": "ADVANCED / T 6:30",
       "classId": "3912",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "ADVANCED / W 4:00",
@@ -1945,11 +1941,6 @@
     {
       "name": "ADVANCED BEGINNER /F 6:30",
       "classId": "3898",
-      "open_spots": 1
-    },
-    {
-      "name": "BEGINNER / F 4:00",
-      "classId": "3885",
       "open_spots": 1
     },
     {
@@ -1986,11 +1977,6 @@
       "name": "HOME SCHOOL / W 12:30",
       "classId": "3938",
       "open_spots": 2
-    },
-    {
-      "name": "INTERMEDIATE / F 4:00",
-      "classId": "3907",
-      "open_spots": 1
     },
     {
       "name": "INTERMEDIATE / F 6:30",
@@ -2034,9 +2020,22 @@
       "open_spots": 1,
       "waiting": 8,
       "enrolled": 6
+    },
+    {
+      "name": "REC TEAM PRACTICE/ S 12:30pm",
+      "classId": "3950",
+      "open_spots": 1,
+      "waiting": 4,
+      "enrolled": 9
     }
   ],
   "camps_with_openings": [
+    {
+      "name": "2/16 Under the Sea Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 1,
+      "waitlist": 0,
+      "priority": false
+    },
     {
       "name": "2/16 Under the Sea Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 1,
