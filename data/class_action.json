@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-31T09:31:37.199387",
+  "last_updated": "2026-02-04T16:49:02.409843",
   "immediate_action": [
     {
-      "name": "INTERMEDIATE / W 5:15",
-      "class_id": "3942",
-      "open_spots": 1,
-      "waiting": 12,
-      "active": 14,
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15",
+      "class_id": "3872",
+      "open_spots": 2,
+      "waiting": 9,
+      "active": 10,
       "max_students": 0,
       "has_hidden_opening": false
     },
@@ -20,47 +20,47 @@
       "has_hidden_opening": false
     },
     {
-      "name": "NINJA ZONE WHITE / S 10:15",
-      "class_id": "3933",
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 9:15",
+      "class_id": "3873",
       "open_spots": 1,
-      "waiting": 8,
+      "waiting": 7,
+      "active": 5,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "ADVANCED BEGINNER /TH 5:15",
+      "class_id": "3896",
+      "open_spots": 1,
+      "waiting": 5,
+      "active": 7,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "NINJA ZONE WHITE / F 6:30",
+      "class_id": "3932",
+      "open_spots": 1,
+      "waiting": 4,
       "active": 6,
       "max_students": 0,
       "has_hidden_opening": false
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 11:15",
-      "class_id": "3875",
+      "name": "REC TEAM PRACTICE/ S 12:30pm",
+      "class_id": "3950",
       "open_spots": 1,
-      "waiting": 3,
-      "active": 5,
+      "waiting": 4,
+      "active": 9,
       "max_students": 0,
       "has_hidden_opening": false
     },
     {
-      "name": "BEGINNER / TH 5:15",
-      "class_id": "3884",
+      "name": "HOME SCHOOL / T 12:30",
+      "class_id": "3937",
       "open_spots": 1,
       "waiting": 2,
-      "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 10:15",
-      "class_id": "3871",
-      "open_spots": 1,
-      "waiting": 1,
-      "active": 5,
-      "max_students": 6,
-      "has_hidden_opening": true
-    },
-    {
-      "name": "ADVANCED / W 4:00",
-      "class_id": "3943",
-      "open_spots": 1,
-      "waiting": 1,
-      "active": 7,
+      "active": 9,
       "max_students": 0,
       "has_hidden_opening": false
     }
