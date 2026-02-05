@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-04T16:49:02.409843",
+  "last_updated": "2026-02-05T14:20:35.327741",
   "immediate_action": [
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15",
@@ -20,38 +20,11 @@
       "has_hidden_opening": false
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 9:15",
-      "class_id": "3873",
-      "open_spots": 1,
-      "waiting": 7,
-      "active": 5,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
       "name": "ADVANCED BEGINNER /TH 5:15",
       "class_id": "3896",
       "open_spots": 1,
       "waiting": 5,
       "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
-      "name": "NINJA ZONE WHITE / F 6:30",
-      "class_id": "3932",
-      "open_spots": 1,
-      "waiting": 4,
-      "active": 6,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
-      "name": "REC TEAM PRACTICE/ S 12:30pm",
-      "class_id": "3950",
-      "open_spots": 1,
-      "waiting": 4,
-      "active": 9,
       "max_students": 0,
       "has_hidden_opening": false
     },
@@ -65,5 +38,5 @@
       "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 7
+  "total_action_needed": 4
 }
