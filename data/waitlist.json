@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-05T08:29:19.384452",
+  "last_updated": "2026-02-05T14:28:04.593192",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -54,31 +54,23 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 9:15": [
       {
         "position": 1,
-        "name": "Soldan, Samantha"
-      },
-      {
-        "position": 2,
-        "name": "Hoelscher, Henley"
-      },
-      {
-        "position": 3,
-        "name": "Williams, Isabella"
-      },
-      {
-        "position": 4,
         "name": "Stoneburner, Harrison"
       },
       {
-        "position": 5,
+        "position": 2,
         "name": "Howells, Andi"
       },
       {
-        "position": 6,
+        "position": 3,
         "name": "Redmond, Isla"
       },
       {
-        "position": 7,
+        "position": 4,
         "name": "Gruenhagen , Georgie"
+      },
+      {
+        "position": 5,
+        "name": "Hoelscher, Henley"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 10:15": [
@@ -1133,6 +1125,10 @@
       {
         "position": 8,
         "name": "Taffe, Emerson"
+      },
+      {
+        "position": 9,
+        "name": "Doll, Leni"
       }
     ],
     "INTERMEDIATE / T 6:30": [
@@ -1544,18 +1540,14 @@
     "NINJA ZONE WHITE / F 6:30": [
       {
         "position": 1,
-        "name": "Cabalka, Finn"
-      },
-      {
-        "position": 2,
         "name": "Olson, Michael"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Janzen, Micah"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Mahrer, Remy"
       }
     ],
@@ -1725,6 +1717,16 @@
       {
         "position": 1,
         "name": "Danelius, Garrett"
+      },
+      {
+        "position": 2,
+        "name": "Doll, George"
+      }
+    ],
+    "NINJA ZONE YELLOW / T 4:00": [
+      {
+        "position": 1,
+        "name": "Doll, George"
       }
     ],
     "NINJA ZONE YELLOW / W 6:30": [
@@ -1945,11 +1947,6 @@
       "open_spots": 1
     },
     {
-      "name": "BOYS BEGINNER / TH 6:30",
-      "classId": "3920",
-      "open_spots": 1
-    },
-    {
       "name": "HOME SCHOOL / TH 12:30",
       "classId": "3939",
       "open_spots": 1
@@ -1982,17 +1979,10 @@
     {
       "name": "NZ - LIL NINJA / F 10:15",
       "classId": "3925",
-      "open_spots": 1
+      "open_spots": 2
     }
   ],
   "action_needed": [
-    {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 9:15",
-      "classId": "3873",
-      "open_spots": 1,
-      "waiting": 7,
-      "enrolled": 5
-    },
     {
       "name": "NINJA ZONE WHITE / M 6:30",
       "classId": "3929",
