@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-04T18:28:39.925440",
+  "last_updated": "2026-02-05T08:29:19.384452",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1880,6 +1880,11 @@
       "open_spots": 1
     },
     {
+      "name": "2s - TALENTED 2s / W 6:15",
+      "classId": "3853",
+      "open_spots": 1
+    },
+    {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15",
       "classId": "3879",
       "open_spots": 1
@@ -1965,6 +1970,11 @@
       "open_spots": 3
     },
     {
+      "name": "MASTER / W 4:00",
+      "classId": "3917",
+      "open_spots": 1
+    },
+    {
       "name": "NINJA ZONE GREEN / TH 5:15",
       "classId": "3936",
       "open_spots": 4
@@ -2001,7 +2011,7 @@
     {
       "name": "2/16 Under the Sea Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 1,
-      "waitlist": 3,
+      "waitlist": 2,
       "priority": true
     }
   ],
