@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-04T13:58:59.784870",
+  "last_updated": "2026-02-04T18:28:39.925440",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -130,22 +130,18 @@
       },
       {
         "position": 2,
-        "name": "Harwood, Lucy"
-      },
-      {
-        "position": 3,
         "name": "Hoffman , Lyra"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Redmond, Isla"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Mahrer, Lincoln"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Loge, Ingrid"
       }
     ],
@@ -390,48 +386,40 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 9:15": [
       {
         "position": 1,
-        "name": "Halloran, Lillian"
-      },
-      {
-        "position": 2,
         "name": "Alm, Nora"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
-        "name": "Harwood, Lucy"
-      },
-      {
-        "position": 2,
         "name": "Ortlip, Callen"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Schlesinger, Abigail"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Ackmann, Harrison"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Bloomer, Mackenzie"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Wickesberg, Harper"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Christel , Oliver"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Loge, Ingrid"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Keegan, Mavis"
       }
     ],
@@ -458,30 +446,26 @@
       },
       {
         "position": 6,
-        "name": "Harwood, Lucy"
-      },
-      {
-        "position": 7,
         "name": "DeBoer, Theo"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Hewitt, India"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Hubler, Amelia"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Redmond, Isla"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Kenady, Liliana"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Loge, Ingrid"
       }
     ],
@@ -522,22 +506,18 @@
       },
       {
         "position": 6,
-        "name": "Harwood, Lucy"
-      },
-      {
-        "position": 7,
         "name": "Bloomer, Mackenzie"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Halloran, Lillian"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Fraser, Quinnlyn"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Loge, Ingrid"
       }
     ],
@@ -1866,18 +1846,14 @@
     "REC TEAM PRACTICE/ S 12:30pm": [
       {
         "position": 1,
-        "name": "Schroeder , Jessica"
-      },
-      {
-        "position": 2,
         "name": "Shah, Pari"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Spronk, Vivian"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "McShane, Valerie"
       }
     ]
@@ -2008,25 +1984,11 @@
       "enrolled": 5
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
-      "classId": "3866",
-      "open_spots": 1,
-      "waiting": 9,
-      "enrolled": 11
-    },
-    {
       "name": "NINJA ZONE WHITE / M 6:30",
       "classId": "3929",
       "open_spots": 1,
       "waiting": 8,
       "enrolled": 6
-    },
-    {
-      "name": "REC TEAM PRACTICE/ S 12:30pm",
-      "classId": "3950",
-      "open_spots": 1,
-      "waiting": 4,
-      "enrolled": 9
     }
   ],
   "camps_with_openings": [
