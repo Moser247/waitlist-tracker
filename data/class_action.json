@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-05T14:20:35.327741",
+  "last_updated": "2026-02-05T18:22:29.904539",
   "immediate_action": [
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15",
@@ -23,20 +23,11 @@
       "name": "ADVANCED BEGINNER /TH 5:15",
       "class_id": "3896",
       "open_spots": 1,
-      "waiting": 5,
+      "waiting": 6,
       "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
-      "name": "HOME SCHOOL / T 12:30",
-      "class_id": "3937",
-      "open_spots": 1,
-      "waiting": 2,
-      "active": 9,
       "max_students": 0,
       "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 4
+  "total_action_needed": 3
 }
