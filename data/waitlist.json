@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-05T20:25:07.611708",
+  "last_updated": "2026-02-06T08:30:20.445663",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1933,6 +1933,11 @@
       "open_spots": 1
     },
     {
+      "name": "BOYS BEGINNER / TH 6:30",
+      "classId": "3920",
+      "open_spots": 1
+    },
+    {
       "name": "HOME SCHOOL / W 12:30",
       "classId": "3938",
       "open_spots": 2
@@ -1964,6 +1969,13 @@
     }
   ],
   "action_needed": [
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15",
+      "classId": "3872",
+      "open_spots": 1,
+      "waiting": 9,
+      "enrolled": 11
+    },
     {
       "name": "NINJA ZONE WHITE / M 6:30",
       "classId": "3929",
