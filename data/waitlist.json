@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-06T18:20:04.061807",
+  "last_updated": "2026-02-06T19:26:01.772543",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -935,6 +935,12 @@
       {
         "position": 1,
         "name": "Sherman, Max (Maxwell)"
+      }
+    ],
+    "INTERMEDIATE / F 4:00": [
+      {
+        "position": 1,
+        "name": "Thomas, Eleanor"
       }
     ],
     "INTERMEDIATE / F 5:15": [
@@ -1990,9 +1996,259 @@
       "open_spots": 1,
       "waitlist": 0,
       "priority": false
+    },
+    {
+      "name": "2/16 Under the Sea Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 1,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 9,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "5/8 Spring Into Nature Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "5/8 Spring Into Nature Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 8,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "Friday Fun Days!",
+      "open_spots": 14,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/8-6/11 Carnival Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/8-6/11 Carnival Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 3,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/15-6/18 Color Explosion Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 2,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/15-6/18 Color Explosion Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 1,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/22-6/25 Fairy Tale Fantasy Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 1,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/29-7/2 Planet Earth Week Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 7,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/29-7/2 Planet Earth Week Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "6/29-7/2 Planet Earth Week Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 3,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/6-7/9 Mini Architects Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 1,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/6-7/9 Mini Architects Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/6-7/9 Mini Architects Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 7,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/13- 7/16 Treasure Hunters Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/13- 7/16 Treasure Hunters Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 3,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/13- 7/16 Treasure Hunters Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 3,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/20-7/23 Winter in July Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/20-7/23 Winter in July Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/20-7/23 Winter in July Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/27-7/30 Storybook Adventures Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 3,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/27-7/30 Storybook Adventures Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 8,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/27-7/30 Storybook Adventures Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "8/3-8/6 Beach Party Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 1,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "8/3-8/6 Beach Party Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "8/10-8/13 Weather Wonders Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 3,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "8/17-8/20 Mini Chefs Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "8/17-8/20 Mini Chefs Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 1,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
     }
   ],
   "camps_with_waitlist": [
+    {
+      "name": "8/24-8/27 Bubble Bonanza Camp FULL DAY 8:30am - 4:00 pm $420",
+      "waitlist": 15,
+      "enrolled": 12
+    },
+    {
+      "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 8:30am - 12:15 pm $240",
+      "waitlist": 3,
+      "enrolled": 3
+    },
     {
       "name": "2/16 Under the Sea Camp FULL DAY 8:30am - 4:00pm",
       "waitlist": 1,
@@ -2002,6 +2258,31 @@
       "name": "3/6 Dream Job Gymnastics Camp FULL DAY 8:30am - 4:00pm",
       "waitlist": 1,
       "enrolled": 13
+    },
+    {
+      "name": "6/8-6/11 Carnival Camp FULL DAY 8:30am - 4:00 pm $420",
+      "waitlist": 1,
+      "enrolled": 10
+    },
+    {
+      "name": "8/3-8/6 Beach Party Camp HALF DAY 8:30am - 12:15 pm $240",
+      "waitlist": 1,
+      "enrolled": 5
+    },
+    {
+      "name": "8/10-8/13 Weather Wonders Camp FULL DAY 8:30am - 4:00 pm $420",
+      "waitlist": 1,
+      "enrolled": 12
+    },
+    {
+      "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "waitlist": 1,
+      "enrolled": 3
+    },
+    {
+      "name": "8/31-9/3 Glow-in-the-Dark Camp FULL DAY 8:30am - 4:00 pm $420",
+      "waitlist": 1,
+      "enrolled": 10
     }
   ]
 }
