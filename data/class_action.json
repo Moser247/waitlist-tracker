@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-07T08:14:00.975649",
+  "last_updated": "2026-02-07T13:43:51.663365",
   "immediate_action": [
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15",
@@ -16,8 +16,8 @@
       "open_spots": 1,
       "waiting": 8,
       "active": 6,
-      "max_students": 0,
-      "has_hidden_opening": false
+      "max_students": 7,
+      "has_hidden_opening": true
     },
     {
       "name": "ADVANCED BEGINNER /TH 5:15",
