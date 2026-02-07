@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-06T19:26:01.772543",
+  "last_updated": "2026-02-07T08:24:16.089662",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1879,11 +1879,6 @@
       "open_spots": 1
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15",
-      "classId": "3879",
-      "open_spots": 1
-    },
-    {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 9:15",
       "classId": "3870",
       "open_spots": 1
@@ -1919,6 +1914,11 @@
       "open_spots": 1
     },
     {
+      "name": "BEGINNER / F 4:00",
+      "classId": "3885",
+      "open_spots": 1
+    },
+    {
       "name": "BEGINNER / F 5:15",
       "classId": "3886",
       "open_spots": 2
@@ -1926,12 +1926,12 @@
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
       "classId": "3922",
-      "open_spots": 3
+      "open_spots": 4
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
       "classId": "3921",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "BOYS BEGINNER / M 5:15",
@@ -1993,12 +1993,6 @@
   "camps_with_openings": [
     {
       "name": "2/16 Under the Sea Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 1,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "2/16 Under the Sea Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 1,
       "waitlist": 0,
       "priority": false
