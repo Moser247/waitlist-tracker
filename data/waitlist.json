@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-07T18:24:33.318480",
+  "last_updated": "2026-02-08T08:24:48.120096",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1919,7 +1919,7 @@
     {
       "name": "ADVANCED BEGINNER /F 6:30",
       "classId": "3898",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "BEGINNER / F 4:00",
@@ -1929,7 +1929,12 @@
     {
       "name": "BEGINNER / F 5:15",
       "classId": "3886",
-      "open_spots": 2
+      "open_spots": 1
+    },
+    {
+      "name": "BEGINNER / T 5:15",
+      "classId": "3882",
+      "open_spots": 1
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
@@ -2090,7 +2095,7 @@
     },
     {
       "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 5,
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
