@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-09T08:24:23.956811",
+  "last_updated": "2026-02-09T13:54:15.108655",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -200,18 +200,14 @@
       },
       {
         "position": 16,
-        "name": "Schlesinger, Abigail"
-      },
-      {
-        "position": 17,
         "name": "Ackmann, Harrison"
       },
       {
-        "position": 18,
+        "position": 17,
         "name": "leanger, Summer jo"
       },
       {
-        "position": 19,
+        "position": 18,
         "name": "Loge, Ingrid"
       }
     ],
@@ -266,18 +262,14 @@
       },
       {
         "position": 13,
-        "name": "Schlesinger, Abigail"
-      },
-      {
-        "position": 14,
         "name": "O'Loughlin, Raya"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Kenady, Liliana"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Loge, Ingrid"
       }
     ],
@@ -388,76 +380,68 @@
       },
       {
         "position": 2,
-        "name": "Schlesinger, Abigail"
-      },
-      {
-        "position": 3,
         "name": "Ackmann, Harrison"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Bloomer, Mackenzie"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Wickesberg, Harper"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Christel , Oliver"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Loge, Ingrid"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Keegan, Mavis"
+      },
+      {
+        "position": 8,
+        "name": "Carlson, Wren"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 6:15": [
       {
         "position": 1,
-        "name": "Carlson, Wren"
-      },
-      {
-        "position": 2,
         "name": "Kaliszewski, Brynley"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Amundson, Sunny"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Thompson, Lola"
       },
       {
-        "position": 5,
-        "name": "Fastag, Liliana"
-      },
-      {
-        "position": 6,
+        "position": 4,
         "name": "DeBoer, Theo"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Hewitt, India"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Hubler, Amelia"
       },
       {
-        "position": 9,
+        "position": 7,
         "name": "Redmond, Isla"
       },
       {
-        "position": 10,
+        "position": 8,
         "name": "Kenady, Liliana"
       },
       {
-        "position": 11,
+        "position": 9,
         "name": "Loge, Ingrid"
       }
     ],
@@ -469,47 +453,23 @@
       {
         "position": 2,
         "name": "Bichanich , Carter"
-      },
-      {
-        "position": 3,
-        "name": "Schlesinger, Abigail"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15": [
       {
         "position": 1,
-        "name": "Walker, Penny"
-      },
-      {
-        "position": 2,
-        "name": "Olson, Annika"
-      },
-      {
-        "position": 3,
-        "name": "Runions, Keiva"
-      },
-      {
-        "position": 4,
-        "name": "Thompson, Lola"
-      },
-      {
-        "position": 5,
-        "name": "Fastag, Liliana"
-      },
-      {
-        "position": 6,
         "name": "Bloomer, Mackenzie"
       },
       {
-        "position": 7,
+        "position": 2,
         "name": "Halloran, Lillian"
       },
       {
-        "position": 8,
+        "position": 3,
         "name": "Fraser, Quinnlyn"
       },
       {
-        "position": 9,
+        "position": 4,
         "name": "Loge, Ingrid"
       }
     ],
@@ -587,6 +547,10 @@
       {
         "position": 15,
         "name": "Stencel, Camden"
+      },
+      {
+        "position": 16,
+        "name": "Carlson, Wren"
       }
     ],
     "ADVANCED / F 6:30": [
@@ -1641,6 +1605,14 @@
       {
         "position": 8,
         "name": "Mahrer, Remy"
+      },
+      {
+        "position": 9,
+        "name": "Smith, Rhett"
+      },
+      {
+        "position": 10,
+        "name": "Walker, Theodore"
       }
     ],
     "NINJA ZONE WHITE / S 10:15": [
@@ -1693,6 +1665,14 @@
       {
         "position": 6,
         "name": "Smith, Rhett"
+      },
+      {
+        "position": 7,
+        "name": "Walker, Theodore"
+      },
+      {
+        "position": 8,
+        "name": "Hoffman, Wyatt"
       }
     ],
     "NINJA ZONE WHITE / TH 4:00": [
@@ -1984,20 +1964,21 @@
   ],
   "action_needed": [
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 6:15",
-      "classId": "3872",
+      "name": "INTERMEDIATE / TH 6:30",
+      "classId": "3906",
       "open_spots": 1,
-      "waiting": 9,
-      "enrolled": 11
+      "waiting": 18,
+      "enrolled": 7
+    },
+    {
+      "name": "NINJA ZONE WHITE / M 6:30",
+      "classId": "3929",
+      "open_spots": 1,
+      "waiting": 10,
+      "enrolled": 6
     }
   ],
   "camps_with_openings": [
-    {
-      "name": "2/16 Under the Sea Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 1,
-      "waitlist": 0,
-      "priority": false
-    },
     {
       "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
@@ -2138,7 +2119,7 @@
     },
     {
       "name": "7/13- 7/16 Treasure Hunters Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 4,
+      "open_spots": 3,
       "waitlist": 0,
       "priority": false
     },
@@ -2180,7 +2161,7 @@
     },
     {
       "name": "7/27-7/30 Storybook Adventures Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 8,
+      "open_spots": 7,
       "waitlist": 0,
       "priority": false
     },
@@ -2245,6 +2226,11 @@
       "enrolled": 3
     },
     {
+      "name": "8/10-8/13 Weather Wonders Camp FULL DAY 8:30am - 4:00 pm $420",
+      "waitlist": 2,
+      "enrolled": 12
+    },
+    {
       "name": "2/16 Under the Sea Camp FULL DAY 8:30am - 4:00pm",
       "waitlist": 1,
       "enrolled": 12
@@ -2258,16 +2244,6 @@
       "name": "6/8-6/11 Carnival Camp FULL DAY 8:30am - 4:00 pm $420",
       "waitlist": 1,
       "enrolled": 10
-    },
-    {
-      "name": "8/3-8/6 Beach Party Camp HALF DAY 8:30am - 12:15 pm $240",
-      "waitlist": 1,
-      "enrolled": 5
-    },
-    {
-      "name": "8/10-8/13 Weather Wonders Camp FULL DAY 8:30am - 4:00 pm $420",
-      "waitlist": 1,
-      "enrolled": 12
     },
     {
       "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 12:15 pm - 4:00pm - $240",
