@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-08T13:54:52.765966",
+  "last_updated": "2026-02-08T18:25:15.039745",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1879,11 +1879,6 @@
     {
       "name": "2s - TALENTED 2s / T 11:15",
       "classId": "3851",
-      "open_spots": 1
-    },
-    {
-      "name": "2s - TALENTED 2s / W 6:15",
-      "classId": "3853",
       "open_spots": 1
     },
     {
