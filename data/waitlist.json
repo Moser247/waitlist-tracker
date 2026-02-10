@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-09T13:54:15.108655",
+  "last_updated": "2026-02-09T18:23:59.601868",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -9,6 +9,10 @@
       {
         "position": 2,
         "name": "Redmond, June"
+      },
+      {
+        "position": 3,
+        "name": "Palmer, Evelyn"
       }
     ],
     "2s - TALENTED 2s / S 9:15": [
@@ -1513,6 +1517,10 @@
       {
         "position": 4,
         "name": "Rothstein , Garon"
+      },
+      {
+        "position": 5,
+        "name": "Trier, Fitz"
       }
     ],
     "NINJA ZONE WHITE / M 4:00": [
@@ -1639,6 +1647,10 @@
       {
         "position": 6,
         "name": "Mahrer, Remy"
+      },
+      {
+        "position": 7,
+        "name": "Trier, Fitz"
       }
     ],
     "NINJA ZONE WHITE / T 6:30": [
@@ -1691,6 +1703,10 @@
       {
         "position": 4,
         "name": "King, Teddy"
+      },
+      {
+        "position": 5,
+        "name": "Trier, Fitz"
       }
     ],
     "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00": [
@@ -2192,12 +2208,6 @@
     {
       "name": "8/17-8/20 Mini Chefs Camp HALF DAY 12:15 pm - 4:00pm - $240",
       "open_spots": 4,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "8/17-8/20 Mini Chefs Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 1,
       "waitlist": 0,
       "priority": false
     },
