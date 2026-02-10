@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-09T18:23:59.601868",
+  "last_updated": "2026-02-10T08:23:39.758714",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1681,10 +1681,6 @@
       {
         "position": 7,
         "name": "Walker, Theodore"
-      },
-      {
-        "position": 8,
-        "name": "Hoffman, Wyatt"
       }
     ],
     "NINJA ZONE WHITE / TH 4:00": [
@@ -1923,11 +1919,6 @@
       "open_spots": 1
     },
     {
-      "name": "BEGINNER / T 5:15",
-      "classId": "3882",
-      "open_spots": 1
-    },
-    {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
       "classId": "3922",
       "open_spots": 4
@@ -1940,11 +1931,6 @@
     {
       "name": "BOYS BEGINNER / M 5:15",
       "classId": "3918",
-      "open_spots": 1
-    },
-    {
-      "name": "BOYS BEGINNER / TH 6:30",
-      "classId": "3920",
       "open_spots": 1
     },
     {
@@ -1996,13 +1982,13 @@
   ],
   "camps_with_openings": [
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
       "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
       "priority": false
@@ -2038,14 +2024,14 @@
       "priority": false
     },
     {
-      "name": "5/8 Spring Into Nature Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 8,
+      "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 4,
+      "name": "5/8 Spring Into Nature Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 8,
       "waitlist": 0,
       "priority": false
     },
@@ -2159,7 +2145,7 @@
     },
     {
       "name": "7/20-7/23 Winter in July Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 5,
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
@@ -2254,6 +2240,11 @@
       "name": "6/8-6/11 Carnival Camp FULL DAY 8:30am - 4:00 pm $420",
       "waitlist": 1,
       "enrolled": 10
+    },
+    {
+      "name": "8/17-8/20 Mini Chefs Camp HALF DAY 8:30am - 12:15 pm $240",
+      "waitlist": 1,
+      "enrolled": 4
     },
     {
       "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 12:15 pm - 4:00pm - $240",
