@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-10T13:52:41.994237",
+  "last_updated": "2026-02-10T18:25:38.006873",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -897,6 +897,12 @@
       {
         "position": 13,
         "name": "Buckland, Bella"
+      }
+    ],
+    "BOYS BEGINNER / T 5:15": [
+      {
+        "position": 1,
+        "name": "Ertelt , Eli"
       }
     ],
     "HOME SCHOOL / T 12:30": [
@@ -2218,11 +2224,6 @@
     {
       "name": "8/10-8/13 Weather Wonders Camp FULL DAY 8:30am - 4:00 pm $420",
       "waitlist": 2,
-      "enrolled": 12
-    },
-    {
-      "name": "2/16 Under the Sea Camp FULL DAY 8:30am - 4:00pm",
-      "waitlist": 1,
       "enrolled": 12
     },
     {
