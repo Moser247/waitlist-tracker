@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11T08:24:30.541004",
+  "last_updated": "2026-02-11T13:51:41.212301",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -53,6 +53,10 @@
       {
         "position": 7,
         "name": "Redmond, June"
+      },
+      {
+        "position": 8,
+        "name": "Christiansen, Sage"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 9:15": [
@@ -369,12 +373,6 @@
       {
         "position": 23,
         "name": "Mahrer, Lincoln"
-      }
-    ],
-    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 9:15": [
-      {
-        "position": 1,
-        "name": "Alm, Nora"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
@@ -698,26 +696,22 @@
     "ADVANCED BEGINNER /TH 5:15": [
       {
         "position": 1,
-        "name": "Bateman, Olivia"
-      },
-      {
-        "position": 2,
         "name": "Friedenberg, Catherine (Kate)"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Wille , Lainey"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Fredriksson, Grace"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Rock, Sienna"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Holman, Aurora"
       }
     ],
@@ -1286,74 +1280,70 @@
     "INTERMEDIATE / TH 6:30": [
       {
         "position": 1,
-        "name": "Knight, Bayla"
-      },
-      {
-        "position": 2,
         "name": "Sexe, Addison"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Kurth, Sophia"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Danielson, Ella"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Danielson, Emmy"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Knight, Willa"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Hamilton, Sophia"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Newman, Valentina"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Baez, Avery"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 17,
+        "position": 16,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 18,
+        "position": 17,
         "name": "Brinda, Olivia"
       }
     ],
@@ -1590,42 +1580,38 @@
     "NINJA ZONE WHITE / M 6:30": [
       {
         "position": 1,
-        "name": "Kelm, Jacob"
-      },
-      {
-        "position": 2,
         "name": "Burnham, Harrison"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Janzen, Micah"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Olsem, Emmett"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Hawkinson, Leo"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Wood, Walter"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Wood, Lewis"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Mahrer, Remy"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Smith, Rhett"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Walker, Theodore"
       }
     ],
@@ -1915,6 +1901,11 @@
       "open_spots": 2
     },
     {
+      "name": "ADVANCED BEGINNER /W 4:00",
+      "classId": "3893",
+      "open_spots": 1
+    },
+    {
       "name": "BEGINNER / F 4:00",
       "classId": "3885",
       "open_spots": 1
@@ -1970,14 +1961,14 @@
       "name": "INTERMEDIATE / TH 6:30",
       "classId": "3906",
       "open_spots": 1,
-      "waiting": 18,
+      "waiting": 17,
       "enrolled": 7
     },
     {
       "name": "NINJA ZONE WHITE / M 6:30",
       "classId": "3929",
       "open_spots": 1,
-      "waiting": 10,
+      "waiting": 9,
       "enrolled": 6
     }
   ],
@@ -2214,6 +2205,11 @@
     {
       "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 8:30am - 12:15 pm $240",
       "waitlist": 3,
+      "enrolled": 3
+    },
+    {
+      "name": "2/16 Under the Sea Camp HALF DAY 12:15pm - 4:00pm",
+      "waitlist": 2,
       "enrolled": 3
     },
     {
