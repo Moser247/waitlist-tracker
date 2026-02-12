@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12T08:24:34.507265",
+  "last_updated": "2026-02-12T13:54:11.337615",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -682,36 +682,28 @@
       },
       {
         "position": 3,
-        "name": "Friedenberg, Catherine (Kate)"
-      },
-      {
-        "position": 4,
         "name": "Wille , Lainey"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Beimers, Charlotte"
       }
     ],
     "ADVANCED BEGINNER /TH 5:15": [
       {
         "position": 1,
-        "name": "Friedenberg, Catherine (Kate)"
-      },
-      {
-        "position": 2,
         "name": "Wille , Lainey"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Fredriksson, Grace"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Rock, Sienna"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Holman, Aurora"
       }
     ],
@@ -1350,42 +1342,30 @@
     "INTERMEDIATE / W 5:15": [
       {
         "position": 1,
-        "name": "Danielson, Emmy"
-      },
-      {
-        "position": 2,
-        "name": "Danielson, Ella"
-      },
-      {
-        "position": 3,
-        "name": "Lillehaug, Reese"
-      },
-      {
-        "position": 4,
         "name": "Bast, Ellie"
       },
       {
-        "position": 5,
+        "position": 2,
         "name": "Meehan, Simone"
       },
       {
-        "position": 6,
+        "position": 3,
         "name": "Quinn, Zoey"
       },
       {
-        "position": 7,
+        "position": 4,
         "name": "Santi, Mila"
       },
       {
-        "position": 8,
+        "position": 5,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 9,
+        "position": 6,
         "name": "Champion, Zoe"
       },
       {
-        "position": 10,
+        "position": 7,
         "name": "Amundson, Raelyn"
       }
     ],
@@ -1517,6 +1497,10 @@
       {
         "position": 5,
         "name": "Trier, Fitz"
+      },
+      {
+        "position": 6,
+        "name": "Burke, Jameson"
       }
     ],
     "NINJA ZONE WHITE / M 4:00": [
@@ -1731,6 +1715,10 @@
       {
         "position": 3,
         "name": "Mahrer, Lincoln"
+      },
+      {
+        "position": 4,
+        "name": "Burke, Theodore"
       }
     ],
     "NZ - LIL NINJA / M 5:15": [
@@ -1888,7 +1876,7 @@
     {
       "name": "ADVANCED / W 5:15",
       "classId": "3913",
-      "open_spots": 3
+      "open_spots": 2
     },
     {
       "name": "ADVANCED BEGINNER / S 11:30",
@@ -1898,7 +1886,7 @@
     {
       "name": "ADVANCED BEGINNER /F 6:30",
       "classId": "3898",
-      "open_spots": 2
+      "open_spots": 1
     },
     {
       "name": "BEGINNER / F 4:00",
@@ -1929,11 +1917,6 @@
       "name": "INTERMEDIATE / F 6:30",
       "classId": "3945",
       "open_spots": 1
-    },
-    {
-      "name": "INTERMEDIATE / S 10:15",
-      "classId": "3956",
-      "open_spots": 3
     },
     {
       "name": "MASTER / W 4:00",
@@ -1968,12 +1951,6 @@
     }
   ],
   "camps_with_openings": [
-    {
-      "name": "2/16 Under the Sea Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 1,
-      "waitlist": 0,
-      "priority": false
-    },
     {
       "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
