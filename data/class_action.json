@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-02-11T13:41:26.859036",
+  "last_updated": "2026-02-11T18:14:39.864296",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / TH 6:30",
       "class_id": "3906",
       "open_spots": 1,
-      "waiting": 17,
+      "waiting": 16,
       "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
