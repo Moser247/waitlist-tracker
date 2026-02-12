@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11T13:51:41.212301",
+  "last_updated": "2026-02-11T18:24:58.191712",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -143,6 +143,10 @@
       {
         "position": 5,
         "name": "Loge, Ingrid"
+      },
+      {
+        "position": 6,
+        "name": "Stencel, Camden"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 5:15": [
@@ -492,66 +496,62 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 5:15": [
       {
         "position": 1,
-        "name": "Stencel, Josslyn"
-      },
-      {
-        "position": 2,
         "name": "House, Scarlett"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Sallstrom, Hadley"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Hewitt, India"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Hubler, Amelia"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Jensen, Nolan"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Armbrust, Caroline"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Stormoen , Charlotte"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Hegedus, Nora"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Olson, Annika"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Abbott, Lucia"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Erickson, Ardis"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Dunlay, Ellie"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Amundson, Sunny"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Stencel, Camden"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Carlson, Wren"
       }
     ],
@@ -891,6 +891,10 @@
       {
         "position": 13,
         "name": "Buckland, Bella"
+      },
+      {
+        "position": 14,
+        "name": "Stencel, Josslyn"
       }
     ],
     "BOYS BEGINNER / T 5:15": [
@@ -1280,70 +1284,66 @@
     "INTERMEDIATE / TH 6:30": [
       {
         "position": 1,
-        "name": "Sexe, Addison"
-      },
-      {
-        "position": 2,
         "name": "Kurth, Sophia"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Danielson, Ella"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Danielson, Emmy"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Knight, Willa"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Hamilton, Sophia"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Newman, Valentina"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Baez, Avery"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 17,
+        "position": 16,
         "name": "Brinda, Olivia"
       }
     ],
@@ -1848,7 +1848,7 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 4
+      "open_spots": 3
     },
     {
       "name": "2s - TALENTED 2s / M 9:15",
@@ -1961,7 +1961,7 @@
       "name": "INTERMEDIATE / TH 6:30",
       "classId": "3906",
       "open_spots": 1,
-      "waiting": 17,
+      "waiting": 16,
       "enrolled": 7
     },
     {
@@ -1973,6 +1973,12 @@
     }
   ],
   "camps_with_openings": [
+    {
+      "name": "2/16 Under the Sea Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 1,
+      "waitlist": 0,
+      "priority": false
+    },
     {
       "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
       "open_spots": 5,
@@ -2205,11 +2211,6 @@
     {
       "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 8:30am - 12:15 pm $240",
       "waitlist": 3,
-      "enrolled": 3
-    },
-    {
-      "name": "2/16 Under the Sea Camp HALF DAY 12:15pm - 4:00pm",
-      "waitlist": 2,
       "enrolled": 3
     },
     {
