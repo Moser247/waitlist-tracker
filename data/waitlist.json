@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11T18:24:58.191712",
+  "last_updated": "2026-02-12T08:24:34.507265",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1901,11 +1901,6 @@
       "open_spots": 2
     },
     {
-      "name": "ADVANCED BEGINNER /W 4:00",
-      "classId": "3893",
-      "open_spots": 1
-    },
-    {
       "name": "BEGINNER / F 4:00",
       "classId": "3885",
       "open_spots": 1
@@ -1943,7 +1938,7 @@
     {
       "name": "MASTER / W 4:00",
       "classId": "3917",
-      "open_spots": 1
+      "open_spots": 2
     },
     {
       "name": "NINJA ZONE GREEN / TH 5:15",
@@ -1980,12 +1975,6 @@
       "priority": false
     },
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
       "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
@@ -1993,6 +1982,12 @@
     },
     {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
       "open_spots": 5,
       "waitlist": 0,
       "priority": false
@@ -2022,14 +2017,14 @@
       "priority": false
     },
     {
-      "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 4,
+      "name": "5/8 Spring Into Nature Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 8,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "5/8 Spring Into Nature Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 8,
+      "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
