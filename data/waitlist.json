@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T08:23:43.434121",
+  "last_updated": "2026-02-13T13:54:07.390666",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -555,12 +555,6 @@
         "name": "Carlson, Wren"
       }
     ],
-    "ADVANCED / F 6:30": [
-      {
-        "position": 1,
-        "name": "Armenta, Olivia"
-      }
-    ],
     "ADVANCED / M 6:30": [
       {
         "position": 1,
@@ -576,10 +570,6 @@
       },
       {
         "position": 4,
-        "name": "Armenta, Olivia"
-      },
-      {
-        "position": 5,
         "name": "Jaster, Evelyn"
       }
     ],
@@ -692,14 +682,10 @@
       },
       {
         "position": 2,
-        "name": "Fredriksson, Grace"
-      },
-      {
-        "position": 3,
         "name": "Rock, Sienna"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Holman, Aurora"
       }
     ],
@@ -1268,66 +1254,62 @@
     "INTERMEDIATE / TH 6:30": [
       {
         "position": 1,
-        "name": "Kurth, Sophia"
-      },
-      {
-        "position": 2,
         "name": "Danielson, Ella"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Danielson, Emmy"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Knight, Willa"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Hamilton, Sophia"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Newman, Valentina"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Baez, Avery"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Brinda, Olivia"
       }
     ],
@@ -1556,38 +1538,34 @@
     "NINJA ZONE WHITE / M 6:30": [
       {
         "position": 1,
-        "name": "Burnham, Harrison"
-      },
-      {
-        "position": 2,
         "name": "Janzen, Micah"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Olsem, Emmett"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Hawkinson, Leo"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Wood, Walter"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Wood, Lewis"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Mahrer, Remy"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Smith, Rhett"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Walker, Theodore"
       }
     ],
@@ -1936,7 +1914,7 @@
     {
       "name": "NZ - LIL NINJA / F 10:15",
       "classId": "3925",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1975,14 +1953,14 @@
       "name": "INTERMEDIATE / TH 6:30",
       "classId": "3906",
       "open_spots": 1,
-      "waiting": 16,
+      "waiting": 15,
       "enrolled": 7
     },
     {
       "name": "NINJA ZONE WHITE / M 6:30",
       "classId": "3929",
       "open_spots": 1,
-      "waiting": 9,
+      "waiting": 8,
       "enrolled": 6
     }
   ],
