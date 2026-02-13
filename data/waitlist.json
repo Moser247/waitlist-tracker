@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12T18:40:05.540978",
+  "last_updated": "2026-02-13T08:23:43.434121",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -830,58 +830,54 @@
     "BEGINNER / W 5:15": [
       {
         "position": 1,
-        "name": "aaser, safiyya"
-      },
-      {
-        "position": 2,
         "name": "Kreatz, Hazel"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Elenkiwich, Matilda"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Harker, Annelise"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Ferezy, Louise"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Jepson, Cora"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Berding, Monroe"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Snell, Nina"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Spalding , Lilliana"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Spalding , Scarlett"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Napravnik, Ava"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Olson, Lyla"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Buckland, Bella"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Stencel, Josslyn"
       }
     ],
@@ -1902,12 +1898,6 @@
       "month": "current"
     },
     {
-      "name": "BEGINNER / F 5:15",
-      "classId": "3886",
-      "open_spots": 1,
-      "month": "current"
-    },
-    {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
       "classId": "3922",
       "open_spots": 4,
@@ -1970,7 +1960,7 @@
     {
       "name": "BOYS BEGINNER / M 5:15",
       "classId": "3918",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "March"
     },
     {
@@ -1998,12 +1988,6 @@
   ],
   "camps_with_openings": [
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
@@ -2016,7 +2000,7 @@
       "priority": false
     },
     {
-      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
       "priority": false
@@ -2034,7 +2018,13 @@
       "priority": false
     },
     {
-      "name": "5/8 Spring Into Nature Camp HALF DAY 12:15pm - 4:00pm",
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
       "open_spots": 4,
       "waitlist": 0,
       "priority": false
@@ -2046,7 +2036,7 @@
       "priority": false
     },
     {
-      "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
+      "name": "5/8 Spring Into Nature Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 4,
       "waitlist": 0,
       "priority": false
