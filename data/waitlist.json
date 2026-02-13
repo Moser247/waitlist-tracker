@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12T13:54:11.337615",
+  "last_updated": "2026-02-12T18:02:12.885356",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -674,18 +674,14 @@
     "ADVANCED BEGINNER /TH 4:00": [
       {
         "position": 1,
-        "name": "Rife, Hailey"
-      },
-      {
-        "position": 2,
         "name": "Goodman, Ryla"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Wille , Lainey"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Beimers, Charlotte"
       }
     ],
@@ -1836,102 +1832,152 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 3
+      "open_spots": 3,
+      "month": "current"
     },
     {
       "name": "2s - TALENTED 2s / M 9:15",
       "classId": "3850",
-      "open_spots": 2
+      "open_spots": 2,
+      "month": "current"
     },
     {
       "name": "2s - TALENTED 2s / S 10:15",
       "classId": "3857",
-      "open_spots": 1
+      "open_spots": 1,
+      "month": "current"
     },
     {
       "name": "2s - TALENTED 2s / T 11:15",
       "classId": "3851",
-      "open_spots": 1
+      "open_spots": 1,
+      "month": "current"
     },
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 9:15",
       "classId": "3870",
-      "open_spots": 1
+      "open_spots": 1,
+      "month": "current"
     },
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 11:15",
       "classId": "3867",
-      "open_spots": 3
+      "open_spots": 3,
+      "month": "current"
     },
     {
       "name": "ADVANCED / T 6:30",
       "classId": "3912",
-      "open_spots": 2
+      "open_spots": 2,
+      "month": "current"
     },
     {
       "name": "ADVANCED / W 4:00",
       "classId": "3943",
-      "open_spots": 1
+      "open_spots": 1,
+      "month": "current"
     },
     {
       "name": "ADVANCED / W 5:15",
       "classId": "3913",
-      "open_spots": 2
+      "open_spots": 2,
+      "month": "current"
     },
     {
       "name": "ADVANCED BEGINNER / S 11:30",
       "classId": "3955",
-      "open_spots": 4
+      "open_spots": 4,
+      "month": "current"
     },
     {
       "name": "ADVANCED BEGINNER /F 6:30",
       "classId": "3898",
-      "open_spots": 1
+      "open_spots": 1,
+      "month": "current"
     },
     {
       "name": "BEGINNER / F 4:00",
       "classId": "3885",
-      "open_spots": 1
+      "open_spots": 1,
+      "month": "current"
     },
     {
       "name": "BEGINNER / F 5:15",
       "classId": "3886",
-      "open_spots": 1
+      "open_spots": 1,
+      "month": "current"
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / F 5:15",
       "classId": "3922",
-      "open_spots": 4
+      "open_spots": 4,
+      "month": "current"
     },
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
       "classId": "3921",
-      "open_spots": 2
+      "open_spots": 2,
+      "month": "current"
     },
     {
       "name": "HOME SCHOOL / W 12:30",
       "classId": "3938",
-      "open_spots": 2
+      "open_spots": 2,
+      "month": "current"
     },
     {
       "name": "INTERMEDIATE / F 6:30",
       "classId": "3945",
-      "open_spots": 1
+      "open_spots": 1,
+      "month": "current"
     },
     {
       "name": "MASTER / W 4:00",
       "classId": "3917",
-      "open_spots": 2
+      "open_spots": 2,
+      "month": "current"
     },
     {
       "name": "NINJA ZONE GREEN / TH 5:15",
       "classId": "3936",
-      "open_spots": 4
+      "open_spots": 4,
+      "month": "current"
     },
     {
       "name": "NZ - LIL NINJA / F 10:15",
       "classId": "3925",
-      "open_spots": 2
+      "open_spots": 2,
+      "month": "current"
+    },
+    {
+      "name": "2s - TALENTED 2s / W 6:15",
+      "classId": "3853",
+      "open_spots": 1,
+      "month": "March"
+    },
+    {
+      "name": "BEGINNER / T 5:15",
+      "classId": "3882",
+      "open_spots": 1,
+      "month": "March"
+    },
+    {
+      "name": "BEGINNER / W 6:30",
+      "classId": "3941",
+      "open_spots": 1,
+      "month": "March"
+    },
+    {
+      "name": "BOYS BEGINNER / M 5:15",
+      "classId": "3918",
+      "open_spots": 2,
+      "month": "March"
+    },
+    {
+      "name": "INTERMEDIATE / S 9:00",
+      "classId": "3909",
+      "open_spots": 1,
+      "month": "March"
     }
   ],
   "action_needed": [
@@ -2215,5 +2261,6 @@
       "waitlist": 1,
       "enrolled": 10
     }
-  ]
+  ],
+  "next_month_start_date": "March 2, 2026"
 }
