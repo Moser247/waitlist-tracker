@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-02-13T08:13:31.100875",
+  "last_updated": "2026-02-13T13:44:04.119473",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / TH 6:30",
       "class_id": "3906",
       "open_spots": 1,
-      "waiting": 16,
+      "waiting": 15,
       "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
@@ -14,7 +14,7 @@
       "name": "NINJA ZONE WHITE / M 6:30",
       "class_id": "3929",
       "open_spots": 1,
-      "waiting": 9,
+      "waiting": 8,
       "active": 6,
       "max_students": 0,
       "has_hidden_opening": false
@@ -23,7 +23,7 @@
       "name": "ADVANCED BEGINNER /TH 5:15",
       "class_id": "3896",
       "open_spots": 1,
-      "waiting": 4,
+      "waiting": 3,
       "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
