@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12T17:49:28.910561",
+  "last_updated": "2026-02-12T18:05:42.286389",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / TH 6:30",
@@ -29,15 +29,6 @@
       "has_hidden_opening": false
     },
     {
-      "name": "ADVANCED BEGINNER /TH 4:00",
-      "class_id": "3897",
-      "open_spots": 1,
-      "waiting": 4,
-      "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
       "name": "ADVANCED BEGINNER /TH 5:15",
       "class_id": "3896",
       "open_spots": 1,
@@ -47,5 +38,5 @@
       "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 5
+  "total_action_needed": 4
 }
