@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T13:54:07.390666",
+  "last_updated": "2026-02-13T18:23:39.191103",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1538,34 +1538,26 @@
     "NINJA ZONE WHITE / M 6:30": [
       {
         "position": 1,
-        "name": "Janzen, Micah"
-      },
-      {
-        "position": 2,
-        "name": "Olsem, Emmett"
-      },
-      {
-        "position": 3,
         "name": "Hawkinson, Leo"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Wood, Walter"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "Wood, Lewis"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Mahrer, Remy"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Smith, Rhett"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Walker, Theodore"
       }
     ],
@@ -1955,13 +1947,6 @@
       "open_spots": 1,
       "waiting": 15,
       "enrolled": 7
-    },
-    {
-      "name": "NINJA ZONE WHITE / M 6:30",
-      "classId": "3929",
-      "open_spots": 1,
-      "waiting": 8,
-      "enrolled": 6
     }
   ],
   "camps_with_openings": [
