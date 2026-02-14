@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T13:44:04.119473",
+  "last_updated": "2026-02-13T18:13:29.915393",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / TH 6:30",
@@ -11,11 +11,11 @@
       "has_hidden_opening": false
     },
     {
-      "name": "NINJA ZONE WHITE / M 6:30",
-      "class_id": "3929",
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15",
+      "class_id": "3877",
       "open_spots": 1,
-      "waiting": 8,
-      "active": 6,
+      "waiting": 6,
+      "active": 5,
       "max_students": 0,
       "has_hidden_opening": false
     },
