@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T08:23:50.023306",
+  "last_updated": "2026-02-14T13:54:00.350741",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1804,7 +1804,7 @@
     {
       "name": "2s - TALENTED 2s / M 9:15",
       "classId": "3850",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1916,12 +1916,6 @@
       "month": "March"
     },
     {
-      "name": "BEGINNER / T 5:15",
-      "classId": "3882",
-      "open_spots": 1,
-      "month": "March"
-    },
-    {
       "name": "BEGINNER / W 6:30",
       "classId": "3941",
       "open_spots": 1,
@@ -1930,6 +1924,12 @@
     {
       "name": "BOYS BEGINNER / M 5:15",
       "classId": "3918",
+      "open_spots": 1,
+      "month": "March"
+    },
+    {
+      "name": "BOYS BEGINNER / TH 6:30",
+      "classId": "3920",
       "open_spots": 1,
       "month": "March"
     },
