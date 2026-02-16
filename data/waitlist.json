@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T08:24:27.381886",
+  "last_updated": "2026-02-16T13:54:37.552795",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -126,26 +126,22 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15": [
       {
         "position": 1,
-        "name": "Carlson, Wren"
-      },
-      {
-        "position": 2,
         "name": "Hoffman , Lyra"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Redmond, Isla"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Mahrer, Lincoln"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Loge, Ingrid"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Stencel, Camden"
       }
     ],
@@ -379,6 +375,18 @@
         "name": "Mahrer, Lincoln"
       }
     ],
+    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15": [
+      {
+        "position": 1,
+        "name": "Kenady, Liliana"
+      }
+    ],
+    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 9:15": [
+      {
+        "position": 1,
+        "name": "Kenady, Liliana"
+      }
+    ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
@@ -477,6 +485,10 @@
       {
         "position": 4,
         "name": "Loge, Ingrid"
+      },
+      {
+        "position": 5,
+        "name": "Kenady, Liliana"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 4:15": [
@@ -678,14 +690,6 @@
     "ADVANCED BEGINNER /TH 5:15": [
       {
         "position": 1,
-        "name": "Wille , Lainey"
-      },
-      {
-        "position": 2,
-        "name": "Rock, Sienna"
-      },
-      {
-        "position": 3,
         "name": "Holman, Aurora"
       }
     ],
@@ -1254,62 +1258,58 @@
     "INTERMEDIATE / TH 6:30": [
       {
         "position": 1,
-        "name": "Danielson, Ella"
-      },
-      {
-        "position": 2,
         "name": "Danielson, Emmy"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Knight, Willa"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Hamilton, Sophia"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Newman, Valentina"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Baez, Avery"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Brinda, Olivia"
       }
     ],
@@ -1624,22 +1624,18 @@
     "NINJA ZONE WHITE / TH 4:00": [
       {
         "position": 1,
-        "name": "Moitz, Billy"
-      },
-      {
-        "position": 2,
         "name": "Jung, Owen"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Hawkinson, Leo"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "King, Teddy"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Trier, Fitz"
       }
     ],
@@ -1916,6 +1912,12 @@
       "month": "March"
     },
     {
+      "name": "BEGINNER / TH 5:15",
+      "classId": "3884",
+      "open_spots": 1,
+      "month": "March"
+    },
+    {
       "name": "BEGINNER / W 6:30",
       "classId": "3941",
       "open_spots": 1,
@@ -1945,11 +1947,17 @@
       "name": "INTERMEDIATE / TH 6:30",
       "classId": "3906",
       "open_spots": 1,
-      "waiting": 15,
+      "waiting": 14,
       "enrolled": 7
     }
   ],
   "camps_with_openings": [
+    {
+      "name": "2/16 Under the Sea Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 2,
+      "waitlist": 0,
+      "priority": false
+    },
     {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 5,
