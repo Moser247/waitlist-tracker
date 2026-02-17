@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T13:54:37.552795",
+  "last_updated": "2026-02-16T18:24:55.765821",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -18,10 +18,6 @@
     "2s - TALENTED 2s / S 9:15": [
       {
         "position": 1,
-        "name": "Zaragoza, Bennett"
-      },
-      {
-        "position": 2,
         "name": "Loken, Lucy"
       }
     ],
@@ -1004,38 +1000,34 @@
       },
       {
         "position": 9,
-        "name": "Knight, Willa"
-      },
-      {
-        "position": 10,
         "name": "Maciej, Evelyn"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Newman, Valentina"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Schultz, Nora"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Santi, Mila"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 17,
+        "position": 16,
         "name": "Knutson, Olivia"
       }
     ],
@@ -1258,58 +1250,50 @@
     "INTERMEDIATE / TH 6:30": [
       {
         "position": 1,
-        "name": "Danielson, Emmy"
-      },
-      {
-        "position": 2,
-        "name": "Knight, Willa"
-      },
-      {
-        "position": 3,
         "name": "Hamilton, Sophia"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Newman, Valentina"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "Baez, Avery"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 9,
+        "position": 7,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 10,
+        "position": 8,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 11,
+        "position": 9,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 12,
+        "position": 10,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 13,
+        "position": 11,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 14,
+        "position": 12,
         "name": "Brinda, Olivia"
       }
     ],
@@ -1842,7 +1826,7 @@
     {
       "name": "ADVANCED / W 5:15",
       "classId": "3913",
-      "open_spots": 3,
+      "open_spots": 2,
       "month": "current"
     },
     {
@@ -1947,7 +1931,7 @@
       "name": "INTERMEDIATE / TH 6:30",
       "classId": "3906",
       "open_spots": 1,
-      "waiting": 14,
+      "waiting": 12,
       "enrolled": 7
     }
   ],
