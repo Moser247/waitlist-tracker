@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T18:24:55.765821",
+  "last_updated": "2026-02-17T08:24:29.035090",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -574,10 +574,6 @@
       },
       {
         "position": 3,
-        "name": "Smith, Emily"
-      },
-      {
-        "position": 4,
         "name": "Jaster, Evelyn"
       }
     ],
@@ -1784,7 +1780,7 @@
     {
       "name": "2s - TALENTED 2s / M 9:15",
       "classId": "3850",
-      "open_spots": 1,
+      "open_spots": 2,
       "month": "current"
     },
     {
@@ -1937,12 +1933,6 @@
   ],
   "camps_with_openings": [
     {
-      "name": "2/16 Under the Sea Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 2,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
@@ -1979,6 +1969,12 @@
       "priority": false
     },
     {
+      "name": "5/8 Spring Into Nature Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
       "open_spots": 4,
       "waitlist": 0,
@@ -1987,12 +1983,6 @@
     {
       "name": "5/8 Spring Into Nature Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 8,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "5/8 Spring Into Nature Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
