@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-17T18:14:16.615930",
+  "last_updated": "2026-02-18T08:13:27.967472",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / M 5:15",
       "class_id": "3900",
-      "open_spots": 2,
-      "waiting": 16,
-      "active": 6,
+      "open_spots": 1,
+      "waiting": 15,
+      "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
     },
