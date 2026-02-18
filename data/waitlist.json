@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T13:51:54.009889",
+  "last_updated": "2026-02-17T18:24:22.754639",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -32,26 +32,22 @@
       },
       {
         "position": 3,
-        "name": "Anderson, Aria"
-      },
-      {
-        "position": 4,
         "name": "Solberg, Birdie"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Minger, Toren"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Minger, Talvi"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Redmond, June"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Christiansen, Sage"
       }
     ],
@@ -1504,14 +1500,10 @@
       },
       {
         "position": 12,
-        "name": "Moitz, Billy"
-      },
-      {
-        "position": 13,
         "name": "Belisle, Everett"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Johnson, Wesley"
       }
     ],
@@ -1617,6 +1609,10 @@
       {
         "position": 4,
         "name": "Trier, Fitz"
+      },
+      {
+        "position": 5,
+        "name": "Moitz, Teddy"
       }
     ],
     "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00": [
@@ -1626,12 +1622,6 @@
       },
       {
         "position": 2,
-        "name": "Doll, George"
-      }
-    ],
-    "NINJA ZONE YELLOW / T 4:00": [
-      {
-        "position": 1,
         "name": "Doll, George"
       }
     ],
@@ -1774,7 +1764,7 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 4,
+      "open_spots": 3,
       "month": "current"
     },
     {
@@ -1786,12 +1776,6 @@
     {
       "name": "2s - TALENTED 2s / S 10:15",
       "classId": "3857",
-      "open_spots": 1,
-      "month": "current"
-    },
-    {
-      "name": "2s - TALENTED 2s / T 11:15",
-      "classId": "3851",
       "open_spots": 1,
       "month": "current"
     },
@@ -1892,6 +1876,12 @@
       "month": "March"
     },
     {
+      "name": "ADVANCED / M 4:00",
+      "classId": "3910",
+      "open_spots": 1,
+      "month": "March"
+    },
+    {
       "name": "BEGINNER / TH 5:15",
       "classId": "3884",
       "open_spots": 1,
@@ -1900,7 +1890,7 @@
     {
       "name": "BEGINNER / W 6:30",
       "classId": "3941",
-      "open_spots": 1,
+      "open_spots": 2,
       "month": "March"
     },
     {
@@ -2138,7 +2128,7 @@
     },
     {
       "name": "8/17-8/20 Mini Chefs Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 4,
+      "open_spots": 1,
       "waitlist": 0,
       "priority": false
     },
@@ -2170,11 +2160,6 @@
       "name": "8/10-8/13 Weather Wonders Camp FULL DAY 8:30am - 4:00 pm $420",
       "waitlist": 2,
       "enrolled": 12
-    },
-    {
-      "name": "3/6 Dream Job Gymnastics Camp FULL DAY 8:30am - 4:00pm",
-      "waitlist": 1,
-      "enrolled": 13
     },
     {
       "name": "6/8-6/11 Carnival Camp FULL DAY 8:30am - 4:00 pm $420",
