@@ -1,30 +1,12 @@
 {
-  "last_updated": "2026-02-18T13:40:41.368151",
+  "last_updated": "2026-02-18T18:13:51.321647",
   "immediate_action": [
-    {
-      "name": "INTERMEDIATE / M 5:15",
-      "class_id": "3900",
-      "open_spots": 1,
-      "waiting": 14,
-      "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
     {
       "name": "INTERMEDIATE / TH 6:30",
       "class_id": "3906",
       "open_spots": 1,
-      "waiting": 11,
+      "waiting": 9,
       "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
-      "name": "NINJA ZONE WHITE / TH 4:00",
-      "class_id": "3931",
-      "open_spots": 1,
-      "waiting": 5,
-      "active": 6,
       "max_students": 0,
       "has_hidden_opening": false
     },
@@ -38,5 +20,5 @@
       "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 4
+  "total_action_needed": 2
 }
