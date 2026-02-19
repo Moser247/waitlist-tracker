@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T08:23:46.750144",
+  "last_updated": "2026-02-19T13:53:36.052922",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -849,6 +849,10 @@
       {
         "position": 1,
         "name": "Ertelt , Eli"
+      },
+      {
+        "position": 2,
+        "name": "Cabalka, Finn"
       }
     ],
     "HOME SCHOOL / T 12:30": [
@@ -1846,8 +1850,8 @@
       "month": "March"
     },
     {
-      "name": "INTERMEDIATE / S 9:00",
-      "classId": "3909",
+      "name": "INTERMEDIATE / S 10:15",
+      "classId": "3956",
       "open_spots": 1,
       "month": "March"
     },
