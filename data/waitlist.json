@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T13:50:35.176511",
+  "last_updated": "2026-02-18T18:23:45.904360",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -866,34 +866,30 @@
     "INTERMEDIATE / F 5:15": [
       {
         "position": 1,
-        "name": "Newman, Valentina"
-      },
-      {
-        "position": 2,
         "name": "Rub, Eleanor"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Vitense, Erin"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Santi, Mila"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Brinda, Olivia"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "McKindles, Cecelia"
       }
     ],
@@ -904,100 +900,84 @@
       },
       {
         "position": 2,
-        "name": "Joshi, Mihira"
-      },
-      {
-        "position": 3,
         "name": "Wacker, Catriona"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Peschman , Mackenzie"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Hoehne, Alexandra"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Stickney, Ellie"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Curb, Addison"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Coey, Evelyn"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Beauchamp, Maya"
       }
     ],
     "INTERMEDIATE / M 5:15": [
       {
         "position": 1,
-        "name": "Christensen , Noelle"
-      },
-      {
-        "position": 2,
-        "name": "Joshi, Mihira"
-      },
-      {
-        "position": 3,
         "name": "Knight, Bayla"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Kurth, Sophia"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "McShane, Taylor"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Schill, Nora"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Maciej, Evelyn"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 9,
-        "name": "Newman, Valentina"
-      },
-      {
-        "position": 10,
+        "position": 7,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 11,
+        "position": 8,
         "name": "Schultz, Nora"
       },
       {
-        "position": 12,
+        "position": 9,
         "name": "Santi, Mila"
       },
       {
-        "position": 13,
+        "position": 10,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 14,
+        "position": 11,
         "name": "Knutson, Olivia"
       }
     ],
@@ -1170,96 +1150,84 @@
       },
       {
         "position": 5,
-        "name": "Newman, Valentina"
-      },
-      {
-        "position": 6,
         "name": "Holland, Isla"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Paustenbach, Zoey"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Hanson, Ada"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Meehan, Simone"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Santi, Mila"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Seremet, Sadie"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Parker, Laila"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Bateman, Annabelle"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Toews, Isabelle"
       }
     ],
     "INTERMEDIATE / TH 6:30": [
       {
         "position": 1,
-        "name": "Newman, Valentina"
-      },
-      {
-        "position": 2,
-        "name": "Baez, Avery"
-      },
-      {
-        "position": 3,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 9,
+        "position": 7,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 10,
+        "position": 8,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 11,
+        "position": 9,
         "name": "Brinda, Olivia"
       }
     ],
@@ -1324,38 +1292,34 @@
       },
       {
         "position": 8,
-        "name": "Newman, Valentina"
-      },
-      {
-        "position": 9,
         "name": "Trible, Laila"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Savat, Clara"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Bucki, Aurora"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Quinn, Zoey"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Champion, Zoe"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Lieser, Lila"
       }
     ],
@@ -1570,22 +1534,18 @@
     "NINJA ZONE WHITE / TH 4:00": [
       {
         "position": 1,
-        "name": "Jung, Owen"
-      },
-      {
-        "position": 2,
         "name": "Hawkinson, Leo"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "King, Teddy"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Trier, Fitz"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Moitz, Teddy"
       }
     ],
@@ -1738,7 +1698,7 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 3,
+      "open_spots": 2,
       "month": "current"
     },
     {
@@ -1774,7 +1734,7 @@
     {
       "name": "ADVANCED / W 5:15",
       "classId": "3913",
-      "open_spots": 2,
+      "open_spots": 3,
       "month": "current"
     },
     {
@@ -1898,22 +1858,7 @@
       "month": "March"
     }
   ],
-  "action_needed": [
-    {
-      "name": "INTERMEDIATE / M 5:15",
-      "classId": "3900",
-      "open_spots": 1,
-      "waiting": 14,
-      "enrolled": 6
-    },
-    {
-      "name": "INTERMEDIATE / TH 6:30",
-      "classId": "3906",
-      "open_spots": 1,
-      "waiting": 11,
-      "enrolled": 7
-    }
-  ],
+  "action_needed": [],
   "camps_with_openings": [
     {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
