@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T18:23:45.904360",
+  "last_updated": "2026-02-19T08:23:46.750144",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1704,7 +1704,7 @@
     {
       "name": "2s - TALENTED 2s / M 9:15",
       "classId": "3850",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1782,7 +1782,7 @@
     {
       "name": "MASTER / W 4:00",
       "classId": "3917",
-      "open_spots": 1,
+      "open_spots": 2,
       "month": "current"
     },
     {
