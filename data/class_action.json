@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T08:13:55.270985",
+  "last_updated": "2026-02-19T13:43:44.025459",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / TH 6:30",
@@ -18,7 +18,25 @@
       "active": 5,
       "max_students": 0,
       "has_hidden_opening": false
+    },
+    {
+      "name": "BOYS BEGINNER / T 5:15",
+      "class_id": "3919",
+      "open_spots": 1,
+      "waiting": 2,
+      "active": 6,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15",
+      "class_id": "3879",
+      "open_spots": 1,
+      "waiting": 1,
+      "active": 11,
+      "max_students": 0,
+      "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 2
+  "total_action_needed": 4
 }
