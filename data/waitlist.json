@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-20T08:23:14.693381",
+  "last_updated": "2026-02-20T13:52:55.775494",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -112,18 +112,10 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15": [
       {
         "position": 1,
-        "name": "Redmond, Isla"
-      },
-      {
-        "position": 2,
-        "name": "Mahrer, Lincoln"
-      },
-      {
-        "position": 3,
         "name": "Loge, Ingrid"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Stencel, Camden"
       }
     ],
@@ -351,16 +343,6 @@
       {
         "position": 22,
         "name": "Cadwallader , Baker"
-      },
-      {
-        "position": 23,
-        "name": "Mahrer, Lincoln"
-      }
-    ],
-    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 11:15": [
-      {
-        "position": 1,
-        "name": "Kenady, Liliana"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 9:15": [
@@ -467,6 +449,10 @@
       {
         "position": 5,
         "name": "Kenady, Liliana"
+      },
+      {
+        "position": 6,
+        "name": "Bartell, Madison"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 4:15": [
@@ -616,26 +602,22 @@
     "ADVANCED BEGINNER /T 5:15": [
       {
         "position": 1,
-        "name": "Kinzie, Claire"
-      },
-      {
-        "position": 2,
         "name": "Christel , Eleanor"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Kallas, Piper"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Bateman, Olivia"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Koenen, Courtney"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Olson , Emerson"
       }
     ],
@@ -847,6 +829,12 @@
       {
         "position": 1,
         "name": "Sherman, Max (Maxwell)"
+      }
+    ],
+    "HOME SCHOOL / TH 12:30": [
+      {
+        "position": 1,
+        "name": "Patz, Lionel"
       }
     ],
     "INTERMEDIATE / F 4:00": [
@@ -1184,38 +1172,34 @@
     "INTERMEDIATE / TH 6:30": [
       {
         "position": 1,
-        "name": "Nolan, Zoey"
-      },
-      {
-        "position": 2,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Brinda, Olivia"
       }
     ],
@@ -1568,10 +1552,6 @@
       },
       {
         "position": 3,
-        "name": "Mahrer, Lincoln"
-      },
-      {
-        "position": 4,
         "name": "Burke, Theodore"
       }
     ],
@@ -1665,10 +1645,6 @@
       {
         "position": 15,
         "name": "Smith, Otto"
-      },
-      {
-        "position": 16,
-        "name": "Mahrer, Lincoln"
       }
     ],
     "REC TEAM PRACTICE/ S 12:30pm": [
@@ -1804,7 +1780,7 @@
     {
       "name": "2s - TALENTED 2s / W 6:15",
       "classId": "3853",
-      "open_spots": 1,
+      "open_spots": 2,
       "month": "March"
     },
     {
