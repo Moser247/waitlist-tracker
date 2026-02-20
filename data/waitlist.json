@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T13:53:36.052922",
+  "last_updated": "2026-02-19T18:24:23.770917",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -616,34 +616,26 @@
     "ADVANCED BEGINNER /T 5:15": [
       {
         "position": 1,
-        "name": "Corcoran , Blake"
-      },
-      {
-        "position": 2,
-        "name": "Athayde, Brynn"
-      },
-      {
-        "position": 3,
         "name": "Kinzie, Claire"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Christel , Eleanor"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "Kallas, Piper"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Bateman, Olivia"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Koenen, Courtney"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Olson , Emerson"
       }
     ],
@@ -848,10 +840,6 @@
     "BOYS BEGINNER / T 5:15": [
       {
         "position": 1,
-        "name": "Ertelt , Eli"
-      },
-      {
-        "position": 2,
         "name": "Cabalka, Finn"
       }
     ],
@@ -1058,18 +1046,14 @@
       },
       {
         "position": 9,
-        "name": "Cannizzaro, Madeline"
-      },
-      {
-        "position": 10,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Brinda, Olivia"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Taffe, Emerson"
       }
     ],
@@ -1864,6 +1848,12 @@
   ],
   "action_needed": [],
   "camps_with_openings": [
+    {
+      "name": "3/6 Dream Job Gymnastics Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 1,
+      "waitlist": 1,
+      "priority": true
+    },
     {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 5,
