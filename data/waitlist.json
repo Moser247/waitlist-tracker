@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T18:24:23.770917",
+  "last_updated": "2026-02-20T08:23:14.693381",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1247,6 +1247,10 @@
       {
         "position": 7,
         "name": "Amundson, Raelyn"
+      },
+      {
+        "position": 8,
+        "name": "Taffe, Emerson"
       }
     ],
     "INTERMEDIATE / W 6:30": [
@@ -1855,6 +1859,12 @@
       "priority": true
     },
     {
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
@@ -1867,14 +1877,8 @@
       "priority": false
     },
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
@@ -1885,8 +1889,8 @@
       "priority": false
     },
     {
-      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
