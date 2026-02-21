@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-20T13:52:55.775494",
+  "last_updated": "2026-02-20T18:24:10.215201",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -633,6 +633,14 @@
       {
         "position": 3,
         "name": "Beimers, Charlotte"
+      },
+      {
+        "position": 4,
+        "name": "Hutchinson, Josephine"
+      },
+      {
+        "position": 5,
+        "name": "Hutchinson, Vivienne"
       }
     ],
     "ADVANCED BEGINNER /TH 5:15": [
@@ -657,6 +665,16 @@
       {
         "position": 4,
         "name": "Fredriksson, Grace"
+      }
+    ],
+    "ADVANCED BEGINNER /W 4:00": [
+      {
+        "position": 1,
+        "name": "Hutchinson, Josephine"
+      },
+      {
+        "position": 2,
+        "name": "Hutchinson, Vivienne"
       }
     ],
     "ADVANCED BEGINNER /W 6:30": [
@@ -748,6 +766,12 @@
       },
       {
         "position": 4,
+        "name": "Snell, Nina"
+      }
+    ],
+    "BEGINNER / TH 5:15": [
+      {
+        "position": 1,
         "name": "Snell, Nina"
       }
     ],
@@ -1344,26 +1368,22 @@
     "NINJA ZONE WHITE / F 6:30": [
       {
         "position": 1,
-        "name": "Olson, Michael"
-      },
-      {
-        "position": 2,
         "name": "Janzen, Micah"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Mahrer, Remy"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Rothstein , Garon"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Trier, Fitz"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Burke, Jameson"
       }
     ],
@@ -1394,30 +1414,26 @@
       },
       {
         "position": 7,
-        "name": "Cabalka, Finn"
-      },
-      {
-        "position": 8,
         "name": "Wood, Walter"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Wood, Lewis"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Faltesek, Alice"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Walsh, Kieran"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Belisle, Everett"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Johnson, Wesley"
       }
     ],
@@ -1450,30 +1466,26 @@
     "NINJA ZONE WHITE / S 10:15": [
       {
         "position": 1,
-        "name": "Cabalka, Finn"
-      },
-      {
-        "position": 2,
         "name": "Simmons, Aidan"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Rothstein , Garon"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Naughtin, Samuel"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Bradley , Maxwell"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Mahrer, Remy"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Trier, Fitz"
       }
     ],
@@ -1732,7 +1744,7 @@
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
       "classId": "3921",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1792,12 +1804,6 @@
     {
       "name": "BEGINNER / T 5:15",
       "classId": "3882",
-      "open_spots": 1,
-      "month": "March"
-    },
-    {
-      "name": "BEGINNER / TH 5:15",
-      "classId": "3884",
       "open_spots": 1,
       "month": "March"
     },
