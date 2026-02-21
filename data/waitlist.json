@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-20T18:24:10.215201",
+  "last_updated": "2026-02-21T08:23:37.375143",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1678,7 +1678,7 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 2,
+      "open_spots": 4,
       "month": "current"
     },
     {
@@ -1726,7 +1726,7 @@
     {
       "name": "ADVANCED BEGINNER /F 6:30",
       "classId": "3898",
-      "open_spots": 1,
+      "open_spots": 2,
       "month": "current"
     },
     {
@@ -1751,12 +1751,6 @@
       "name": "HOME SCHOOL / W 12:30",
       "classId": "3938",
       "open_spots": 2,
-      "month": "current"
-    },
-    {
-      "name": "INTERMEDIATE / F 6:30",
-      "classId": "3945",
-      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1820,6 +1814,12 @@
       "month": "March"
     },
     {
+      "name": "INTERMEDIATE / F 6:30",
+      "classId": "3945",
+      "open_spots": 2,
+      "month": "March"
+    },
+    {
       "name": "INTERMEDIATE / S 10:15",
       "classId": "3956",
       "open_spots": 1,
@@ -1859,6 +1859,12 @@
       "priority": false
     },
     {
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
@@ -1867,12 +1873,6 @@
     {
       "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 9,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
