@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T08:23:09.070258",
+  "last_updated": "2026-02-23T13:51:51.153152",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -52,38 +52,20 @@
       },
       {
         "position": 2,
-        "name": "Howells, Andi"
-      },
-      {
-        "position": 3,
         "name": "Redmond, Isla"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Gruenhagen , Georgie"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Hoelscher, Henley"
-      }
-    ],
-    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 10:15": [
-      {
-        "position": 1,
-        "name": "Stoneburner, Harrison"
-      },
-      {
-        "position": 2,
-        "name": "Howells, Andi"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 11:15": [
       {
         "position": 1,
-        "name": "Howells, Andi"
-      },
-      {
-        "position": 2,
         "name": "Redmond, Isla"
       }
     ],
@@ -112,10 +94,6 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15": [
       {
         "position": 1,
-        "name": "Loge, Ingrid"
-      },
-      {
-        "position": 2,
         "name": "Stencel, Camden"
       }
     ],
@@ -248,10 +226,6 @@
       },
       {
         "position": 14,
-        "name": "Kenady, Liliana"
-      },
-      {
-        "position": 15,
         "name": "Loge, Ingrid"
       }
     ],
@@ -345,39 +319,29 @@
         "name": "Cadwallader , Baker"
       }
     ],
-    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 9:15": [
-      {
-        "position": 1,
-        "name": "Kenady, Liliana"
-      }
-    ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
-        "name": "Ackmann, Harrison"
-      },
-      {
-        "position": 2,
         "name": "Bloomer, Mackenzie"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Wickesberg, Harper"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Christel , Oliver"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Loge, Ingrid"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Keegan, Mavis"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Carlson, Wren"
       }
     ],
@@ -412,10 +376,6 @@
       },
       {
         "position": 8,
-        "name": "Kenady, Liliana"
-      },
-      {
-        "position": 9,
         "name": "Loge, Ingrid"
       }
     ],
@@ -448,10 +408,6 @@
       },
       {
         "position": 5,
-        "name": "Kenady, Liliana"
-      },
-      {
-        "position": 6,
         "name": "Bartell, Madison"
       }
     ],
@@ -602,22 +558,18 @@
     "ADVANCED BEGINNER /T 5:15": [
       {
         "position": 1,
-        "name": "Christel , Eleanor"
-      },
-      {
-        "position": 2,
         "name": "Kallas, Piper"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Bateman, Olivia"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Koenen, Courtney"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Olson , Emerson"
       }
     ],
@@ -724,31 +676,31 @@
     "BEGINNER / M 6:30": [
       {
         "position": 1,
-        "name": "Kretzmann, Brynlee"
-      },
-      {
-        "position": 2,
         "name": "Berg, Georgie"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Olsem, Brooke"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Thayer, Ava"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Thayer, Evelyn"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "O'Loughlin, Ella"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "White, Emilia"
+      },
+      {
+        "position": 7,
+        "name": "Ferezy, Louise"
       }
     ],
     "BEGINNER / S 11:30": [
@@ -767,12 +719,26 @@
       {
         "position": 4,
         "name": "Snell, Nina"
+      },
+      {
+        "position": 5,
+        "name": "Ferezy, Louise"
+      }
+    ],
+    "BEGINNER / T 5:15": [
+      {
+        "position": 1,
+        "name": "Ferezy, Louise"
       }
     ],
     "BEGINNER / TH 5:15": [
       {
         "position": 1,
         "name": "Snell, Nina"
+      },
+      {
+        "position": 2,
+        "name": "Ferezy, Louise"
       }
     ],
     "BEGINNER / TH 6:30": [
@@ -1154,76 +1120,68 @@
       },
       {
         "position": 6,
-        "name": "Paustenbach, Zoey"
-      },
-      {
-        "position": 7,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Hanson, Ada"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Meehan, Simone"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Santi, Mila"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Seremet, Sadie"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Parker, Laila"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Bateman, Annabelle"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Toews, Isabelle"
       }
     ],
     "INTERMEDIATE / TH 6:30": [
       {
         "position": 1,
-        "name": "Johnson, Reagan"
-      },
-      {
-        "position": 2,
         "name": "Lillehaug, Reese"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Brinda, Olivia"
       }
     ],
@@ -1774,7 +1732,7 @@
     {
       "name": "2s - TALENTED 2s / S 10:15",
       "classId": "3857",
-      "open_spots": 1,
+      "open_spots": 2,
       "month": "March"
     },
     {
@@ -1792,12 +1750,6 @@
     {
       "name": "ADVANCED / M 4:00",
       "classId": "3910",
-      "open_spots": 1,
-      "month": "March"
-    },
-    {
-      "name": "BEGINNER / T 5:15",
-      "classId": "3882",
       "open_spots": 1,
       "month": "March"
     },
@@ -1822,6 +1774,12 @@
     {
       "name": "INTERMEDIATE / S 10:15",
       "classId": "3956",
+      "open_spots": 1,
+      "month": "March"
+    },
+    {
+      "name": "INTERMEDIATE / S 9:00",
+      "classId": "3909",
       "open_spots": 1,
       "month": "March"
     },
@@ -2033,12 +1991,6 @@
       "priority": false
     },
     {
-      "name": "8/17-8/20 Mini Chefs Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 1,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
       "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 12:15 pm - 4:00pm - $240",
       "open_spots": 4,
       "waitlist": 0,
@@ -2058,9 +2010,19 @@
       "enrolled": 12
     },
     {
+      "name": "8/17-8/20 Mini Chefs Camp FULL DAY 8:30am - 4:00 pm $420",
+      "waitlist": 11,
+      "enrolled": 12
+    },
+    {
       "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 8:30am - 12:15 pm $240",
       "waitlist": 3,
       "enrolled": 3
+    },
+    {
+      "name": "8/3-8/6 Beach Party Camp FULL DAY 8:30am - 4:00 pm $420",
+      "waitlist": 2,
+      "enrolled": 10
     },
     {
       "name": "8/10-8/13 Weather Wonders Camp FULL DAY 8:30am - 4:00 pm $420",
