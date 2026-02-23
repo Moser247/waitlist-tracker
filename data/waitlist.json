@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T18:23:16.132491",
+  "last_updated": "2026-02-23T08:23:09.070258",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1944,7 +1944,7 @@
     },
     {
       "name": "6/29-7/2 Planet Earth Week Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 7,
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
@@ -2017,12 +2017,6 @@
     {
       "name": "7/27-7/30 Storybook Adventures Camp HALF DAY 12:15 pm - 4:00pm - $240",
       "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "8/3-8/6 Beach Party Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 1,
       "waitlist": 0,
       "priority": false
     },
