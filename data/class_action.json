@@ -1,48 +1,57 @@
 {
-  "last_updated": "2026-02-23T08:13:05.064605",
+  "last_updated": "2026-02-23T13:41:57.082466",
   "immediate_action": [
     {
-      "name": "INTERMEDIATE / TH 6:30",
-      "class_id": "3906",
+      "name": "INTERMEDIATE / W 6:30",
+      "class_id": "3903",
       "open_spots": 1,
-      "waiting": 8,
+      "waiting": 15,
       "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
-      "class_id": "3866",
+      "name": "INTERMEDIATE / T 6:30",
+      "class_id": "3902",
+      "open_spots": 1,
+      "waiting": 11,
+      "active": 15,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "INTERMEDIATE / TH 6:30",
+      "class_id": "3906",
       "open_spots": 1,
       "waiting": 7,
-      "active": 11,
-      "max_students": 12,
-      "has_hidden_opening": true
+      "active": 7,
+      "max_students": 0,
+      "has_hidden_opening": false
     },
     {
       "name": "ADVANCED BEGINNER /T 5:15",
       "class_id": "3892",
       "open_spots": 1,
-      "waiting": 5,
+      "waiting": 4,
       "active": 6,
       "max_students": 0,
       "has_hidden_opening": false
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 10:15",
-      "class_id": "3874",
+      "name": "2s - TALENTED 2s / F 9:15",
+      "class_id": "3855",
       "open_spots": 1,
-      "waiting": 2,
-      "active": 5,
+      "waiting": 3,
+      "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15",
-      "class_id": "3877",
-      "open_spots": 1,
-      "waiting": 2,
-      "active": 5,
+      "name": "ADVANCED / M 6:30",
+      "class_id": "3911",
+      "open_spots": 2,
+      "waiting": 3,
+      "active": 6,
       "max_students": 0,
       "has_hidden_opening": false
     },
@@ -50,11 +59,29 @@
       "name": "BEGINNER / TH 5:15",
       "class_id": "3884",
       "open_spots": 1,
-      "waiting": 1,
+      "waiting": 2,
       "active": 7,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15",
+      "class_id": "3877",
+      "open_spots": 1,
+      "waiting": 1,
+      "active": 5,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "BEGINNER / T 5:15",
+      "class_id": "3882",
+      "open_spots": 1,
+      "waiting": 1,
+      "active": 14,
       "max_students": 0,
       "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 6
+  "total_action_needed": 9
 }
