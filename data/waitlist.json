@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T18:23:21.269278",
+  "last_updated": "2026-02-24T08:22:48.504877",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -799,6 +799,22 @@
       {
         "position": 1,
         "name": "Cabalka, Finn"
+      },
+      {
+        "position": 2,
+        "name": "Henry, Geralt"
+      }
+    ],
+    "BOYS BEGINNER / TH 6:30": [
+      {
+        "position": 1,
+        "name": "Henry, Geralt"
+      }
+    ],
+    "BOYS BEGINNER / W 4:00": [
+      {
+        "position": 1,
+        "name": "Henry, Geralt"
       }
     ],
     "HOME SCHOOL / T 12:30": [
@@ -1758,12 +1774,6 @@
       "month": "March"
     },
     {
-      "name": "INTERMEDIATE / S 9:00",
-      "classId": "3909",
-      "open_spots": 1,
-      "month": "March"
-    },
-    {
       "name": "NINJA ZONE YELLOW / T 4:00",
       "classId": "3934",
       "open_spots": 1,
@@ -1779,12 +1789,6 @@
       "priority": true
     },
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
@@ -1797,20 +1801,26 @@
       "priority": false
     },
     {
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
       "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
+      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 9,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 9,
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
