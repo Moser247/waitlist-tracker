@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T08:22:48.504877",
+  "last_updated": "2026-02-24T13:50:52.716312",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1981,6 +1981,12 @@
       "priority": false
     },
     {
+      "name": "8/10-8/13 Weather Wonders Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 1,
+      "waitlist": 2,
+      "priority": true
+    },
+    {
       "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 12:15 pm - 4:00pm - $240",
       "open_spots": 4,
       "waitlist": 0,
@@ -2013,11 +2019,6 @@
       "name": "8/3-8/6 Beach Party Camp FULL DAY 8:30am - 4:00 pm $420",
       "waitlist": 2,
       "enrolled": 10
-    },
-    {
-      "name": "8/10-8/13 Weather Wonders Camp FULL DAY 8:30am - 4:00 pm $420",
-      "waitlist": 2,
-      "enrolled": 12
     },
     {
       "name": "6/8-6/11 Carnival Camp FULL DAY 8:30am - 4:00 pm $420",
