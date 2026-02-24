@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T13:41:57.082466",
+  "last_updated": "2026-02-23T18:13:25.848265",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / W 6:30",
@@ -50,26 +50,8 @@
       "name": "ADVANCED / M 6:30",
       "class_id": "3911",
       "open_spots": 2,
-      "waiting": 3,
-      "active": 6,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
-      "name": "BEGINNER / TH 5:15",
-      "class_id": "3884",
-      "open_spots": 1,
       "waiting": 2,
-      "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15",
-      "class_id": "3877",
-      "open_spots": 1,
-      "waiting": 1,
-      "active": 5,
+      "active": 6,
       "max_students": 0,
       "has_hidden_opening": false
     },
@@ -83,5 +65,5 @@
       "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 9
+  "total_action_needed": 7
 }
