@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T18:13:25.848265",
+  "last_updated": "2026-02-24T08:12:51.032308",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / W 6:30",
@@ -16,6 +16,15 @@
       "open_spots": 1,
       "waiting": 11,
       "active": 15,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "ADVANCED BEGINNER /M 5:15",
+      "class_id": "3890",
+      "open_spots": 1,
+      "waiting": 7,
+      "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
     },
@@ -63,7 +72,16 @@
       "active": 14,
       "max_students": 0,
       "has_hidden_opening": false
+    },
+    {
+      "name": "BOYS BEGINNER / TH 6:30",
+      "class_id": "3920",
+      "open_spots": 1,
+      "waiting": 1,
+      "active": 6,
+      "max_students": 0,
+      "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 7
+  "total_action_needed": 9
 }
