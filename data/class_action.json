@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T08:12:21.417182",
+  "last_updated": "2026-02-25T13:43:00.178298",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / TH 4:00",
@@ -43,8 +43,8 @@
       "open_spots": 1,
       "waiting": 7,
       "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
+      "max_students": 8,
+      "has_hidden_opening": true
     },
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
@@ -56,40 +56,22 @@
       "has_hidden_opening": true
     },
     {
-      "name": "ADVANCED BEGINNER /T 5:15",
-      "class_id": "3892",
-      "open_spots": 1,
-      "waiting": 4,
-      "active": 6,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
       "name": "2s - TALENTED 2s / F 9:15",
       "class_id": "3855",
       "open_spots": 1,
-      "waiting": 3,
+      "waiting": 2,
       "active": 7,
       "max_students": 8,
       "has_hidden_opening": true
     },
     {
-      "name": "BEGINNER / T 5:15",
-      "class_id": "3882",
+      "name": "ADVANCED BEGINNER /T 5:15",
+      "class_id": "3892",
       "open_spots": 1,
       "waiting": 1,
-      "active": 14,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
-      "name": "BOYS BEGINNER / TH 6:30",
-      "class_id": "3920",
-      "open_spots": 1,
-      "waiting": 1,
-      "active": 6,
-      "max_students": 0,
-      "has_hidden_opening": false
+      "active": 7,
+      "max_students": 8,
+      "has_hidden_opening": true
     },
     {
       "name": "INTERMEDIATE / S 9:00",
@@ -101,5 +83,5 @@
       "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 11
+  "total_action_needed": 9
 }
