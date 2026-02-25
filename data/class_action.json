@@ -1,11 +1,20 @@
 {
-  "last_updated": "2026-02-24T13:40:41.948691",
+  "last_updated": "2026-02-24T18:13:14.620635",
   "immediate_action": [
+    {
+      "name": "INTERMEDIATE / TH 4:00",
+      "class_id": "3904",
+      "open_spots": 1,
+      "waiting": 15,
+      "active": 7,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
     {
       "name": "INTERMEDIATE / W 6:30",
       "class_id": "3903",
       "open_spots": 1,
-      "waiting": 15,
+      "waiting": 13,
       "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
@@ -14,7 +23,16 @@
       "name": "INTERMEDIATE / T 6:30",
       "class_id": "3902",
       "open_spots": 1,
-      "waiting": 11,
+      "waiting": 10,
+      "active": 15,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "INTERMEDIATE / W 5:15",
+      "class_id": "3942",
+      "open_spots": 1,
+      "waiting": 8,
       "active": 15,
       "max_students": 0,
       "has_hidden_opening": false
@@ -29,13 +47,13 @@
       "has_hidden_opening": false
     },
     {
-      "name": "INTERMEDIATE / TH 6:30",
-      "class_id": "3906",
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
+      "class_id": "3866",
       "open_spots": 1,
-      "waiting": 7,
-      "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
+      "waiting": 6,
+      "active": 11,
+      "max_students": 12,
+      "has_hidden_opening": true
     },
     {
       "name": "ADVANCED BEGINNER /T 5:15",
@@ -56,15 +74,6 @@
       "has_hidden_opening": true
     },
     {
-      "name": "ADVANCED / M 6:30",
-      "class_id": "3911",
-      "open_spots": 2,
-      "waiting": 2,
-      "active": 6,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
       "name": "BEGINNER / T 5:15",
       "class_id": "3882",
       "open_spots": 1,
@@ -81,7 +90,16 @@
       "active": 6,
       "max_students": 0,
       "has_hidden_opening": false
+    },
+    {
+      "name": "INTERMEDIATE / S 9:00",
+      "class_id": "3909",
+      "open_spots": 1,
+      "waiting": 1,
+      "active": 7,
+      "max_students": 0,
+      "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 9
+  "total_action_needed": 11
 }
