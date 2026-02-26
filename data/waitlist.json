@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T18:23:38.724304",
+  "last_updated": "2026-02-26T13:53:06.913395",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -320,26 +320,22 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
-        "name": "Bloomer, Mackenzie"
-      },
-      {
-        "position": 2,
         "name": "Wickesberg, Harper"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Christel , Oliver"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Loge, Ingrid"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Keegan, Mavis"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Carlson, Wren"
       }
     ],
@@ -966,100 +962,92 @@
     "INTERMEDIATE / T 6:30": [
       {
         "position": 1,
-        "name": "Meehan, Simone"
-      },
-      {
-        "position": 2,
         "name": "Quinn, Zoey"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Fitzpatrick, Nina"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Taffe, Emerson"
       }
     ],
     "INTERMEDIATE / TH 4:00": [
       {
         "position": 1,
-        "name": "Wacker, Catriona"
-      },
-      {
-        "position": 2,
         "name": "Christner, Mackenzie"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Dukerschein, Aleah"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "DeVries, Reagan"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Stickney, Ellie"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Morris, Ada"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Magnuson, Sophie"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Rife, Isabelle"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Meehan, Simone"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Curb, Addison"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Hoehne, Alexandra"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Welu, Nora"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Lieser, Lila"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Beauchamp, Maya"
       }
     ],
@@ -1634,7 +1622,7 @@
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
       "classId": "3921",
-      "open_spots": 1,
+      "open_spots": 2,
       "month": "current"
     },
     {
@@ -1676,7 +1664,7 @@
     {
       "name": "2s - TALENTED 2s / W 6:15",
       "classId": "3853",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "March"
     },
     {
@@ -1712,12 +1700,6 @@
     {
       "name": "INTERMEDIATE / S 10:15",
       "classId": "3956",
-      "open_spots": 1,
-      "month": "March"
-    },
-    {
-      "name": "NINJA ZONE YELLOW / T 4:00",
-      "classId": "3934",
       "open_spots": 1,
       "month": "March"
     }
@@ -1927,12 +1909,6 @@
       "open_spots": 3,
       "waitlist": 0,
       "priority": false
-    },
-    {
-      "name": "8/10-8/13 Weather Wonders Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 1,
-      "waitlist": 1,
-      "priority": true
     },
     {
       "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 12:15 pm - 4:00pm - $240",
