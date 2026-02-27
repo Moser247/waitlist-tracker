@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T18:23:26.086441",
+  "last_updated": "2026-02-27T08:23:07.874021",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1606,7 +1606,7 @@
     {
       "name": "ADVANCED BEGINNER /F 6:30",
       "classId": "3898",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1727,8 +1727,8 @@
       "priority": false
     },
     {
-      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 4,
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
@@ -1739,8 +1739,8 @@
       "priority": false
     },
     {
-      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
@@ -1767,12 +1767,6 @@
       "open_spots": 14,
       "waitlist": 0,
       "priority": false
-    },
-    {
-      "name": "6/8-6/11 Carnival Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 1,
-      "waitlist": 1,
-      "priority": true
     },
     {
       "name": "6/8-6/11 Carnival Camp HALF DAY 12:15 pm - 4:00pm - $240",
