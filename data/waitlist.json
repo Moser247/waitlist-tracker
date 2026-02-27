@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T08:23:07.874021",
+  "last_updated": "2026-02-27T13:52:35.673651",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -502,26 +502,22 @@
     "ADVANCED BEGINNER /M 5:15": [
       {
         "position": 1,
-        "name": "Kiecker, Josie"
-      },
-      {
-        "position": 2,
         "name": "Wille , Lainey"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Hubler, Nora"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Simmons, Jordyn"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Femling, Lennon"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Lideen, Mae"
       }
     ],
@@ -917,12 +913,6 @@
       {
         "position": 11,
         "name": "Knutson, Olivia"
-      }
-    ],
-    "INTERMEDIATE / S 9:00": [
-      {
-        "position": 1,
-        "name": "Schultz, Nora"
       }
     ],
     "INTERMEDIATE / T 4:00": [
@@ -1946,6 +1936,11 @@
       "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 8:30am - 12:15 pm $240",
       "waitlist": 3,
       "enrolled": 3
+    },
+    {
+      "name": "8/3-8/6 Beach Party Camp HALF DAY 8:30am - 12:15 pm $240",
+      "waitlist": 2,
+      "enrolled": 5
     },
     {
       "name": "8/17-8/20 Mini Chefs Camp HALF DAY 8:30am - 12:15 pm $240",
