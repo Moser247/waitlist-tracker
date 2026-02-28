@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T13:52:35.673651",
+  "last_updated": "2026-02-27T18:23:18.692962",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -106,66 +106,62 @@
       },
       {
         "position": 3,
-        "name": "Riedel, Mia"
-      },
-      {
-        "position": 4,
         "name": "Hubler, Amelia"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Hewitt, India"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Ruehl, Callie"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Walker, Penny"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Eddie, Dax"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Armbrust, Caroline"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Hegedus, Nora"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Dunlay, Ellie"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Amundson, Sunny"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Kaliszewski, Brynley"
       },
       {
-        "position": 14,
+        "position": 13,
         "name": "Niederman, Lara"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Harwood, Lucy"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Ackmann, Harrison"
       },
       {
-        "position": 17,
+        "position": 16,
         "name": "leanger, Summer jo"
       },
       {
-        "position": 18,
+        "position": 17,
         "name": "Loge, Ingrid"
       }
     ],
@@ -514,27 +510,23 @@
       },
       {
         "position": 4,
-        "name": "Femling, Lennon"
+        "name": "Lideen, Mae"
       },
       {
         "position": 5,
-        "name": "Lideen, Mae"
+        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /M 6:30": [
       {
         "position": 1,
-        "name": "Fredriksson, Grace"
-      },
-      {
-        "position": 2,
         "name": "Mattioli, Brooke"
       }
     ],
     "ADVANCED BEGINNER /T 5:15": [
       {
         "position": 1,
-        "name": "Mattioli, Brooke"
+        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /TH 4:00": [
@@ -581,10 +573,6 @@
       {
         "position": 3,
         "name": "Wille , Lainey"
-      },
-      {
-        "position": 4,
-        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /W 4:00": [
@@ -605,10 +593,6 @@
       {
         "position": 2,
         "name": "Gregg, Maren"
-      },
-      {
-        "position": 3,
-        "name": "Fredriksson, Grace"
       }
     ],
     "BEGINNER / ADVANCED BEGINNER (COMBO) / S 9:00": [
@@ -665,10 +649,6 @@
       {
         "position": 6,
         "name": "White, Emilia"
-      },
-      {
-        "position": 7,
-        "name": "Ferezy, Louise"
       }
     ],
     "BEGINNER / S 11:30": [
@@ -690,12 +670,6 @@
       },
       {
         "position": 5,
-        "name": "Ferezy, Louise"
-      }
-    ],
-    "BEGINNER / TH 5:15": [
-      {
-        "position": 1,
         "name": "Ferezy, Louise"
       }
     ],
@@ -728,42 +702,38 @@
       },
       {
         "position": 4,
-        "name": "Ferezy, Louise"
-      },
-      {
-        "position": 5,
         "name": "Jepson, Cora"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Berding, Monroe"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Spalding , Lilliana"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Spalding , Scarlett"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Napravnik, Ava"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Olson, Lyla"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Buckland, Bella"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "Stencel, Josslyn"
       },
       {
-        "position": 13,
+        "position": 12,
         "name": "Tunheim, Livvie"
       }
     ],
