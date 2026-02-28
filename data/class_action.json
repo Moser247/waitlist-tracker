@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T16:28:13.894969",
+  "last_updated": "2026-02-27T18:13:28.120759",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / W 6:30",
@@ -38,19 +38,19 @@
       "has_hidden_opening": true
     },
     {
-      "name": "ADVANCED BEGINNER /M 5:15",
-      "class_id": "3890",
-      "open_spots": 1,
-      "waiting": 5,
-      "active": 7,
-      "max_students": 8,
-      "has_hidden_opening": true
-    },
-    {
       "name": "BEGINNER / TH 6:30",
       "class_id": "3944",
       "open_spots": 1,
       "waiting": 3,
+      "active": 7,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "ADVANCED BEGINNER /M 6:30",
+      "class_id": "3891",
+      "open_spots": 1,
+      "waiting": 1,
       "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
@@ -63,16 +63,7 @@
       "active": 7,
       "max_students": 8,
       "has_hidden_opening": true
-    },
-    {
-      "name": "BEGINNER / TH 5:15",
-      "class_id": "3884",
-      "open_spots": 1,
-      "waiting": 1,
-      "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 8
+  "total_action_needed": 7
 }
