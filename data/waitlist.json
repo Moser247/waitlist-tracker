@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T08:22:30.427713",
+  "last_updated": "2026-03-02T13:51:31.296551",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -85,12 +85,6 @@
       {
         "position": 5,
         "name": "Reynolds, Macklan"
-      }
-    ],
-    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 1:00": [
-      {
-        "position": 1,
-        "name": "Bateman, Maverick"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 10:15": [
@@ -320,23 +314,23 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
-        "name": "Wickesberg, Harper"
-      },
-      {
-        "position": 2,
         "name": "Christel , Oliver"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Loge, Ingrid"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Keegan, Mavis"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Carlson, Wren"
+      },
+      {
+        "position": 5,
+        "name": "Burt, Brecklyn"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 6:15": [
@@ -519,12 +513,10 @@
       {
         "position": 5,
         "name": "Fredriksson, Grace"
-      }
-    ],
-    "ADVANCED BEGINNER /M 6:30": [
+      },
       {
-        "position": 1,
-        "name": "Mattioli, Brooke"
+        "position": 6,
+        "name": "Kiecker, Josie"
       }
     ],
     "ADVANCED BEGINNER /T 5:15": [
@@ -653,6 +645,10 @@
       {
         "position": 6,
         "name": "White, Emilia"
+      },
+      {
+        "position": 7,
+        "name": "Belisle, Evangeline"
       }
     ],
     "BEGINNER / S 11:30": [
@@ -930,38 +926,34 @@
     "INTERMEDIATE / T 6:30": [
       {
         "position": 1,
-        "name": "Quinn, Zoey"
-      },
-      {
-        "position": 2,
         "name": "Untiedt, Tessa"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Fitzpatrick, Nina"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Taffe, Emerson"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Savat, Clara"
       }
     ],
@@ -1017,6 +1009,10 @@
       {
         "position": 13,
         "name": "Beauchamp, Maya"
+      },
+      {
+        "position": 14,
+        "name": "Sailors, Madeline"
       }
     ],
     "INTERMEDIATE / TH 5:15": [
@@ -1094,72 +1090,56 @@
     "INTERMEDIATE / W 5:15": [
       {
         "position": 1,
-        "name": "Meehan, Simone"
-      },
-      {
-        "position": 2,
-        "name": "Quinn, Zoey"
-      },
-      {
-        "position": 3,
-        "name": "Santi, Mila"
-      },
-      {
-        "position": 4,
         "name": "Paszkiewicz, Devin"
       },
       {
-        "position": 5,
+        "position": 2,
         "name": "Champion, Zoe"
       },
       {
-        "position": 6,
+        "position": 3,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 7,
+        "position": 4,
         "name": "Taffe, Emerson"
       }
     ],
     "INTERMEDIATE / W 6:30": [
       {
         "position": 1,
-        "name": "Hamilton, Sophia"
-      },
-      {
-        "position": 2,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Trible, Laila"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Savat, Clara"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Bucki, Aurora"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Quinn, Zoey"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Champion, Zoe"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Lieser, Lila"
       }
     ],
@@ -1275,6 +1255,14 @@
       {
         "position": 12,
         "name": "Johnson, Wesley"
+      },
+      {
+        "position": 13,
+        "name": "Eidum, Easton"
+      },
+      {
+        "position": 14,
+        "name": "Adams, Walker"
       }
     ],
     "NINJA ZONE WHITE / M 6:30": [
@@ -1301,6 +1289,10 @@
       {
         "position": 6,
         "name": "Walker, Theodore"
+      },
+      {
+        "position": 7,
+        "name": "Eidum, Easton"
       }
     ],
     "NINJA ZONE WHITE / S 10:15": [
@@ -1379,6 +1371,10 @@
       {
         "position": 4,
         "name": "Moitz, Teddy"
+      },
+      {
+        "position": 5,
+        "name": "Eidum, Easton"
       }
     ],
     "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00": [
@@ -1522,7 +1518,7 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 4,
+      "open_spots": 5,
       "month": "current"
     },
     {
@@ -1544,14 +1540,14 @@
       "month": "current"
     },
     {
-      "name": "2s - TALENTED 2s / W 6:15",
-      "classId": "3853",
+      "name": "2s - TALENTED 2s / T 6:15",
+      "classId": "3852",
       "open_spots": 1,
       "month": "current"
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15",
-      "classId": "3877",
+      "name": "2s - TALENTED 2s / W 6:15",
+      "classId": "3853",
       "open_spots": 1,
       "month": "current"
     },
@@ -1606,7 +1602,13 @@
     {
       "name": "BEGINNER / T 5:15",
       "classId": "3882",
-      "open_spots": 2,
+      "open_spots": 3,
+      "month": "current"
+    },
+    {
+      "name": "BEGINNER / TH 5:15",
+      "classId": "3884",
+      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1646,6 +1648,12 @@
       "month": "current"
     },
     {
+      "name": "MASTER / F 5:30",
+      "classId": "3952",
+      "open_spots": 1,
+      "month": "current"
+    },
+    {
       "name": "MASTER / W 4:00",
       "classId": "3917",
       "open_spots": 2,
@@ -1664,14 +1672,14 @@
       "month": "current"
     },
     {
-      "name": "ADVANCED / M 6:30",
-      "classId": "3911",
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15",
+      "classId": "3877",
       "open_spots": 1,
       "month": "April"
     },
     {
-      "name": "BEGINNER / TH 5:15",
-      "classId": "3884",
+      "name": "ADVANCED / M 6:30",
+      "classId": "3911",
       "open_spots": 1,
       "month": "April"
     },
@@ -1690,17 +1698,24 @@
   ],
   "action_needed": [
     {
-      "name": "INTERMEDIATE / W 5:15",
-      "classId": "3942",
+      "name": "INTERMEDIATE / W 6:30",
+      "classId": "3903",
       "open_spots": 2,
-      "waiting": 7,
-      "enrolled": 14
+      "waiting": 9,
+      "enrolled": 6
     },
     {
-      "name": "ADVANCED BEGINNER /M 6:30",
-      "classId": "3891",
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
+      "classId": "3866",
       "open_spots": 1,
-      "waiting": 1,
+      "waiting": 5,
+      "enrolled": 11
+    },
+    {
+      "name": "BEGINNER / M 6:30",
+      "classId": "3880",
+      "open_spots": 1,
+      "waiting": 7,
       "enrolled": 7
     },
     {
@@ -1714,15 +1729,15 @@
       "name": "INTERMEDIATE / T 6:30",
       "classId": "3902",
       "open_spots": 1,
-      "waiting": 9,
+      "waiting": 8,
       "enrolled": 15
     },
     {
-      "name": "INTERMEDIATE / W 6:30",
-      "classId": "3903",
+      "name": "INTERMEDIATE / W 5:15",
+      "classId": "3942",
       "open_spots": 1,
-      "waiting": 10,
-      "enrolled": 7
+      "waiting": 4,
+      "enrolled": 15
     }
   ],
   "camps_with_openings": [
@@ -1758,7 +1773,7 @@
     },
     {
       "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 9,
+      "open_spots": 8,
       "waitlist": 0,
       "priority": false
     },
@@ -1970,6 +1985,11 @@
       "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 8:30am - 12:15 pm $240",
       "waitlist": 3,
       "enrolled": 3
+    },
+    {
+      "name": "3/6 Dream Job Gymnastics Camp HALF DAY 8:30am - 12:15pm",
+      "waitlist": 2,
+      "enrolled": 2
     },
     {
       "name": "8/3-8/6 Beach Party Camp HALF DAY 8:30am - 12:15 pm $240",
