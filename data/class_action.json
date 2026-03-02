@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-02T08:12:48.831948",
+  "last_updated": "2026-03-02T13:41:58.829790",
   "immediate_action": [
     {
-      "name": "INTERMEDIATE / W 6:30",
-      "class_id": "3903",
+      "name": "INTERMEDIATE / M 4:00",
+      "class_id": "3899",
       "open_spots": 1,
       "waiting": 10,
       "active": 7,
@@ -11,20 +11,29 @@
       "has_hidden_opening": false
     },
     {
+      "name": "INTERMEDIATE / W 6:30",
+      "class_id": "3903",
+      "open_spots": 2,
+      "waiting": 9,
+      "active": 6,
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
       "name": "INTERMEDIATE / T 6:30",
       "class_id": "3902",
       "open_spots": 1,
-      "waiting": 9,
+      "waiting": 8,
       "active": 15,
       "max_students": 0,
       "has_hidden_opening": false
     },
     {
-      "name": "INTERMEDIATE / W 5:15",
-      "class_id": "3942",
-      "open_spots": 2,
+      "name": "BEGINNER / M 6:30",
+      "class_id": "3880",
+      "open_spots": 1,
       "waiting": 7,
-      "active": 14,
+      "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
     },
@@ -34,8 +43,17 @@
       "open_spots": 1,
       "waiting": 5,
       "active": 11,
-      "max_students": 12,
-      "has_hidden_opening": true
+      "max_students": 0,
+      "has_hidden_opening": false
+    },
+    {
+      "name": "INTERMEDIATE / W 5:15",
+      "class_id": "3942",
+      "open_spots": 1,
+      "waiting": 4,
+      "active": 15,
+      "max_students": 0,
+      "has_hidden_opening": false
     },
     {
       "name": "BEGINNER / TH 6:30",
@@ -47,23 +65,14 @@
       "has_hidden_opening": false
     },
     {
-      "name": "ADVANCED BEGINNER /M 6:30",
-      "class_id": "3891",
-      "open_spots": 1,
-      "waiting": 1,
-      "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
-    },
-    {
       "name": "ADVANCED BEGINNER /T 5:15",
       "class_id": "3892",
-      "open_spots": 1,
+      "open_spots": 2,
       "waiting": 1,
-      "active": 7,
+      "active": 6,
       "max_students": 0,
       "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 7
+  "total_action_needed": 8
 }
