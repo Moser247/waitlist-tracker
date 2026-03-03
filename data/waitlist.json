@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T13:51:31.296551",
+  "last_updated": "2026-03-02T18:20:46.380098",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -85,12 +85,6 @@
       {
         "position": 5,
         "name": "Reynolds, Macklan"
-      }
-    ],
-    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 10:15": [
-      {
-        "position": 1,
-        "name": "Bateman, Maverick"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 5:15": [
@@ -517,12 +511,6 @@
       {
         "position": 6,
         "name": "Kiecker, Josie"
-      }
-    ],
-    "ADVANCED BEGINNER /T 5:15": [
-      {
-        "position": 1,
-        "name": "Fredriksson, Grace"
       }
     ],
     "ADVANCED BEGINNER /TH 4:00": [
@@ -1013,6 +1001,10 @@
       {
         "position": 14,
         "name": "Sailors, Madeline"
+      },
+      {
+        "position": 15,
+        "name": "Thomas, Eleanor"
       }
     ],
     "INTERMEDIATE / TH 5:15": [
@@ -1063,6 +1055,10 @@
       {
         "position": 12,
         "name": "Toews, Isabelle"
+      },
+      {
+        "position": 13,
+        "name": "Thomas, Eleanor"
       }
     ],
     "INTERMEDIATE / TH 6:30": [
@@ -1518,7 +1514,7 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 5,
+      "open_spots": 4,
       "month": "current"
     },
     {
@@ -1548,6 +1544,12 @@
     {
       "name": "2s - TALENTED 2s / W 6:15",
       "classId": "3853",
+      "open_spots": 1,
+      "month": "current"
+    },
+    {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 1:00",
+      "classId": "3861",
       "open_spots": 1,
       "month": "current"
     },
@@ -1590,7 +1592,7 @@
     {
       "name": "ADVANCED BEGINNER / S 11:30",
       "classId": "3955",
-      "open_spots": 4,
+      "open_spots": 5,
       "month": "current"
     },
     {
@@ -1684,6 +1686,12 @@
       "month": "April"
     },
     {
+      "name": "ADVANCED BEGINNER /T 5:15",
+      "classId": "3892",
+      "open_spots": 1,
+      "month": "April"
+    },
+    {
       "name": "BOYS BEGINNER / M 5:15",
       "classId": "3918",
       "open_spots": 1,
@@ -1712,13 +1720,6 @@
       "enrolled": 11
     },
     {
-      "name": "BEGINNER / M 6:30",
-      "classId": "3880",
-      "open_spots": 1,
-      "waiting": 7,
-      "enrolled": 7
-    },
-    {
       "name": "BEGINNER / TH 6:30",
       "classId": "3944",
       "open_spots": 1,
@@ -1742,10 +1743,22 @@
   ],
   "camps_with_openings": [
     {
+      "name": "3/6 Dream Job Gymnastics Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 2,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/6 Dream Job Gymnastics Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "3/6 Dream Job Gymnastics Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 1,
-      "waitlist": 1,
-      "priority": true
+      "waitlist": 0,
+      "priority": false
     },
     {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
@@ -1985,11 +1998,6 @@
       "name": "8/24-8/27 Bubble Bonanza Camp HALF DAY 8:30am - 12:15 pm $240",
       "waitlist": 3,
       "enrolled": 3
-    },
-    {
-      "name": "3/6 Dream Job Gymnastics Camp HALF DAY 8:30am - 12:15pm",
-      "waitlist": 2,
-      "enrolled": 2
     },
     {
       "name": "8/3-8/6 Beach Party Camp HALF DAY 8:30am - 12:15 pm $240",
