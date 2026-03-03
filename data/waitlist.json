@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T18:20:46.380098",
+  "last_updated": "2026-03-03T08:21:22.552846",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1289,6 +1289,10 @@
       {
         "position": 7,
         "name": "Eidum, Easton"
+      },
+      {
+        "position": 8,
+        "name": "Crawford , Sawyer"
       }
     ],
     "NINJA ZONE WHITE / S 10:15": [
@@ -1680,12 +1684,6 @@
       "month": "April"
     },
     {
-      "name": "ADVANCED / M 6:30",
-      "classId": "3911",
-      "open_spots": 1,
-      "month": "April"
-    },
-    {
       "name": "ADVANCED BEGINNER /T 5:15",
       "classId": "3892",
       "open_spots": 1,
@@ -1727,6 +1725,13 @@
       "enrolled": 7
     },
     {
+      "name": "INTERMEDIATE / M 4:00",
+      "classId": "3899",
+      "open_spots": 1,
+      "waiting": 10,
+      "enrolled": 7
+    },
+    {
       "name": "INTERMEDIATE / T 6:30",
       "classId": "3902",
       "open_spots": 1,
@@ -1749,19 +1754,25 @@
       "priority": false
     },
     {
-      "name": "3/6 Dream Job Gymnastics Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 4,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
       "name": "3/6 Dream Job Gymnastics Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 1,
       "waitlist": 0,
       "priority": false
     },
     {
+      "name": "3/6 Dream Job Gymnastics Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 3,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
       "priority": false
@@ -1773,8 +1784,8 @@
       "priority": false
     },
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
@@ -1787,12 +1798,6 @@
     {
       "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 8,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
