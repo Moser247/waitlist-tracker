@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T18:11:26.905665",
+  "last_updated": "2026-03-03T08:12:09.113130",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / M 5:15",
@@ -7,8 +7,8 @@
       "open_spots": 1,
       "waiting": 11,
       "active": 7,
-      "max_students": 0,
-      "has_hidden_opening": false
+      "max_students": 8,
+      "has_hidden_opening": true
     },
     {
       "name": "INTERMEDIATE / M 4:00",
