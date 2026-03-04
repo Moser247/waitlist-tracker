@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T18:20:26.941133",
+  "last_updated": "2026-03-04T08:20:22.091753",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -668,14 +668,6 @@
     "BEGINNER / TH 6:30": [
       {
         "position": 1,
-        "name": "Thayer, Evelyn"
-      },
-      {
-        "position": 2,
-        "name": "Thayer, Ava"
-      },
-      {
-        "position": 3,
         "name": "White, Emilia"
       }
     ],
@@ -1396,11 +1388,11 @@
     "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00": [
       {
         "position": 1,
-        "name": "Danelius, Garrett"
+        "name": "Waiting #1"
       },
       {
         "position": 2,
-        "name": "Doll, George"
+        "name": "Waiting #2"
       }
     ],
     "NINJA ZONE YELLOW / W 6:30": [
@@ -1618,7 +1610,7 @@
     {
       "name": "BEGINNER / T 5:15",
       "classId": "3882",
-      "open_spots": 2,
+      "open_spots": 3,
       "month": "current"
     },
     {
@@ -1731,7 +1723,7 @@
       "name": "BEGINNER / TH 6:30",
       "classId": "3944",
       "open_spots": 1,
-      "waiting": 3,
+      "waiting": 1,
       "enrolled": 7
     },
     {
@@ -1987,7 +1979,7 @@
     },
     {
       "name": "8/17-8/20 Mini Chefs Camp FULL DAY 8:30am - 4:00 pm $420",
-      "waitlist": 10,
+      "waitlist": 11,
       "enrolled": 12
     },
     {
