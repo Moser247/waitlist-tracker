@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T13:48:24.937355",
+  "last_updated": "2026-03-03T18:20:26.941133",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -85,6 +85,10 @@
       {
         "position": 5,
         "name": "Reynolds, Macklan"
+      },
+      {
+        "position": 6,
+        "name": "Jones , Ayla"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 5:15": [
@@ -871,6 +875,10 @@
       {
         "position": 11,
         "name": "Knutson, Olivia"
+      },
+      {
+        "position": 12,
+        "name": "LaBoda, Sadie"
       }
     ],
     "INTERMEDIATE / T 4:00": [
@@ -1059,6 +1067,10 @@
       {
         "position": 13,
         "name": "Thomas, Eleanor"
+      },
+      {
+        "position": 14,
+        "name": "LaBoda, Sadie"
       }
     ],
     "INTERMEDIATE / TH 6:30": [
@@ -1179,6 +1191,10 @@
       {
         "position": 10,
         "name": "Thompson, Annabel"
+      },
+      {
+        "position": 11,
+        "name": "Sherman, Ava"
       }
     ],
     "NINJA ZONE WHITE / F 6:30": [
@@ -1570,12 +1586,6 @@
       "month": "current"
     },
     {
-      "name": "ADVANCED / M 4:00",
-      "classId": "3910",
-      "open_spots": 1,
-      "month": "current"
-    },
-    {
       "name": "ADVANCED / T 6:30",
       "classId": "3912",
       "open_spots": 2,
@@ -1608,7 +1618,7 @@
     {
       "name": "BEGINNER / T 5:15",
       "classId": "3882",
-      "open_spots": 3,
+      "open_spots": 2,
       "month": "current"
     },
     {
@@ -1678,6 +1688,12 @@
       "month": "April"
     },
     {
+      "name": "ADVANCED / M 4:00",
+      "classId": "3910",
+      "open_spots": 1,
+      "month": "April"
+    },
+    {
       "name": "ADVANCED BEGINNER /T 5:15",
       "classId": "3892",
       "open_spots": 1,
@@ -1693,12 +1709,6 @@
       "name": "HOME SCHOOL / W 12:30",
       "classId": "3938",
       "open_spots": 2,
-      "month": "April"
-    },
-    {
-      "name": "NINJA ZONE YELLOW / T 4:00",
-      "classId": "3934",
-      "open_spots": 1,
       "month": "April"
     }
   ],
@@ -1740,12 +1750,6 @@
     }
   ],
   "camps_with_openings": [
-    {
-      "name": "3/6 Dream Job Gymnastics Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 1,
-      "waitlist": 0,
-      "priority": false
-    },
     {
       "name": "3/6 Dream Job Gymnastics Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 4,
