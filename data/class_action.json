@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T18:11:08.943609",
+  "last_updated": "2026-03-04T08:11:05.736477",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / M 5:15",
@@ -65,19 +65,19 @@
       "has_hidden_opening": false
     },
     {
-      "name": "BEGINNER / TH 6:30",
-      "class_id": "3944",
+      "name": "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00",
+      "class_id": "3935",
       "open_spots": 1,
-      "waiting": 3,
+      "waiting": 2,
       "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
     },
     {
-      "name": "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00",
-      "class_id": "3935",
+      "name": "BEGINNER / TH 6:30",
+      "class_id": "3944",
       "open_spots": 1,
-      "waiting": 2,
+      "waiting": 1,
       "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
