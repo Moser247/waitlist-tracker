@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T08:20:22.091753",
+  "last_updated": "2026-03-04T13:50:05.034375",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -312,22 +312,18 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
-        "name": "Christel , Oliver"
-      },
-      {
-        "position": 2,
         "name": "Loge, Ingrid"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Keegan, Mavis"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Carlson, Wren"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Burt, Brecklyn"
       }
     ],
@@ -616,30 +612,18 @@
     "BEGINNER / M 6:30": [
       {
         "position": 1,
-        "name": "Berg, Georgie"
-      },
-      {
-        "position": 2,
-        "name": "Olsem, Brooke"
-      },
-      {
-        "position": 3,
         "name": "Thayer, Ava"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Thayer, Evelyn"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "O'Loughlin, Ella"
       },
       {
-        "position": 6,
-        "name": "White, Emilia"
-      },
-      {
-        "position": 7,
+        "position": 4,
         "name": "Belisle, Evangeline"
       }
     ],
@@ -663,12 +647,6 @@
       {
         "position": 5,
         "name": "Ferezy, Louise"
-      }
-    ],
-    "BEGINNER / TH 6:30": [
-      {
-        "position": 1,
-        "name": "White, Emilia"
       }
     ],
     "BEGINNER / W 5:15": [
@@ -784,92 +762,84 @@
     "INTERMEDIATE / M 4:00": [
       {
         "position": 1,
-        "name": "Maciej, Evelyn"
-      },
-      {
-        "position": 2,
         "name": "Wacker, Catriona"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Peschman , Mackenzie"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Hoehne, Alexandra"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Stickney, Ellie"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Curb, Addison"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Coey, Evelyn"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Beauchamp, Maya"
       }
     ],
     "INTERMEDIATE / M 5:15": [
       {
         "position": 1,
-        "name": "Knight, Bayla"
-      },
-      {
-        "position": 2,
         "name": "Kurth, Sophia"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "McShane, Taylor"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Schill, Nora"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Maciej, Evelyn"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Schultz, Nora"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Santi, Mila"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Knutson, Olivia"
       },
       {
-        "position": 12,
+        "position": 11,
         "name": "LaBoda, Sadie"
       }
     ],
@@ -914,34 +884,26 @@
     "INTERMEDIATE / T 6:30": [
       {
         "position": 1,
-        "name": "Untiedt, Tessa"
-      },
-      {
-        "position": 2,
         "name": "Jarvis, Marin"
       },
       {
-        "position": 3,
-        "name": "Paszkiewicz, Devin"
-      },
-      {
-        "position": 4,
+        "position": 2,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "Fitzpatrick, Nina"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Taffe, Emerson"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Savat, Clara"
       }
     ],
@@ -1076,70 +1038,54 @@
       },
       {
         "position": 3,
-        "name": "Paszkiewicz, Devin"
-      },
-      {
-        "position": 4,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Munsell, Lilly"
       }
     ],
     "INTERMEDIATE / W 5:15": [
       {
         "position": 1,
-        "name": "Paszkiewicz, Devin"
-      },
-      {
-        "position": 2,
         "name": "Champion, Zoe"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Taffe, Emerson"
       }
     ],
     "INTERMEDIATE / W 6:30": [
       {
         "position": 1,
-        "name": "Amundson, Raelyn"
-      },
-      {
-        "position": 2,
-        "name": "Trible, Laila"
-      },
-      {
-        "position": 3,
         "name": "Savat, Clara"
       },
       {
-        "position": 4,
+        "position": 2,
         "name": "Nolan, Zoey"
       },
       {
-        "position": 5,
+        "position": 3,
         "name": "Johnson, Reagan"
       },
       {
-        "position": 6,
+        "position": 4,
         "name": "Bucki, Aurora"
       },
       {
-        "position": 7,
+        "position": 5,
         "name": "Quinn, Zoey"
       },
       {
-        "position": 8,
+        "position": 6,
         "name": "Champion, Zoe"
       },
       {
-        "position": 9,
+        "position": 7,
         "name": "Lieser, Lila"
       }
     ],
@@ -1388,11 +1334,11 @@
     "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00": [
       {
         "position": 1,
-        "name": "Waiting #1"
+        "name": "Danelius, Garrett"
       },
       {
         "position": 2,
-        "name": "Waiting #2"
+        "name": "Doll, George"
       }
     ],
     "NINJA ZONE YELLOW / W 6:30": [
@@ -1566,12 +1512,6 @@
       "month": "current"
     },
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 9:15",
-      "classId": "3870",
-      "open_spots": 1,
-      "month": "current"
-    },
-    {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 11:15",
       "classId": "3867",
       "open_spots": 3,
@@ -1616,7 +1556,7 @@
     {
       "name": "BEGINNER / TH 5:15",
       "classId": "3884",
-      "open_spots": 1,
+      "open_spots": 2,
       "month": "current"
     },
     {
@@ -1680,6 +1620,12 @@
       "month": "April"
     },
     {
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) TH 9:15",
+      "classId": "3870",
+      "open_spots": 1,
+      "month": "April"
+    },
+    {
       "name": "ADVANCED / M 4:00",
       "classId": "3910",
       "open_spots": 1,
@@ -1688,6 +1634,12 @@
     {
       "name": "ADVANCED BEGINNER /T 5:15",
       "classId": "3892",
+      "open_spots": 1,
+      "month": "April"
+    },
+    {
+      "name": "BEGINNER / F 5:15",
+      "classId": "3886",
       "open_spots": 1,
       "month": "April"
     },
@@ -1709,35 +1661,35 @@
       "name": "INTERMEDIATE / W 6:30",
       "classId": "3903",
       "open_spots": 2,
-      "waiting": 9,
+      "waiting": 7,
       "enrolled": 6
     },
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
       "classId": "3866",
       "open_spots": 1,
-      "waiting": 5,
+      "waiting": 4,
       "enrolled": 11
     },
     {
-      "name": "BEGINNER / TH 6:30",
-      "classId": "3944",
+      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 6:15",
+      "classId": "3947",
       "open_spots": 1,
-      "waiting": 1,
-      "enrolled": 7
+      "waiting": 8,
+      "enrolled": 5
     },
     {
       "name": "INTERMEDIATE / T 6:30",
       "classId": "3902",
       "open_spots": 1,
-      "waiting": 8,
+      "waiting": 6,
       "enrolled": 15
     },
     {
       "name": "INTERMEDIATE / W 5:15",
       "classId": "3942",
       "open_spots": 1,
-      "waiting": 4,
+      "waiting": 3,
       "enrolled": 15
     }
   ],
