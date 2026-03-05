@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T13:50:05.034375",
+  "last_updated": "2026-03-04T18:20:29.987883",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -80,14 +80,10 @@
       },
       {
         "position": 4,
-        "name": "Loge, Ingrid"
-      },
-      {
-        "position": 5,
         "name": "Reynolds, Macklan"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Jones , Ayla"
       }
     ],
@@ -155,10 +151,6 @@
       {
         "position": 16,
         "name": "leanger, Summer jo"
-      },
-      {
-        "position": 17,
-        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 6:15": [
@@ -213,10 +205,6 @@
       {
         "position": 13,
         "name": "O'Loughlin, Raya"
-      },
-      {
-        "position": 14,
-        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) S 10:15": [
@@ -312,18 +300,14 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
-        "name": "Loge, Ingrid"
-      },
-      {
-        "position": 2,
         "name": "Keegan, Mavis"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Carlson, Wren"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Burt, Brecklyn"
       }
     ],
@@ -355,10 +339,6 @@
       {
         "position": 7,
         "name": "Redmond, Isla"
-      },
-      {
-        "position": 8,
-        "name": "Loge, Ingrid"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 9:15": [
@@ -386,10 +366,6 @@
       },
       {
         "position": 4,
-        "name": "Loge, Ingrid"
-      },
-      {
-        "position": 5,
         "name": "Bartell, Madison"
       }
     ],
@@ -1334,10 +1310,6 @@
     "NINJA ZONE YELLOW / GREEN (COMBO) / F 4:00": [
       {
         "position": 1,
-        "name": "Danelius, Garrett"
-      },
-      {
-        "position": 2,
         "name": "Doll, George"
       }
     ],
@@ -1556,7 +1528,7 @@
     {
       "name": "BEGINNER / TH 5:15",
       "classId": "3884",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1604,7 +1576,7 @@
     {
       "name": "NINJA ZONE GREEN / TH 5:15",
       "classId": "3936",
-      "open_spots": 4,
+      "open_spots": 3,
       "month": "current"
     },
     {
@@ -1654,6 +1626,12 @@
       "classId": "3938",
       "open_spots": 2,
       "month": "April"
+    },
+    {
+      "name": "NINJA ZONE YELLOW / T 4:00",
+      "classId": "3934",
+      "open_spots": 1,
+      "month": "April"
     }
   ],
   "action_needed": [
@@ -1668,14 +1646,14 @@
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
       "classId": "3866",
       "open_spots": 1,
-      "waiting": 4,
+      "waiting": 3,
       "enrolled": 11
     },
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 6:15",
       "classId": "3947",
       "open_spots": 1,
-      "waiting": 8,
+      "waiting": 7,
       "enrolled": 5
     },
     {
@@ -1701,6 +1679,12 @@
       "priority": false
     },
     {
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
       "open_spots": 3,
       "waitlist": 0,
@@ -1713,8 +1697,8 @@
       "priority": false
     },
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 4,
+      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 6,
       "waitlist": 0,
       "priority": false
     },
@@ -1731,19 +1715,7 @@
       "priority": false
     },
     {
-      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 6,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
       "name": "5/8 Spring Into Nature Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 4,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
       "open_spots": 4,
       "waitlist": 0,
       "priority": false
@@ -1755,20 +1727,26 @@
       "priority": false
     },
     {
+      "name": "5/8 Spring Into Nature Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "Friday Fun Days!",
       "open_spots": 12,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "6/8-6/11 Carnival Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 4,
+      "name": "6/8-6/11 Carnival Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 3,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "6/8-6/11 Carnival Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 3,
+      "name": "6/8-6/11 Carnival Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
@@ -1785,8 +1763,8 @@
       "priority": false
     },
     {
-      "name": "6/22-6/25 Fairy Tale Fantasy Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 2,
+      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
@@ -1797,8 +1775,8 @@
       "priority": false
     },
     {
-      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 5,
+      "name": "6/22-6/25 Fairy Tale Fantasy Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 2,
       "waitlist": 0,
       "priority": false
     },
@@ -1821,14 +1799,14 @@
       "priority": false
     },
     {
-      "name": "7/6-7/9 Mini Architects Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 5,
+      "name": "7/6-7/9 Mini Architects Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 7,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "7/6-7/9 Mini Architects Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 7,
+      "name": "7/6-7/9 Mini Architects Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
@@ -1851,8 +1829,8 @@
       "priority": false
     },
     {
-      "name": "7/20-7/23 Winter in July Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 5,
+      "name": "7/20-7/23 Winter in July Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
@@ -1863,14 +1841,8 @@
       "priority": false
     },
     {
-      "name": "7/20-7/23 Winter in July Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 4,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "7/27-7/30 Storybook Adventures Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 3,
+      "name": "7/20-7/23 Winter in July Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
@@ -1887,10 +1859,16 @@
       "priority": false
     },
     {
+      "name": "7/27-7/30 Storybook Adventures Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 3,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "8/3-8/6 Beach Party Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 1,
-      "waitlist": 2,
-      "priority": true
+      "open_spots": 2,
+      "waitlist": 0,
+      "priority": false
     },
     {
       "name": "8/3-8/6 Beach Party Camp HALF DAY 12:15 pm - 4:00pm - $240",
@@ -1906,7 +1884,7 @@
     },
     {
       "name": "8/10-8/13 Weather Wonders Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 3,
+      "open_spots": 2,
       "waitlist": 0,
       "priority": false
     },
@@ -1918,7 +1896,7 @@
     },
     {
       "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 4,
+      "open_spots": 3,
       "waitlist": 0,
       "priority": false
     }
