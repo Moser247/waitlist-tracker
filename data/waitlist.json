@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T08:20:43.995644",
+  "last_updated": "2026-03-05T13:51:04.346455",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1024,14 +1024,10 @@
     "INTERMEDIATE / W 5:15": [
       {
         "position": 1,
-        "name": "Champion, Zoe"
-      },
-      {
-        "position": 2,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Taffe, Emerson"
       }
     ],
@@ -1058,10 +1054,6 @@
       },
       {
         "position": 6,
-        "name": "Champion, Zoe"
-      },
-      {
-        "position": 7,
         "name": "Lieser, Lila"
       }
     ],
@@ -1448,12 +1440,6 @@
       "month": "current"
     },
     {
-      "name": "2s - TALENTED 2s / M 9:15",
-      "classId": "3850",
-      "open_spots": 2,
-      "month": "current"
-    },
-    {
       "name": "2s - TALENTED 2s / S 10:15",
       "classId": "3857",
       "open_spots": 3,
@@ -1481,12 +1467,6 @@
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 1:00",
       "classId": "3861",
       "open_spots": 1,
-      "month": "current"
-    },
-    {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) W 11:15",
-      "classId": "3867",
-      "open_spots": 3,
       "month": "current"
     },
     {
@@ -1522,7 +1502,7 @@
     {
       "name": "BEGINNER / T 5:15",
       "classId": "3882",
-      "open_spots": 3,
+      "open_spots": 2,
       "month": "current"
     },
     {
@@ -1588,8 +1568,14 @@
     {
       "name": "NZ - LIL NINJA / F 10:15",
       "classId": "3925",
-      "open_spots": 1,
+      "open_spots": 2,
       "month": "current"
+    },
+    {
+      "name": "2s - TALENTED 2s / M 9:15",
+      "classId": "3850",
+      "open_spots": 2,
+      "month": "April"
     },
     {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 5:15",
@@ -1639,7 +1625,7 @@
       "name": "INTERMEDIATE / W 6:30",
       "classId": "3903",
       "open_spots": 2,
-      "waiting": 7,
+      "waiting": 6,
       "enrolled": 6
     },
     {
@@ -1662,19 +1648,18 @@
       "open_spots": 1,
       "waiting": 6,
       "enrolled": 15
-    },
-    {
-      "name": "INTERMEDIATE / W 5:15",
-      "classId": "3942",
-      "open_spots": 1,
-      "waiting": 3,
-      "enrolled": 15
     }
   ],
   "camps_with_openings": [
     {
       "name": "3/6 Dream Job Gymnastics Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
@@ -1691,14 +1676,8 @@
       "priority": false
     },
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
+      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 6,
       "waitlist": 0,
       "priority": false
     },
@@ -1709,14 +1688,14 @@
       "priority": false
     },
     {
-      "name": "3/30 - 4/3 All Around the World Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
+      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 6,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "5/8 Spring Into Nature Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 4,
+      "name": "\"Chalk and Cheers!\" Post-Groundbreaking Reception - FREE EVENT",
+      "open_spots": 100,
       "waitlist": 0,
       "priority": false
     },
@@ -1733,20 +1712,26 @@
       "priority": false
     },
     {
+      "name": "5/8 Spring Into Nature Camp HALF DAY 12:15pm - 4:00pm",
+      "open_spots": 4,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "Friday Fun Days!",
       "open_spots": 12,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "6/8-6/11 Carnival Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 3,
+      "name": "6/8-6/11 Carnival Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "6/8-6/11 Carnival Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 4,
+      "name": "6/8-6/11 Carnival Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 3,
       "waitlist": 0,
       "priority": false
     },
@@ -1769,14 +1754,14 @@
       "priority": false
     },
     {
-      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 3,
+      "name": "6/22-6/25 Fairy Tale Fantasy Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 2,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "6/22-6/25 Fairy Tale Fantasy Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 2,
+      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 3,
       "waitlist": 0,
       "priority": false
     },
@@ -1799,14 +1784,14 @@
       "priority": false
     },
     {
-      "name": "7/6-7/9 Mini Architects Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 7,
+      "name": "7/6-7/9 Mini Architects Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "7/6-7/9 Mini Architects Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 5,
+      "name": "7/6-7/9 Mini Architects Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 7,
       "waitlist": 0,
       "priority": false
     },
