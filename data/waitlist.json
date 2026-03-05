@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T18:20:29.987883",
+  "last_updated": "2026-03-05T08:20:43.995644",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1550,6 +1550,12 @@
       "month": "current"
     },
     {
+      "name": "HOME SCHOOL / W 12:30",
+      "classId": "3938",
+      "open_spots": 2,
+      "month": "current"
+    },
+    {
       "name": "INTERMEDIATE / F 6:30",
       "classId": "3945",
       "open_spots": 2,
@@ -1619,12 +1625,6 @@
       "name": "BOYS BEGINNER / M 5:15",
       "classId": "3918",
       "open_spots": 1,
-      "month": "April"
-    },
-    {
-      "name": "HOME SCHOOL / W 12:30",
-      "classId": "3938",
-      "open_spots": 2,
       "month": "April"
     },
     {
