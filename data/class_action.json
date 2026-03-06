@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T13:41:47.752797",
+  "last_updated": "2026-03-05T18:14:52.973567",
   "immediate_action": [
     {
       "name": "INTERMEDIATE / M 5:15",
@@ -40,9 +40,9 @@
     {
       "name": "INTERMEDIATE / W 6:30",
       "class_id": "3903",
-      "open_spots": 2,
-      "waiting": 6,
-      "active": 6,
+      "open_spots": 1,
+      "waiting": 5,
+      "active": 7,
       "max_students": 0,
       "has_hidden_opening": false
     },
@@ -54,16 +54,7 @@
       "active": 11,
       "max_students": 0,
       "has_hidden_opening": false
-    },
-    {
-      "name": "HOME SCHOOL / TH 12:30",
-      "class_id": "3939",
-      "open_spots": 2,
-      "waiting": 1,
-      "active": 18,
-      "max_students": 0,
-      "has_hidden_opening": false
     }
   ],
-  "total_action_needed": 7
+  "total_action_needed": 6
 }
