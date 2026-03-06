@@ -1,6 +1,7 @@
 // GitHub raw URLs for data
 const DATA_URL = 'https://raw.githubusercontent.com/Moser247/waitlist-tracker/main/data/waitlist.json';
 const ACTION_DATA_URL = 'https://raw.githubusercontent.com/Moser247/waitlist-tracker/main/data/class_action.json';
+const TRIGGER_URL = 'http://localhost:5111';
 
 let waitlistData = null;
 let actionData = null;
@@ -564,7 +565,7 @@ function getFilteredOpenings() {
 }
 
 /**
- * Display classes with openings (no waitlist)
+ * Display classes with openings (no waitlist), grouped by month
  */
 function displayOpenings() {
     const resultsDiv = document.getElementById('results');
@@ -583,7 +584,33 @@ function displayOpenings() {
         filterLabel = category ? category.label : currentFilter;
     }
 
-    if (openings.length === 0) {
+    // Split into current month and next month
+    const currentMonth = openings.filter(c => !c.month || c.month === 'current');
+    const nextMonth = openings.filter(c => c.month && c.month !== 'current');
+
+    // Get next month info from data
+    const nextMonthLabel = nextMonth.length > 0 ? nextMonth[0].month : '';
+    const nextMonthStartDate = waitlistData?.next_month_start_date || '';
+
+    // Get hidden openings from actionData (classes that look full but have spots due to makeups)
+    const hiddenOpenings = (actionData?.immediate_action || [])
+        .filter(cls => cls.has_hidden_opening === true)
+        .filter(cls => {
+            // Only include if not already shown in normal openings
+            const allNames = openings.map(c => c.name);
+            return !allNames.includes(cls.name);
+        });
+
+    // Apply class filter to hidden openings too
+    const filteredHidden = currentFilter
+        ? hiddenOpenings.filter(cls => {
+            const filterCategory = CLASS_CATEGORIES.find(cat => cat.key === currentFilter);
+            return filterCategory ? filterCategory.match.test(cls.name) : true;
+        })
+        : hiddenOpenings;
+
+    // Check if there's anything to display
+    if (openings.length === 0 && filteredHidden.length === 0) {
         resultsDiv.innerHTML = '';
         noResultsDiv.style.display = 'block';
         noResultsDiv.querySelector('p').textContent = currentFilter
@@ -594,28 +621,57 @@ function displayOpenings() {
 
     noResultsDiv.style.display = 'none';
 
-    // Sort by number of openings (most first)
-    const sortedOpenings = [...openings].sort((a, b) => b.open_spots - a.open_spots);
-
     let html = '';
-    for (const cls of sortedOpenings) {
-        // Color based on number of openings
-        let statusClass = 'status-available';
-        if (cls.open_spots >= 5) {
-            statusClass = 'status-available-high';
-        } else if (cls.open_spots >= 3) {
-            statusClass = 'status-available-medium';
-        }
 
-        html += `
-            <div class="result-card ${statusClass}">
-                <div class="class-name">${escapeHtml(cls.name)}</div>
-                <div class="waitlist-info">
-                    <span class="count">${cls.open_spots}</span>
-                    <span class="label">spots open</span>
+    // Render a section of openings cards
+    function renderOpeningsCards(classes, isHidden = false) {
+        const sorted = [...classes].sort((a, b) => (b.open_spots || b.real_openings || 0) - (a.open_spots || a.real_openings || 0));
+        let cardsHtml = '';
+        for (const cls of sorted) {
+            const spots = cls.open_spots || cls.real_openings || 0;
+            let statusClass = 'status-available';
+            if (spots >= 5) {
+                statusClass = 'status-available-high';
+            } else if (spots >= 3) {
+                statusClass = 'status-available-medium';
+            }
+
+            const makeupTag = isHidden ? ' <span class="makeup-tag">(makeup)</span>' : '';
+
+            cardsHtml += `
+                <div class="result-card ${statusClass}">
+                    <div class="class-name">${escapeHtml(cls.name)}${makeupTag}</div>
+                    <div class="waitlist-info">
+                        <span class="count">${spots}</span>
+                        <span class="label">spots open</span>
+                    </div>
                 </div>
-            </div>
-        `;
+            `;
+        }
+        return cardsHtml;
+    }
+
+    // Current month section
+    if (currentMonth.length > 0) {
+        if (nextMonth.length > 0 || filteredHidden.length > 0) {
+            html += `<div class="section-header">Current Classes</div>`;
+        }
+        html += renderOpeningsCards(currentMonth);
+    }
+
+    // Next month section
+    if (nextMonth.length > 0) {
+        const dateLabel = nextMonthStartDate
+            ? `Openings as of ${escapeHtml(nextMonthLabel)} (starting ${escapeHtml(nextMonthStartDate)})`
+            : `Openings as of ${escapeHtml(nextMonthLabel)}`;
+        html += `<div class="section-header" style="margin-top: 20px;">${dateLabel}</div>`;
+        html += renderOpeningsCards(nextMonth);
+    }
+
+    // Hidden openings section (classes that look full but have spots due to makeups)
+    if (filteredHidden.length > 0) {
+        html += `<div class="section-header" style="margin-top: 20px;">Hidden Openings (Makeups)</div>`;
+        html += renderOpeningsCards(filteredHidden, true);
     }
 
     resultsDiv.innerHTML = html;
@@ -808,3 +864,88 @@ function displayActionNeeded() {
     html += '</div>';
     actionContainer.innerHTML = html;
 }
+
+/**
+ * Check if the local trigger server is running and show/hide the refresh button
+ */
+async function checkTriggerServer() {
+    const btn = document.getElementById('refreshBtn');
+    try {
+        const resp = await fetch(`${TRIGGER_URL}/health`, { signal: AbortSignal.timeout(2000) });
+        if (resp.ok) {
+            btn.style.display = 'inline-flex';
+            btn.addEventListener('click', triggerRefresh);
+        }
+    } catch {
+        // Server not running - hide button (normal for public users)
+        btn.style.display = 'none';
+    }
+}
+
+/**
+ * Trigger a manual data refresh via the local server
+ */
+async function triggerRefresh() {
+    const btn = document.getElementById('refreshBtn');
+    const status = document.getElementById('refreshStatus');
+
+    btn.disabled = true;
+    btn.classList.add('spinning');
+    status.style.display = 'block';
+    status.className = 'refresh-status running';
+    status.textContent = 'Scraping class data...';
+
+    try {
+        const resp = await fetch(`${TRIGGER_URL}/run-classes`, { method: 'POST' });
+        const data = await resp.json();
+
+        if (resp.status === 409) {
+            status.textContent = 'A scrape is already running. Please wait.';
+            status.className = 'refresh-status error';
+            btn.disabled = false;
+            btn.classList.remove('spinning');
+            return;
+        }
+
+        if (data.status === 'started') {
+            // Poll until complete
+            await pollUntilDone();
+            status.className = 'refresh-status success';
+            status.textContent = 'Data updated! Reloading...';
+            // Wait for GitHub raw cache to update, then reload data
+            setTimeout(async () => {
+                await loadData();
+                status.textContent = 'Data refreshed successfully.';
+                setTimeout(() => { status.style.display = 'none'; }, 3000);
+            }, 5000);
+        }
+    } catch (err) {
+        status.className = 'refresh-status error';
+        status.textContent = 'Could not reach local server.';
+        setTimeout(() => { status.style.display = 'none'; }, 5000);
+    } finally {
+        btn.disabled = false;
+        btn.classList.remove('spinning');
+    }
+}
+
+/**
+ * Poll the trigger server until the scrape is complete
+ */
+async function pollUntilDone(maxWait = 300000) {
+    const start = Date.now();
+    while (Date.now() - start < maxWait) {
+        await new Promise(r => setTimeout(r, 3000));
+        try {
+            const resp = await fetch(`${TRIGGER_URL}/health`);
+            const data = await resp.json();
+            if (!data.running) return data.last_result;
+        } catch {
+            // Server might be busy, keep waiting
+        }
+    }
+    throw new Error('Timed out waiting for scrape to complete');
+}
+
+// Check for trigger server on page load
+document.addEventListener('DOMContentLoaded', checkTriggerServer);
