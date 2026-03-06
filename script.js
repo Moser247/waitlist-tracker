@@ -645,6 +645,7 @@ function displayOpenings() {
                         <span class="count">${spots}</span>
                         <span class="label">spots open</span>
                     </div>
+                    ${renderNextUp(cls.name, spots)}
                 </div>
             `;
         }
@@ -857,12 +858,36 @@ function displayActionNeeded() {
                     <span class="separator">|</span>
                     <span class="waiting">${cls.waiting} waiting</span>
                 </div>
+                ${renderNextUp(cls.name, cls.open_spots)}
             </div>
         `;
     }
 
     html += '</div>';
     actionContainer.innerHTML = html;
+}
+
+/**
+ * Get the next student(s) on the waitlist for a given class name.
+ * Returns up to `count` students sorted by position.
+ */
+function getNextOnWaitlist(className, count = 1) {
+    if (!waitlistData || !waitlistData.waitlists) return [];
+    const entries = waitlistData.waitlists[className];
+    if (!entries || entries.length === 0) return [];
+    return [...entries].sort((a, b) => a.position - b.position).slice(0, count);
+}
+
+/**
+ * Render HTML for "next up" students on a card
+ */
+function renderNextUp(className, spots) {
+    const next = getNextOnWaitlist(className, spots);
+    if (next.length === 0) return '';
+    const names = next.map(s =>
+        `<span class="next-up-name">#${s.position} ${escapeHtml(s.name)}</span>`
+    ).join('');
+    return `<div class="next-up">Next up: ${names}</div>`;
 }
 
 /**
