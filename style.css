@@ -605,6 +605,65 @@ main {
     padding: 20px;
 }
 
+/* Refresh button */
+.refresh-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 10px;
+    padding: 4px 14px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, var(--ns-teal) 0%, var(--ns-blue) 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+    vertical-align: middle;
+}
+
+.refresh-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(30, 138, 158, 0.4);
+}
+
+.refresh-btn:active {
+    transform: translateY(0);
+}
+
+.refresh-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.refresh-btn .refresh-icon {
+    font-size: 1rem;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.refresh-btn.spinning .refresh-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.refresh-status {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.refresh-status.success { color: #27ae60; }
+.refresh-status.error { color: #e74c3c; }
+.refresh-status.running { color: var(--ns-teal); }
+
 footer {
     background: linear-gradient(135deg, var(--ns-gray-light) 0%, var(--ns-gray) 100%);
     padding: 20px;
@@ -831,6 +890,19 @@ footer .contact a:hover {
     margin-bottom: 15px;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--ns-gray);
+}
+
+.makeup-tag,
+.hidden-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #8e44ad;
+    background: #f3e8ff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-left: 6px;
 }
 
 .result-card.status-waitlist {
