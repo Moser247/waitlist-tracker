@@ -664,6 +664,25 @@ main {
 .refresh-status.error { color: #e74c3c; }
 .refresh-status.running { color: var(--ns-teal); }
 
+/* Next up on waitlist */
+.next-up {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--ns-gray);
+    font-size: 0.85rem;
+    color: var(--ns-navy);
+    line-height: 1.6;
+}
+
+.next-up-name {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--ns-gray-light), var(--ns-gray));
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 2px 4px 2px 0;
+}
+
 footer {
     background: linear-gradient(135deg, var(--ns-gray-light) 0%, var(--ns-gray) 100%);
     padding: 20px;
