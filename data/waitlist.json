@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T18:35:02.873818",
+  "last_updated": "2026-03-07T08:19:15.735591",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -1380,7 +1380,7 @@
     {
       "name": "2s - TALENTED 2s / F 5:15",
       "classId": "3854",
-      "open_spots": 4,
+      "open_spots": 5,
       "month": "current"
     },
     {
@@ -1456,6 +1456,18 @@
       "month": "current"
     },
     {
+      "name": "BEGINNER / F 4:00",
+      "classId": "3885",
+      "open_spots": 1,
+      "month": "current"
+    },
+    {
+      "name": "BEGINNER / F 5:15",
+      "classId": "3886",
+      "open_spots": 1,
+      "month": "current"
+    },
+    {
       "name": "BEGINNER / T 5:15",
       "classId": "3882",
       "open_spots": 2,
@@ -1500,7 +1512,7 @@
     {
       "name": "INTERMEDIATE / S 10:15",
       "classId": "3956",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1542,18 +1554,6 @@
     {
       "name": "ADVANCED / M 4:00",
       "classId": "3910",
-      "open_spots": 1,
-      "month": "April"
-    },
-    {
-      "name": "BEGINNER / F 4:00",
-      "classId": "3885",
-      "open_spots": 1,
-      "month": "April"
-    },
-    {
-      "name": "BEGINNER / F 5:15",
-      "classId": "3886",
       "open_spots": 1,
       "month": "April"
     },
@@ -1607,14 +1607,8 @@
   ],
   "camps_with_openings": [
     {
-      "name": "3/6 Dream Job Gymnastics Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
-      "open_spots": 5,
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
@@ -1625,13 +1619,7 @@
       "priority": false
     },
     {
-      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
-      "open_spots": 4,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
+      "name": "3/23-3/27 Jungle Safari Camp HALF DAY 12:15pm - 4:00pm",
       "open_spots": 5,
       "waitlist": 0,
       "priority": false
@@ -1649,8 +1637,14 @@
       "priority": false
     },
     {
+      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "\"Chalk and Cheers!\" Post-Groundbreaking Reception - FREE EVENT",
-      "open_spots": 100,
+      "open_spots": 99,
       "waitlist": 0,
       "priority": false
     },
@@ -1691,13 +1685,13 @@
       "priority": false
     },
     {
-      "name": "6/15-6/18 Color Explosion Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "name": "6/15-6/18 Color Explosion Camp HALF DAY 8:30am - 12:15 pm $240",
       "open_spots": 1,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "6/15-6/18 Color Explosion Camp HALF DAY 8:30am - 12:15 pm $240",
+      "name": "6/15-6/18 Color Explosion Camp HALF DAY 12:15 pm - 4:00pm - $240",
       "open_spots": 1,
       "waitlist": 0,
       "priority": false
@@ -1739,14 +1733,14 @@
       "priority": false
     },
     {
-      "name": "7/6-7/9 Mini Architects Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 5,
+      "name": "7/6-7/9 Mini Architects Camp FULL DAY 8:30am - 4:00 pm $420",
+      "open_spots": 7,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "7/6-7/9 Mini Architects Camp FULL DAY 8:30am - 4:00 pm $420",
-      "open_spots": 7,
+      "name": "7/6-7/9 Mini Architects Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
