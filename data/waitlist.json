@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T13:50:29.789062",
+  "last_updated": "2026-03-06T18:35:02.873818",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -39,6 +39,10 @@
       {
         "position": 8,
         "name": "Kroll, Mary"
+      },
+      {
+        "position": 9,
+        "name": "Matson, Luke"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) F 9:15": [
@@ -85,6 +89,12 @@
       {
         "position": 5,
         "name": "Jones , Ayla"
+      }
+    ],
+    "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 10:15": [
+      {
+        "position": 1,
+        "name": "Gaffney- Miller, Atlas"
       }
     ],
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) M 5:15": [
@@ -300,10 +310,6 @@
     "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15": [
       {
         "position": 1,
-        "name": "Carlson, Wren"
-      },
-      {
-        "position": 2,
         "name": "Burt, Brecklyn"
       }
     ],
@@ -314,22 +320,18 @@
       },
       {
         "position": 2,
-        "name": "Thompson, Lola"
-      },
-      {
-        "position": 3,
         "name": "DeBoer, Theo"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Hewitt, India"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Hubler, Amelia"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Redmond, Isla"
       }
     ],
@@ -431,10 +433,6 @@
       {
         "position": 14,
         "name": "Stencel, Camden"
-      },
-      {
-        "position": 15,
-        "name": "Carlson, Wren"
       }
     ],
     "ADVANCED / TH 4:00": [
@@ -728,72 +726,64 @@
       },
       {
         "position": 2,
-        "name": "Peschman , Mackenzie"
-      },
-      {
-        "position": 3,
         "name": "Hoehne, Alexandra"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Stickney, Ellie"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Curb, Addison"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Coey, Evelyn"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Beauchamp, Maya"
       }
     ],
     "INTERMEDIATE / M 5:15": [
       {
         "position": 1,
-        "name": "McShane, Taylor"
-      },
-      {
-        "position": 2,
         "name": "Schill, Nora"
       },
       {
-        "position": 3,
+        "position": 2,
         "name": "Maciej, Evelyn"
       },
       {
-        "position": 4,
+        "position": 3,
         "name": "Amundson, Raelyn"
       },
       {
-        "position": 5,
+        "position": 4,
         "name": "Munsell, Lilly"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Schultz, Nora"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Santi, Mila"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Toews, Isabelle"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Knutson, Olivia"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "LaBoda, Sadie"
       }
     ],
@@ -1034,34 +1024,30 @@
       },
       {
         "position": 4,
-        "name": "McShane, Valerie"
-      },
-      {
-        "position": 5,
         "name": "Becker, Evelyn"
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "Totoritis-Searl, Tilly"
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "Savage, Reagan"
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "Grabek, Nora"
       },
       {
-        "position": 9,
+        "position": 8,
         "name": "Festler, Savannah"
       },
       {
-        "position": 10,
+        "position": 9,
         "name": "Thompson, Annabel"
       },
       {
-        "position": 11,
+        "position": 10,
         "name": "Sherman, Ava"
       }
     ],
@@ -1560,8 +1546,8 @@
       "month": "April"
     },
     {
-      "name": "ADVANCED BEGINNER /T 5:15",
-      "classId": "3892",
+      "name": "BEGINNER / F 4:00",
+      "classId": "3885",
       "open_spots": 1,
       "month": "April"
     },
@@ -1598,18 +1584,11 @@
   ],
   "action_needed": [
     {
-      "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 5:15",
-      "classId": "3866",
-      "open_spots": 1,
-      "waiting": 2,
-      "enrolled": 11
-    },
-    {
       "name": "3/4s - TREMENDOUS 3s/FABULOUS 4s (COMBO) T 6:15",
       "classId": "3947",
-      "open_spots": 1,
-      "waiting": 6,
-      "enrolled": 5
+      "open_spots": 2,
+      "waiting": 5,
+      "enrolled": 4
     },
     {
       "name": "INTERMEDIATE / T 6:30",
@@ -1640,14 +1619,20 @@
       "priority": false
     },
     {
+      "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 3,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
       "name": "3/23-3/27 Jungle Safari Camp HALF DAY 8:30am - 12:15pm",
       "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "3/23-3/27 Jungle Safari Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 3,
+      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
@@ -1660,12 +1645,6 @@
     {
       "name": "3/30 - 4/3 All Around the World Camp HALF DAY 8:30am - 12:15pm",
       "open_spots": 4,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "3/30 - 4/3 All Around the World Camp FULL DAY 8:30am - 4:00pm",
-      "open_spots": 6,
       "waitlist": 0,
       "priority": false
     },
@@ -1712,13 +1691,13 @@
       "priority": false
     },
     {
-      "name": "6/15-6/18 Color Explosion Camp HALF DAY 8:30am - 12:15 pm $240",
+      "name": "6/15-6/18 Color Explosion Camp HALF DAY 12:15 pm - 4:00pm - $240",
       "open_spots": 1,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "6/15-6/18 Color Explosion Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "name": "6/15-6/18 Color Explosion Camp HALF DAY 8:30am - 12:15 pm $240",
       "open_spots": 1,
       "waitlist": 0,
       "priority": false
@@ -1730,14 +1709,14 @@
       "priority": false
     },
     {
-      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 3,
+      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 5,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 5,
+      "name": "6/22-6/25 Fairy Tale Fantasy Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 3,
       "waitlist": 0,
       "priority": false
     },
@@ -1790,12 +1769,6 @@
       "priority": false
     },
     {
-      "name": "7/20-7/23 Winter in July Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 4,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
       "name": "7/20-7/23 Winter in July Camp FULL DAY 8:30am - 4:00 pm $420",
       "open_spots": 2,
       "waitlist": 0,
@@ -1804,6 +1777,12 @@
     {
       "name": "7/20-7/23 Winter in July Camp HALF DAY 12:15 pm - 4:00pm - $240",
       "open_spots": 5,
+      "waitlist": 0,
+      "priority": false
+    },
+    {
+      "name": "7/20-7/23 Winter in July Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
@@ -1844,14 +1823,14 @@
       "priority": false
     },
     {
-      "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 3,
+      "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 12:15 pm - 4:00pm - $240",
+      "open_spots": 4,
       "waitlist": 0,
       "priority": false
     },
     {
-      "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 12:15 pm - 4:00pm - $240",
-      "open_spots": 4,
+      "name": "8/31-9/3 Glow-in-the-Dark Camp HALF DAY 8:30am - 12:15 pm $240",
+      "open_spots": 3,
       "waitlist": 0,
       "priority": false
     }
@@ -1860,11 +1839,6 @@
     {
       "name": "8/24-8/27 Bubble Bonanza Camp FULL DAY 8:30am - 4:00 pm $420",
       "waitlist": 15,
-      "enrolled": 12
-    },
-    {
-      "name": "8/17-8/20 Mini Chefs Camp FULL DAY 8:30am - 4:00 pm $420",
-      "waitlist": 11,
       "enrolled": 12
     },
     {
