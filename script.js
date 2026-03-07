@@ -908,6 +908,18 @@ async function checkTriggerServer() {
 }
 
 /**
+ * Build a progress bar HTML string
+ */
+function buildProgressBar(percent, stepText) {
+    return `
+        <div class="progress-container">
+            <div class="progress-bar" style="width: ${percent}%"></div>
+        </div>
+        <span class="progress-text">${escapeHtml(stepText)}</span>
+    `;
+}
+
+/**
  * Trigger a manual data refresh via the local server
  */
 async function triggerRefresh() {
@@ -918,14 +930,14 @@ async function triggerRefresh() {
     btn.classList.add('spinning');
     status.style.display = 'block';
     status.className = 'refresh-status running';
-    status.textContent = 'Scraping class data...';
+    status.innerHTML = buildProgressBar(10, 'Starting...');
 
     try {
         const resp = await fetch(`${TRIGGER_URL}/run-classes`, { method: 'POST' });
         const data = await resp.json();
 
         if (resp.status === 409) {
-            status.textContent = 'A scrape is already running. Please wait.';
+            status.innerHTML = buildProgressBar(0, 'A scrape is already running. Please wait.');
             status.className = 'refresh-status error';
             btn.disabled = false;
             btn.classList.remove('spinning');
@@ -933,20 +945,24 @@ async function triggerRefresh() {
         }
 
         if (data.status === 'started') {
-            // Poll until complete
-            await pollUntilDone();
-            status.className = 'refresh-status success';
-            status.textContent = 'Data updated! Reloading...';
-            // Wait for GitHub raw cache to update, then reload data
-            setTimeout(async () => {
-                await loadData();
-                status.textContent = 'Data refreshed successfully.';
-                setTimeout(() => { status.style.display = 'none'; }, 3000);
-            }, 5000);
+            const result = await pollUntilDone(status);
+            if (result === 'success') {
+                status.className = 'refresh-status success';
+                status.innerHTML = buildProgressBar(100, 'Data updated! Reloading...');
+                setTimeout(async () => {
+                    await loadData();
+                    status.innerHTML = buildProgressBar(100, 'Data refreshed successfully.');
+                    setTimeout(() => { status.style.display = 'none'; }, 3000);
+                }, 5000);
+            } else {
+                status.className = 'refresh-status error';
+                status.innerHTML = buildProgressBar(0, `Scrape failed (${result}). Try again.`);
+                setTimeout(() => { status.style.display = 'none'; }, 5000);
+            }
         }
     } catch (err) {
         status.className = 'refresh-status error';
-        status.textContent = 'Could not reach local server.';
+        status.innerHTML = buildProgressBar(0, 'Could not reach local server.');
         setTimeout(() => { status.style.display = 'none'; }, 5000);
     } finally {
         btn.disabled = false;
@@ -955,21 +971,27 @@ async function triggerRefresh() {
 }
 
 /**
- * Poll the trigger server until the scrape is complete
+ * Poll the trigger server until the scrape is complete, updating progress bar
  */
-async function pollUntilDone(maxWait = 300000) {
+async function pollUntilDone(statusEl, maxWait = 600000) {
     const start = Date.now();
     while (Date.now() - start < maxWait) {
-        await new Promise(r => setTimeout(r, 3000));
+        await new Promise(r => setTimeout(r, 2000));
         try {
             const resp = await fetch(`${TRIGGER_URL}/health`);
             const data = await resp.json();
+            if (data.progress) {
+                statusEl.innerHTML = buildProgressBar(
+                    data.progress.percent || 0,
+                    data.progress.step || 'Working...'
+                );
+            }
             if (!data.running) return data.last_result;
         } catch {
-            // Server might be busy, keep waiting
+            // Server might be busy
         }
     }
-    throw new Error('Timed out waiting for scrape to complete');
+    return 'timeout';
 }
 
 // Check for trigger server on page load
