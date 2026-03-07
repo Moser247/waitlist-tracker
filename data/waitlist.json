@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T08:19:15.735591",
+  "last_updated": "2026-03-07T13:49:06.595816",
   "waitlists": {
     "2s - TALENTED 2s / F 9:15": [
       {
@@ -268,42 +268,38 @@
       },
       {
         "position": 13,
-        "name": "Kaliszewski, Brynley"
-      },
-      {
-        "position": 14,
         "name": "Anderson, Margaret"
       },
       {
-        "position": 15,
+        "position": 14,
         "name": "Pederson, Jacob"
       },
       {
-        "position": 16,
+        "position": 15,
         "name": "Skjonsby, Violet"
       },
       {
-        "position": 17,
+        "position": 16,
         "name": "Timcho, Kyle"
       },
       {
-        "position": 18,
+        "position": 17,
         "name": "Mifek, Eloise"
       },
       {
-        "position": 19,
+        "position": 18,
         "name": "Redmond, Isla"
       },
       {
-        "position": 20,
+        "position": 19,
         "name": "Hewitt, India"
       },
       {
-        "position": 21,
+        "position": 20,
         "name": "Hubler, Amelia"
       },
       {
-        "position": 22,
+        "position": 21,
         "name": "Cadwallader , Baker"
       }
     ],
@@ -1494,7 +1490,7 @@
     {
       "name": "BOYS ADV. BEGINNER /INTERMEDIATE (COMBO) / W 6:30",
       "classId": "3921",
-      "open_spots": 2,
+      "open_spots": 1,
       "month": "current"
     },
     {
@@ -1801,12 +1797,6 @@
     {
       "name": "8/3-8/6 Beach Party Camp HALF DAY 12:15 pm - 4:00pm - $240",
       "open_spots": 5,
-      "waitlist": 0,
-      "priority": false
-    },
-    {
-      "name": "8/10-8/13 Weather Wonders Camp HALF DAY 8:30am - 12:15 pm $240",
-      "open_spots": 1,
       "waitlist": 0,
       "priority": false
     },
